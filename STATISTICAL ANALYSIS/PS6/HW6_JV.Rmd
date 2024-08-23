@@ -1,0 +1,460 @@
+--- 
+title: "Homework Six"
+author: "Josh Virene"
+output: pdf_document
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{framed}
+--- 
+
+<!-- STUDENTS: change the "title" and "author" listed above
+DO NOT EDIT THE SECTION BELOW -->
+\colorlet{shadecolor}{gray!10}
+```{r setup, include=FALSE}
+library(knitr)
+#install the tidyverse library (do this once)
+#install.packages("tidyverse")
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 8, fig.height = 4, tidy = TRUE)
+```
+\newcommand{\hstart}{ \colorlet{shadecolor}{orange!20}
+\begin{shaded} }
+\newcommand{\hstop}{  \end{shaded} \colorlet{shadecolor}{gray!10}}
+<!-- STUDENTS: DO NOT EDIT THE SECTION ABOVE 
+start here, insert homework below -->
+
+# Problem 1
+
+## Problem 1(a)
+
+\hstart
+
+There will be 84 rows, this is because there are 42 students and they are tested for either method A or method B and assigned a 1 if they are included in the method, and a 0 if they are not included in the method.  
+
+\hstop
+
+## Problem 1(b)
+
+\hstart
+
+**Response variable:** Spelling test score
+
+**Variables modeled as random effects:** Student ID number
+
+**Variables modeled as fixed effects:** Method (A or B), Month (1 through 8)
+
+\hstop
+
+## Problem 1(c)
+
+\hstart
+
+The variables in this model that should interact in order to investigate the research question "scores improve more in one method more quickly than in the other method" are **month and method.** 
+
+\hstop
+
+## Problem 1(d)
+
+\hstart
+
+Two sources of random variation that are appropriate for this model are:
+
+1. Student ID number (accounts for variation in test score among the students). 
+
+2. Error (this accounts for variation in test scores among students when all other factors such as month word_type etc. are held constant- the variation not explained by the model)
+
+\hstop
+
+# Problem 2
+
+## Problem 2(a)
+
+```{r prob2a}
+#code for prob2a
+library(readr)
+mobility <- read_csv("mobility.csv")
+
+mobility$treatment = as.factor(mobility$treatment)
+##create the plot: 
+library(ggplot2)
+
+ggplot() + 
+  theme_bw() +
+  geom_point(aes(
+    x = clinic,
+    y = mobility_change, 
+    color = treatment),
+    data = mobility) + 
+xlab("Clinic") + 
+ylab("Mobility score") +
+ggtitle("Mobility Score by Clinic")
+
+
+```
+
+
+
+\hstart
+
+Using only this plot. it is hard to determine whether variation exists across clinics or across treatment methods. The data are all over the plot for both of these treatmnet and clinic so any patterns are not discernible. 
+
+\hstop
+
+
+## Problem 2(b) 
+
+```{r prob2b}
+#code for prob2b
+##anova and pairwise comparisons
+library(emmeans)
+model1 <- lm(mobility_change ~ treatment, data = mobility)
+anova(model1)
+lsmeans(model1, pairwise ~"treatment")
+```
+
+\hstart
+
+This model violates the independence assumption because it fails to account for the clinic variable in the data by using some form of random effect model. The errors differ systematically across clinics, so there is correlation in errors, violating the independence assumption which can introduce bias. Accounting for this in the other models addresses this violation. 
+
+\hstop
+
+## Problem 2(c) 
+
+```{r prob2c}
+#code for prob2c
+
+##Getting the packages
+install.packages("lme4")
+library(lme4)
+install.packages("lmerTest")
+library("lmerTest")
+install.packages("pbkrtest")
+library(pbkrtest)
+library(emmeans)
+##fitting the model
+model2 <- lmer(mobility_change ~ treatment + (1|clinic), data = mobility)
+summary(model2)
+#ANOVA table
+anova(model2)
+##Pairwise comparisons
+lsmeans(model2, pairwise ~ "treatment")
+
+```
+
+\hstart
+
+iii. This model includes treatment in addition to clinic as a random effect whereas in the previous model, the only variable in the model was treatment. Due to the difference in the structure of these models the pairwise comparison output is different. One important difference is that the standard errors in the model that includes clinic as a random effect are lower than the original model where clinic was not included. 
+
+iv. Adding clinic as a random effect makes a large difference in the standard error of these models because the model is now accounting for clinics whereas the model without attributes variation in mean mobility to error (there was more error variance causing the standard errors to be higher). The clinic variable is reducing the error attributed to noise in the model. 
+
+v. The two variances in this model, obtained from the summary statistics are as follow: 
+$\sigma^2_\epsilon = 1097.4$
+$\sigma^2_\alpha = 604.2$
+
+The error variance, $\sigma^2_\epsilon$ is the variance in individual values of y for some combination of values for x and alpha, or some combination of fixed and random factors. 
+
+The random effect variance $\sigma^2_\alpha$ is quantifying the variability in means in the response variable that is attributable to differences in levels across clinics. 
+
+
+\hstop
+
+## Problem 2(d) 
+
+```{r prob2d}
+#code for prob2d
+model3 <- lmer(mobility_change ~ treatment + (treatment|clinic), data = mobility)
+summary(model3)
+anova(model3)
+
+```
+
+\hstart
+
+i. This model having random slopes means that both the slope and the intercept vary by subject. This is different than the random effects model because in that model, it was only the intercept that could vary by subject. 
+
+ii. $\sigma^2_{\alpha\beta2} = 20.391$
+This estimate quantifies the standard deviation in mobility attributed to treatment 2 across clinics. 
+
+\hstop
+
+## Problem 2(e) 
+
+```{r prob2e}
+#code for prob2e
+
+```
+
+\hstart
+
+The p value for treatment method is 0.01347. The interpretation of this p value within the context of this study in relation to imaginary repeated trials is that it assesses the statistical significance of treatment, when treatment is a variable that takes on a value for the $B_1$ coefficient that holds across these trials. This is different than the clinic variable because clinic is a random effect, so this means that the clinics being sampled do not need to be the same across these repeated samples.  
+
+\hstop
+
+# Problem 3
+
+## Problem 3(a)
+
+\hstart
+
+The plot that exhibits the largest random effect variance is plot c (bottom left). Looking at this plot, the mean values for the response variable vary largely when considering group and treatment; the reason this is not error variance is because the values are clustered more closely looking at the main effect for each factors. 
+
+\hstop
+
+## Problem 3(b)
+
+
+\hstart
+
+The output with the largest error variance is plot a (top left). This plot has the largest error variance because the large differences in the response variable are not well accounted for by assessing whether there are main effects for group or treatment. To clarify this is looking across groups while holding treatment constant, or looking across treatments holding groups constant. Because it does not appear variance is accounted for by fixed effects for either factor in this model, the variance in the response variable will be attributed to error and this model will return a large error variance. 
+
+\hstop
+
+## Problem 3(c)
+
+
+\hstart
+
+The output with the largest fixed effect for treatment will be plot b (top right). This plot has a large fixed effect for treatment because the values for the response variable differ by treatment level (1 and 2) across all groups in the model. As an example of this, for group 5.0 the mean value for y is roughly 100 in treatment 1 and around 130 in treatment 2. 
+
+\hstop
+
+# Problem 4
+
+## Problem 4(a)
+
+```{r prob4a}
+#code for prob4a
+
+##import the dataset
+library(readr)
+spelling <- read_csv("spelling.csv")
+##
+mean(spelling$age)
+sd(spelling$age)
+```
+
+\hstart
+
+i. The average age of children in the study is **4.925991 years**
+ii. The standard deviation of children in the study is **0.3922157 years**
+
+\hstop
+
+## Problem 4(b)
+
+```{r prob4b}
+#code for prob4b
+install.packages("pROC")
+library(pROC)
+install.packages("caret")
+library(caret)
+##create the model
+model4 <- glm(correct ~ word_type, data = spelling)
+summary(model4)
+
+##create the plot
+model4_predict <- predict(model4, type = "response")
+model_classify <- ifelse(model4_predict>0.5,1,0)
+Model4_ROC <- roc(spelling$correct,model_classify,plot=TRUE,auc.polygon=TRUE,print.auc=TRUE, show.thresh=TRUE) 
+
+confusionMatrix(factor(model_classify),
+                factor(spelling$correct), positive = "1")
+```
+
+\hstart
+
+ii. The slope for word type = 0.05667 ($\hat\beta_1 = 0.05667$. The interpretation of this slope is there is a 0.05667 change in log odds for a one unit change in word type. This is a binary variable where if word_type = 1, it sounds like its first letter and if it does not sound like its first letter, word_type = 0. 
+
+**This means that log odds of a child choosing the correct first letter of the word being spelled increase by 0.05667 if a word sounds like its first letter.** 
+
+iii. The logodds for the two outcomes are calculated using the model as follows: 
+$\hat {logodds} = \hat\beta_0 + \hat\beta_1x$
+$\hat {logodds} = \hat\beta_0 + \hat\beta_1(wordtype)$
+
+where $\hat\beta_1 = 1$ when the start of the word sounds like the first letter
+      $\hat\beta_1 = 0$ when the start of the word does not sound like the first letter
+      
+When the start of the word sounds like the first letter ($\hat\beta_1$ = 1)
+$\hat {logodds} = 0.48444 + 0.05667(1)$ 
+logodds = 0.54111
+
+When the start of the word sounds like the first letter ($\hat\beta_1$ = 0)
+$\hat {logodds} = 0.48444 + 0.05667(0)$ 
+log odds =0.48444
+
+Using these log odds, the probabilities are computed by converting these into odds, then calculating probability using the formula P = (odds / 1 + odds)
+
+When the start of the word sounds like the first letter
+formula: exp(0.4844+0.05667)/(1+exp(0.4844+0.05667))
+
+**Probability = 0.6320613**
+
+When the start of the word does not sound like the first letter: 
+formula: exp(0.4844)/(1+exp(0.4844))
+
+**Probability = 0.6187863**
+
+iv. From this ROC curve, the **AUC=0.528**, this does not seem like a good AUC as it is very close to 0.500; this value means the prediction made by the model is as good as random guessing or even flipping a coin. From this, it is clear that only using the word_type variable to predict whether a child spelled a word correctly or not is not a very good model, and that additional information is needed to make this prediction. 
+
+v. The specificity, sensitivity, false negative rate, and false positive rate are reported below: 
+
+- Sensitivity: This is the true positive rate, the rate at which the predicted outcome is equal to 1 (correct) when the true outcome is equal to 1. $P(Y_i' = 1 | Y_i = 1)$ **In this model the sensitivity = 0.5276**
+
+- Specificity: This is the true negative rate, the rate at which the predicted outcome is equal to 0 (incorrect) when the true outcome is equal to 0. $P(Y_i' = 0 | Y_i = 0)$ **In this model the specificity = 0.5291**
+
+- False negative rate: This is the rate at which the predicted outcome is equal to 0 when the true outcome is equal to 1 $P(Y_i' = 1 | Y_i = 0)$ **In this model the false negative rate is 0.4724**
+
+- False positive rate: This is the rate at which the predicted outcome is equal to 1 when the true outcome is equal to 0 $P(Y_i' = 1 | Y_i = 0)$ **In this model the false positive rate is 0.4709**
+
+Overall, this tells us the model is not very accurate; this is mainly shown by the false positive and negative rates being 0.47. This means that the model is returning a negative when the true outcome is positive (false negative) nearly half the time (47.24%) and returning a positive when the true outcome is negative nearly half the time (47.09%). Further supporting this, the true positive and negative rates are low, (52.76% and 52.91% respectively) these values indicate the success rate of the model in correctly predicting positive and negative outcomes. Overall, just under half of the predictions made by this model are incorrect, so the model is very inaccurate and a better model that incorporates more of the data provided by this data set will be needed. 
+
+\hstop
+
+## Problem 4(c)
+
+```{r prob4c}
+#code for prob4c
+library(lme4)
+spelling$subject <- as.factor(spelling$subject)
+model5 <- glmer(correct ~ word_type + (1|subject), data = spelling, family = "binomial")
+summary(model5)
+```
+
+\hstart
+
+The logodds are computed as follows: 
+
+$\hat {logodds} = \hat\beta_0 + \hat\beta_1x$
+$\hat {logodds} = \hat\beta_0 + \hat\beta_1(wordtype)$
+
+where $\hat\beta_1 = 1$ when the start of the word sounds like the first letter
+      $\hat\beta_1 = 0$ when the start of the word does not sound like the first letter
+      
+When the start of the word sounds like the first letter ($\hat\beta_1$ = 1)
+$\hat {logodds} = -0.02416 + 0.53179(1)$ 
+=0.55595
+
+When the start of the word sounds like the first letter ($\hat\beta_1$ = 0)
+$\hat {logodds} = -0.02416  + 0.53179(0)$ 
+=-0.02416
+
+Using these log odds, the probabilities are computed by converting these into odds, then calculating probability using the formula P = (odds / 1 + odds)
+
+When the start of the word sounds like the first letter: 
+formula: exp(0.55595)/(1+exp(-0.02416 + 0.53179(1)))
+
+**Probability = 0.6355149**
+
+When the start of the word sounds like the first letter: 
+formula: exp(-0.02416)/(1+exp(-0.02416)
+
+**Probability = 0.6187863**
+
+
+\hstop
+
+## Problem 4(d)
+
+```{r prob4d}
+#code for prob4d
+
+```
+
+\hstart
+
+These results are very different because in the first model, there was not a random intercept for subject whereas in the second model, a random intercept for subject was included. The second model has word_type as a fixed effect, meaning word type is tested in the model at specific and defined levels that the researchers are interested in. This model includes subject number as well; this refers to which child's response is recorded. For random factors (in this model subject), the effects themselves are not of interest, but the variation or variability introduced by subject is of interest. Researchers want to introduce this eliminate the bias that arises from systematic differences in error across subject number.
+
+\hstop
+
+## Problem 4(e)
+
+```{r prob4e}
+#code for prob4e
+library(lme4)
+model6 <- glmer(correct ~ word_type + age + order + letterwrite + (1|subject), data = spelling, family = "binomial")
+summary(model6)
+```
+
+\hstart
+
+The slope for letter write, at 6.62775 is much larger than the slopes for the other independent variables in the model. In order to explain this, first the interpretation for this slope must be provided. This slope means that the log odds of a child getting the first letter of the word correctly increase by 6.62775 when the proportion of letters a child writes correctly upon request increases by one. 
+
+The statistical explanation for why this slope is larger than the others is that proportion of letters written correctly has the largest change in the log odds for the response variable out of all of the variables.
+
+The practical explanation of this, considering children and their spelling; for the letters b,d,g,j,k,p higher proportions of these that children can write correctly upon request correspond to a higher success rate with which children write the first letter of all words correctly, especially for words that involve these letters. 
+
+Another consideration is that the variables in this model are not all of the same  units / scale (i.e., age and letter write). This means that a one unit in change for these variables will not have the same impact, changing age by one year may only correspond to a small percentage change in the odds a child will get the first letter of a word correctly whereas a one unit change in a proportion of the above letters a child can write correctly will have a much larger impact. 
+
+
+\hstop
+
+## Problem 4(f)
+
+
+\hstart
+
+The slope for age turned out to be non-significant, this is likely because within the data relative to age, the other variables such as word_type, order, and letterwrite are picking up a lot of the signal and the model does not depend on age very much to predict the log odds of the response variable. In models with fewer explanatory variables, age will have more signal (the model will depend on age more to predict the response variable outcome) and become statistically significant. 
+
+
+\hstop
+
+## Problem 4(g)
+
+```{r prob4g}
+#code for prob4g
+model6 <- glmer(correct ~ word_type + age + order + letterwrite + (1|subject), data = spelling, family = "binomial")
+
+model6_predict <- predict(model6, type = "response")
+model6_classify <- ifelse(model6_predict>0.5,1,0)
+Model6_ROC <- roc(spelling$correct,model6_classify,plot=TRUE,auc.polygon=TRUE,print.auc=TRUE, show.thresh=TRUE)
+
+install.packages("caret")
+library(caret)
+
+confusionMatrix(factor(model6_classify),
+                factor(spelling$correct), positive = "1")
+```
+
+\hstart
+
+The specificity, sensitivity, false negative rate, and false positive rate are reported below: 
+
+- Sensitivity: This is the true positive rate, the rate at which the predicted outcome is equal to 1 (correct) when the true outcome is equal to 1. $P(Y_i' = 1 | Y_i = 1)$ **In this model the sensitivity = 0.8646**
+
+- Specificity: This is the true negative rate, the rate at which the predicted outcome is equal to 0 (incorrect) when the true outcome is equal to 0. $P(Y_i' = 0 | Y_i = 0)$ **In this model the specificity = 0.8689**
+
+- False negative rate: This is the rate at which the predicted outcome is equal to 0 when the true outcome is equal to 1 $P(Y_i' = 1 | Y_i = 0)$ **In this model the false negative rate is 0.1354**
+
+- False positive rate: This is the rate at which the predicted outcome is equal to 1 when the true outcome is equal to 0 $P(Y_i' = 1 | Y_i = 0)$ **In this model the false positive rate is 0.1311**
+
+Comparing this model to the previous model, the additional independent variables of age, order, and letterwrite being added to the model make the predictions much more accurate. the false positive and negative rates decreased to around 0.13, which is much lower than the previous rates of 0.47. This model will return a negative when the true outcome is positive 13.54% of the time, and return a positive when the true outcome is negative 13.11% of the time. The true positive and negative rates have significantly increased compared to the first model at 86.46% and 86.89% respectively. Because of these indicators, this model predicts the outcomes correctly; **this model is much better at making predictions compared to the previous model**
+
+\hstop
+
+## Problem 4(h)
+
+```{r prob4h}
+#code for prob4h
+model7 <- glmer(correct ~ word_type + age + order + letterwrite + (age|subject), data = spelling, family = "binomial")
+summary(model7)
+```
+
+\hstart
+
+The issue with including a random slope for age across subjects is that there is little variance in age in this data set, so the variance in age across subjects will not be very large. This model will have a random slope for age across subjects which would not make much sense if the age across subjects does not change very much. The implication of low variance in age across subjects is that the difference in age between subject one and subject two is not going to have a large difference when making comparison to the difference in age between subject one and subject three. To support this, the age range in the dataset is: minimum age = 4.02, maximum age = 5.67. 
+In order to justify having a random slope for age, the ages would have to vary much more across subjects, (i.e., range from 5-50), then the study design and the questions would be very different than what is being considered in this study. 
+
+
+\hstop
+
+
+
+
+<!-- STUDENTS: STOP HERE
+DO NOT EDIT THE SECTION BELOW -->
+
+## Appendix
+
+```{r show-code, ref.label = all_labels(), echo = TRUE, eval = FALSE}
+
+```

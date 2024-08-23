@@ -1,0 +1,752 @@
+---
+title: "Practicum Three"
+author: "Josh Virene"
+date: "2023-11-18"
+output: pdf_document
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{framed}
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+\colorlet{shadecolor}{gray!10}
+
+```{r setup, include=FALSE}
+library(knitr)
+#install the tidyverse library (do this once)
+#install.packages("tidyverse")
+library(tidyverse)
+install.packages("car",repos = "http://cran.us.r-project.org")
+library(openxlsx)
+library(car)
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 4, fig.height = 4, tidy = TRUE)
+```
+
+```{=tex}
+\newcommand{\hstart}{ \colorlet{shadecolor}{orange!20}
+\begin{shaded} }
+\newcommand{\hstop}{  \end{shaded} \colorlet{shadecolor}{gray!10}}
+```
+# 2 Replicating Nerlove's Classic Results on Scale Economies
+
+The purpose of this exercise is replicate some of the principal returns
+to scale results reported by Nerlove in his classic 1955 article. The
+equation estimated by Nerlove is as follows:
+$$lnC* = \beta_0 + \beta_yln(y)+\beta_1ln(p_1^*)+\beta_2ln(p_2^*)$$ The
+data file NERLOV contains information on total costs (COSTS) in millions
+of dollars, output(KWH ) in billions of kilowatt hours, and prices of
+labor (PL), fuels (PF), and capital (PK) for 145 electric utility
+companies in 1955. There are 145 observations, and the observations are
+ordered in size, observation 1 being the smallest company and
+observation 145 the largest.
+
+a.  Using the data transformation facilities of your computer software,
+    generate the variables required to estimate parameters of Nerlove's
+    equation. In particular, for each of the 145 companies, create the
+    variables LNCP3 = ln(COSTS/PF), LNP13 = ln(PL/PF), LNP23 =
+    ln(PK/PF), and LNKWH = ln(KWH). Print the entire data series for
+    LNKWH, and verify that the observations are ordered by size of
+    output, that is, that the first observation is the smallest output
+    company and the last observations has the largest output.
+
+```{r setup2}
+# chunk of code to load data, packages etc. 
+
+#get data
+library(readxl)
+nerlov <- read_excel("nerlov.xlsx")
+
+# use the data transformation facilities of R to create new variables within the nerlov dataset
+nerlov$LNCP3 <- log(nerlov$COSTS/nerlov$PF)
+nerlov$LNP13 <- log(nerlov$PL/nerlov$PF)
+nerlov$LNP23 <- log(nerlov$PK/nerlov$PF)
+nerlov$LNKWH <- log(nerlov$KWH)
+
+```
+
+```{r problem 2a}
+# printing the data series. Not necessary to print the entire thing; we can see that the observations are ordered by size of output if we use the head and tail functions to print the first five and last five observations. If they are in order from smallest to largest output, LNKWH will be small for the head function, and large for the tail function. I think this would be a better way to show what the question asks. 
+print("First five observations of the dataframe")
+head(nerlov)
+print("Last five observations of the dataframe")
+tail(nerlov)
+
+file_path <- getwd()
+write.xlsx(nerlov, file_path, sheetName = "Nerlov_written", rowNames = FALSE)
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+
+Note: Because the question requests printing the full dataset, I have appended a separate page of all observations to the end of this document. When compiling the markdown file, it will not print all observations of any dataset with this many records. 
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+b.  Given the data for all 145 firms from (a), estimate the following
+    equation:
+    $$lnC* = \beta_0 + \beta_yln(y)+\beta_1ln(p_1^*)+\beta_2ln(p_2^*)$$
+
+where:
+$$ln(CP3) = ln(C^*), ln(KWH) = ln(y), ln(P13) = ln(p_1^*), ln(P23) = ln(p_2^*)$$
+
+Nerlove reported parameter estimates for By, B1 and B2 as 0.721,0.562
+and -0.003, ,respectively, with standard errors of 0.175, 0.198, and
+0.192, respectively, and an R2 of 0.931. Can you replicate Nerlove's
+results? (Note: You will not be able to replicate Nerlove's results
+precisely. One reason for this is that he used common rather than
+natural logarithms; however, this should affect only the estimated
+intercept term. According to Nerlove, the data set published with his
+article is apparently an earlier one that includes errors, while a
+revised data set was used in the estimation. This final data set has
+never been found.)
+
+```{r problem 2b}
+# regression- models begin at model 1 with summary tables sum 1, and continue until the end of the practicum
+model_1 <- lm(LNCP3 ~ LNKWH + LNP13 + LNP23, data = nerlov)
+sum_1 <- summary(model_1)
+kable(sum_1$coefficients, caption = "Summary Statistics for Model One")
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+c.  Using the estimates you obtained in part (b) and a reasonable level
+    of significance, construct a confidence interval for By. Is the null
+    hypothesis that By = 1 rejected? What does this imply concerning a
+    test of the null hypothesis that returns to scale are constant?
+    Using the relation between return to scale(r) and By (By = (1/r)) ,
+    compute the point estimate of returns to scale(r) based on your
+    estimate of By. Are estimated returns to scale increasing, constant,
+    or decreasing? Are economies of scale positive, zero, or negative?
+
+```{r problem 2c}
+
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+Formula for a confidence interval (using a significance level of 95%)
+$$B_y \pm1.96(SE(B_y))$$
+$$0.720688 \pm (1.96)(0.017436)$$
+**Confidence interval:**
+(0.6865134, 0.7548626)
+
+Explanation: 
+Based on the confidence interval that is given above, the statistical decision is to reject the null hypothesis that B_y = 1 at the 95% threshold because the value of 1 does not lie within the confidence interval. 
+
+Returns to scale are calculated as follow: 
+
+r = 1/B_y
+
+r = (1/0.720688)
+
+**r = 1.387563**
+
+Based on the point estimate **returns to scale = 1.387563**, the returns to scale are increasing because r > 1. This means that the firms in the dataset have increasing returns to scale in their energy production. There are **positive economies of scale** for energy production. 
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+d.  Demands for each factor of production will be positive only if ai,
+    the coefficient in the Cobb-Douglas production function, is
+    positive, i= 1, 2, 3. Note that we can link the estimated parameters
+    from the regressions above to the parameters of the Cobb-Douglas as
+    follows: $$\alpha_1 = \beta_1(r)$$ $$\alpha_2 = \beta_2(r)$$ What is
+    the implied estimate of alpha 2 from part (c)? Is it significantly
+    different from zero? Why do you think Nerlove was unsatisfied with
+    this estimate of alpha 2?
+
+```{r problem 2d}
+
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+Calculating the alphas: 
+$$\alpha_1 = \beta_1(r)$$
+$$\alpha_1 = (0.592910)(1.387563) $$
+$$\alpha_1 = 0.8227$$
+$$\alpha_2 = \beta_2(r)$$
+$$\alpha_2 = (-0.007381)(1.387563)$$
+**$$\alpha_2 = -0.0102416$$**
+
+**Interpretation:**
+
+The implied estimate is alpha 2 = -0.010. From the regression output, we can assess whether or not it is significantly different from zero using the t-test. The summary statistic table given in part b states for the beta 2 coefficient used to calculate alpha 2 that t = -0.039, because |t| < 1.96, we reject the null hypothesis that beta 2 is significantly different from zero with 95% confidence. The beta 2 coefficient **is not significantly different from zero**, and the same can then be said for the alpha 2 coefficient. 
+
+Nerlove was unsatisfied with this estimate of alpha 2 based on the following line of reasoning. The beta 2 coefficient measures the percent change in cost associated with the percent change in the ratio of the price of capital to fuel. Nerlove likely included this variable in the regression because he wanted to determine if the ratio of the price of capital and fuel inputs would have in input on cost. Given that fuel and capital (and their associated costs) are factors in energy production, it is  reasonable to think that these factors would have a statistically significant impact on the total cost of the utility companies within this dataset. The implication of the regression output is that this is not the case, from the summary table and the analysis above, the Beta 2 coefficient (that measures the ratio of capital price to fuel price) does not have an impact on the cost for the utility company. This contradicts what we would believe intuitively. 
+
+
+
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+e.  Compute and plot the residuals from estimated Nerlove's regression
+    equation. Nerlove noticed that if the residuals were plotted against
+    the log of output, the pattern was U-shaped, residuals at small
+    levels of output being positive, those at medium levels of output
+    being negative, and those at larger levels of output again becoming
+    positive. Do you find the same U-shaped pattern? How might this
+    pattern of residuals be interpreted? Finally, what is the sample
+    correlation of residuals with LNKWH across the entire sample? Why is
+    this the case?
+
+```{r problem 2e}
+# extract the residuals from the model summary statistics
+model1_res <- model_1$residuals
+# extract the log of output
+lnoutput <- nerlov$LNKWH
+
+# create a nice looking plot: 
+ggplot() + 
+  geom_point(aes(x = lnoutput, y = model1_res)) + 
+  theme_minimal() + 
+  xlab("LNKWH") + 
+  ylab("Model 1 Residuals") + 
+  ggtitle("Plot of LNKWH versus Residuals")
+
+
+# another interesting plot is to illustrate (for all firms the fitted values versus the actual values)
+# this helps us understand for which firms the model underpredicts and for which firms the model overpredicts
+library(stringr)
+ggplot() + 
+  ggtitle(str_wrap("Plot of Observed values versus the Fitted for Utility Companies", width = 30)) + 
+  xlab("Firm Size") + 
+  ylab("Output Level") + 
+  geom_point(aes(x = nerlov$Obs, y = nerlov$LNCP3, color = "Observed"), size = 1) +
+  geom_point(aes(x = nerlov$Obs, y = model_1$fitted.values, color = "Fitted Values"), size = 1) +
+  labs(color = "Data Type") +
+  scale_color_manual(values = c("blue", "red")) +
+  theme_minimal()
+
+# examining the sample correlation: 
+cor(model1_res, nerlov$LNKWH)
+
+
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+
+**Questions related to the plot:** 
+
+Examining this plot, my analysis also returns a U-shaped pattern for the log of output versus residuals. Looking at the pattern of residuals, the second graph helps to explain the pattern in which residuals are positive for the small and large utility companies and negative for the medium sized utility companies. The second graph compares the values fitted by the model (blue) versus the values observed in the dataset. We see that for the medium sized companies (whose output lies in the middle of the figure), the model is overestimating their output because fitted values > observed values. For the small and large companies (whose output lie on either extreme of the graph), the model is underestimating their output because fitted values < observed values. Although this trend is observed, it is likely not of serious consequence because the difference between fitted and observed is not very large. 
+
+**Question regarding sample correlation)**
+
+The sample correlation of residuals with lNKWH across the entire sample is zero. This is likely the case because of what was described in the previous part. There are positive residuals for small and large utility companies; because these are at both extremes of the dataset, the correlation should be zero. Factoring in the negative residuals for medium sized utility companies (which would offset the positive correlation in the extremes), there is no apparent trend across utility company size that can be drawn between model residuals and the output across the utility companies (as given by the LNKWH variable). 
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+# 3 Assessing Alternative Returns to Scale Specifications
+
+Because of the pattern of residuals noted by Nerlove (see part (e) in
+the previous question), Nerlove hypothesized that estimated returns to
+scale varied with the level of output. In this exercise you evaluate
+Nerlove's conjecture and assess alternative specifications that relax
+the assumptions implicit in Nerlove's equation. To facilitate grouping
+the data in this exercise your data (NERLOV) contains a variable named
+ORDER; the first 29 values of this variable are numbered 101 to 129, the
+second set of 29 values are 201 to 229, and so forth, the final 29
+values of the variable ORDER taking on the values 501 to 529.
+
+Following Nerlove, divide the sample of 145 firms into five subsamples,
+each having 29 firms. Recall that since the data are ordered by level of
+output, the first 29 Observations will have the smallest output levels,
+whereas the last 29 Observations will have the largest output levels.
+Then using least squares regression techniques, estimate parameters of
+Nerlove's for each of these subsamples.Nerlove [1963. p. 176] reports
+the following results (estimated standard errors are in parentheses):
+How well can you replicate Nerlove's reported results? To what might you
+attribute any discrepancies? (Note: See the brief discussion at the end
+of part (b) of Exercise 2.)
+
+Note: Beta coefficients and respective standard errors in this table are presented in the same order as in the model specification. 
+B_0, B_y, B_1, B_2
+```{r setup for problem 3}
+# first we need to group our data, putting our 145 observations into five different groups to distinguish by size: 
+# create a copy of the dataset
+nerlov2 <- nerlov
+# use integer division to create groups. Note: group 1 has the smallest output, and it increases until group 5- with the largest output
+nerlov2$group <- (nerlov2$Obs -1) %/% 29 + 1
+
+```
+
+```{r problem 3a}
+# regression:
+model_list <- list()
+summary_list <- list()
+for (group in 1:5) {
+  response_var <- "LNCP3"
+  independent_vars <- c("LNKWH", "LNP13", "LNP23")
+  formula <- as.formula(paste(response_var, "~", paste(independent_vars, collapse = " + ")))
+
+  # Run the regression for the specific group
+  model <- lm(formula, data = nerlov2[nerlov2$group == group, ])
+  model_summary <- summary(model)
+  model_list[[as.character(group)]] <- list(model = model, summary = model_summary)
+  
+  summary_stats <- list(
+    coefficients = coef(model),
+    rsquared = model_summary$r.squared,
+    std_errors = model_summary$coefficients[, "Std. Error"]
+  )
+  
+  summary_list[[as.character(group)]] <- summary_stats
+}
+
+# create a dataframe of summary statistics to be reported
+coefficients_df <- data.frame(
+  Group = 1:5,
+  Coefficients = sapply(summary_list, function(x) paste(round(x$coefficients, 4), collapse = ", ")),
+  StandardError = sapply(summary_list, function(x) paste0("(", round(x$std_errors, 4), ")", collapse = ", ")),
+  Rsquared = round(sapply(summary_list, function(x) x$rsquared), 4)
+)
+
+# Print the table using kable
+kable(coefficients_df, caption = "Summary Statistics for each Utility Company Group")
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+I will likely attribute the discrepancies to the fact that the regression models ran in this analysis use ln- natural log, whereas Nerlove's use a regular log.
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+b.  On the basis of your parameter estimates of By in part (a), compute
+    the point estimates of returns to scale (r ) in each of the five
+    subsamples. What is the general pattern of estimated scale economies
+    as the level of output increases? How might this pattern be
+    interpreted? Does this suggest an alternative specification?
+
+```{r problem 3b}
+
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+Computing the returns to scale for each utility company size (denoted group 1-5 in the previous table summary statistics)
+Formula: 
+Note: B^k, indicates the beta coefficient for each group, k = 1,...5
+$$r = 1/(\beta_y^k)$$
+$$r_1 = 1/(0.4003) = \underline{2.498126}$$
+$$r_2 = 1/(0.6582) = \underline{1.519295}$$
+$$r_3 = 1/(0.9383) = \underline{1.065757}$$
+$$r_4 = 1/(0.912) = \underline{1.096491}$$
+$$r_5 = 1/(1.0444) = \underline{0.9574876}$$
+**Explanation:**
+Examining the returns to scale across each group, we see that the lower group numbers (small utility companies) have higher returns to scale compared to the larger group numbers (large utility companies). _The pattern of returns of scale then, is that as the size of the utility company increases, the returns to scale diminish._ The interpretation of this is that smaller utility realize greater returns to scale compared to larger firms.
+
+For economies of scale, the pattern shows that through the first four sub-groups of firms in the dataset, returns to scale are >1, and thus the companies enjoy economies of scale. However, the final group of utility companies have diseconomies of scale, the returns to scale are < 1 which we interpret as the size of the company is so large that cost per unit has increased. This may suggest an alternative specification if we believe that economies of scale should hold for this fifth group. 
+
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+c.  Now construct data variables such that Nerlove's equation will be
+    estimated, except that while each of the five subsamples has common
+    estimated "slope" coefficients for B1 and B2, each of the five
+    subsamples has a different intercept term and a different estimate
+    of By. Given the results in part (b), why might such a specification
+    be plausible? Estimate this expanded model, and assess your success
+    in replicating Nerlove, who reported the five subsample estimates
+    ofBy, as being 0.394 (0.055), 0.651 (0.189), 0.877 (0.376), 0.908
+    (0.354), and 1.062 (0.169), respectively, where numbers in
+    parentheses are standard errors. The common estimates of B1 and B2
+    reported by Nerlove are 0.435 (0.207) and 0.100 (0.196),
+    respectively. Nerlove's reported R2 was 0.95.
+
+```{r problem 3c}
+# creating a model in which the intercept and the LNKWH (BY) variable vary by group
+nerlov2$groupfac <- as.factor(nerlov2$group) # creating a column that makes group a factor variable, to be ran in regression
+model_2 <- lm(LNCP3 ~ LNP13 + LNP23 + groupfac + (groupfac*LNKWH), data = nerlov2)
+sum_2 <- summary(model_2)
+kable(coefficients(sum_2), caption = "Summary Statistics for Model Three")
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+Why might this specification be plausible:
+This model specification treats the marginal effects (% change in variable associated with % change in cost) for the variables LNP13- the ratio of labor to fuel price  and LNP23- the ratio of capital to fuel price as being the same across all different sizes of utility company. Then it treats the intercept term, as well as the slope term for LNKWH as being different for each company. The motivation behind doing so is a hypothesis that explaining that the marginal effect of a change in millions of kilowatt hours varies across the size of the company, though the effect of the LNP13 and LNP23 factors is constant across companies. 
+
+In the context of what was established in question two, that scale economies only exist up to a certain point, and then diseconomies of scale became apparent for the largest of utility companies within the dataset, this alternative specification gives more insight on why that was observed. Because the previous specifications in part b allowed all marginal effects to vary whereas the specification in part c only allows the marginal effect of LNKWH to vary, these two have different interpretations. It is possible that diseconomies of scale were apparent for the largest of firms in part b due to allowing the variables LNP13 and LNP23 to also vary across group size. _Explaining this in a more plain manner, it is not the ratio of labor to fuel price or ratio of capital to fuel price that are driving economies of scale, but perhaps the LNKWH. This is the motivation for running this model._  By holding these constant in the part C specification, these marginal effects are properly controlled for, and we can see by the increase in the B_y coefficient, that returns to scale are apparent, and actually increasing as the size of the utility company increases. 
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+d.  For each of the five subsample estimates of By in part (c), compute
+    the implied estimate of returns to scale. What is the general
+    pattern of estimated scale economies as the level of output
+    increases?
+
+```{r problem 3d}
+
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+Formula: 
+$$r = 1/B_y^k$$
+$$r_1 = 1/0.39688 = \underline{2.51965}$$
+$$r_2 = 1/0.64817 = \underline{1.54280}$$
+$$r_3 = 1/0.88478 = \underline{1.130224}$$
+$$r_4 = 1/0.90874 = \underline{1.10042}$$
+$$r_5 = 1/1.06275 = \underline{0.94095}$$
+These calculations contradict the theory established in the analysis from part c;  LNKWH drives economies of scale in the same manner in the regression for part c (where LNP13 and LNP23 are constant across all utility company sizes) as that in regression for part b (where all variables are different across utility company sizes). __The interpretation of this result is that utility company size using output (millions of kilowatt hours) as a measure will yield increasing returns to scale, and economies of scale up to a threshold given by the output of the firms in group four, after which there are decreasing returns to scale, and diseconomies of scale.__
+
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+e.  How would you compare estimates in part (c) versus those in part
+    (a)? In particular, since part (a) estimates constitute a special
+    case of part (c), using an F-test and a reasonable level of
+    significance, formulate and test the restrictions implicit in part
+    (a) against the alternative hypothesis in part (c). Is the null
+        hypothesis rejected or not rejected? Comment on your results.
+
+```{r problem 3e}
+
+
+```
+
+```{=tex}
+\colorlet{shadecolor}{orange!20}
+\begin{shaded}
+```
+e. 
+In part (a), there are five regressions and thus five sets of summary statistics whereas model (c) only has one set of summary statistics. There are two potential approaches to measuring the improvement in model performance. First, we could compare each of the R^2 values in the unrestricted model (model a) to that of the restricted model (model c), the statistical significance of which would indicate the performance each unrestricted model (a) to that of the restricted model. Alternatively, and the approach I'll use is to take the average R^2 from the five models in model (a) and use that to compute the F test, comparing its model performance relative to that of the restricted model (c). 
+
+Average R^2 of model (a): = avg(0.5134,0.6328,0.5732,0.8726,0.9210) = 0.7026
+R^2 of model (c): = 0.9602
+
+F Test formula: 
+$$F = ((R^2_{ur}-R^2_r)/(DF_r-DF_{ur}))/((1-R^2_{ur})/(n-k-1))$$
+$$F = ((0.7026-0.9602)/(-8))/((1-0.7026)/(132))$$
+$$F = 14.2918$$
+e. 
+This F statistic shows the _on average_ improvement of the model performance when all the variables (LNKWH, LNP13, and LNP23) are allowed to vary under the unrestricted model, compared to the performance of the restricted model that only allows for the intercept and the LNKWH to vary. A value of 14.2918 on 132 degrees of freedom will be statistically significant at all levels, but it is low enough that we cannot say the unrestricted models are a great improvement over the restricted model. Another thing to note is that this is the R^2 on average for the unrestricted models, this could potentially introduce upward bias for the models within the unrestricted set of models that have a lower R^2, and downward bias for those with a higher R^2. 
+
+This could be fixed by comparing the R^2 of each individual unrestricted model to the restricted (so, five calculations), though there is bias in this approach because the restricted model contains data from the entire group while the unrestricted is a subset with only 29 observations per group. 
+
+
+
+```{=tex}
+\end{shaded} \colorlet{shadecolor}{gray!10}
+```
+f.  To exploit the fact that estimated returns to scale seemed to
+    decline with the level of output in a nonlinear fashion, Nerlove
+    formulated and estimated a slight generalization of the original
+    equation in which the variable ln(y)^2 was added as a regressor; call
+    the corresponding coefficient Byy. Using the full sample of 145
+    observations, estimate the equation:
+    
+    $$ln(C^*) = \beta_0 + \beta_yln(y)+\beta_{yy}*ln(y)^2+\beta_1ln(p_1^)+\beta_2ln(p_2^*)$$
+    
+by least squares. How well can you replicate Nerlove’s reported results, which he reported as 0.151 (0.062), 0.117 (0.012), 0.498 (0.161), and 0.062 (0.151) for By, Byy , B1, and B2, respectively, and an R2 of 0.952? Now, using a reasonable level of significance, test the joint null hypothesis that returns to scale are constant, that is, that By = 1, Byy = 0, against the null hypothesis that returns to scale are nonconstant, that is, thatBy != 1. Byy != 0. How does inference based on the joint F-test compare with that based on the individual t-tests? Finally, since returns to scale in the above expanded model vary with the level of output and can be shown to equal r = 1/(By + 2 × By × lny), compute the implied range of returns-to-scale estimates using the median value of LNY in each of the five subsamples.
+
+
+
+```{r problem 3f}
+
+# now the regression has a nonlinear specification there is a term LNKWH^2
+# creating the variable: 
+nerlov2$SQLNKWH <- nerlov2$LNKWH**2
+
+# running the model
+model_4 <- lm(LNCP3 ~ LNKWH + SQLNKWH + LNP13 + LNP23, data = nerlov2)
+sum_4 <- summary(model_4)
+kable(sum_4$coefficients, caption = "Summary Statistics for Model Four")
+
+# performing the f tests
+hyp_1 <- linearHypothesis(model_4, c("LNKWH=1","SQLNKWH=0"), white.adjust = "hc1")
+kable(hyp_1, caption="Joint Null Hypothesis:")
+
+
+
+# pulling median values for KWH for each of the five subgroups
+median_by_group <- nerlov2 %>%
+  group_by(group) %>%
+  summarise(median_LNKWH = median(LNKWH))
+
+
+```
+
+\hstart
+
+f. 
+The output from the linear hypothesis test provided above shows that we can reject the null hypothesis that B_y = 1 and B_yy = 0 at all reasonable levels of significance in favor of the alternative hypothesis that B_y != 1 and B_yy != 0. Justification: P < 0.05. Inference on the joint F-test is stronger compared to that of individual t-tests in that we are assessing the significance of multiple variables taken together in a regression rather than just individual variables. Assessing the individual variables would require assessing the statistical significance of each variable from the regression summary statistics. 
+
+Computing the returns to scale in the expanded model: 
+Formula: 
+$$r = 1/(\beta_y + 2*\beta_y * ln(y)$$
+Group 1: 
+
+r = 1/(0.152547+2*(0.152547)+3.761200) = __0.2370319__
+
+Group 2:
+
+r = 1/(0.152547+2*(0.152547)+5.823046) = __0.1592183__
+
+Group 3:
+
+r = 1/(0.152547+2*(0.152547)+7.011214) = __0.1338893__
+
+Group 4: 
+
+r = 1/(0.152547+2*(0.152547)+7.707962) = __0.1224649__
+
+Group 5: 
+
+r = 1/(0.152547+2*(0.152547)+8.668884) = __0.1095707__
+
+\hstop
+
+# 4 Comparing Returns to Scale Estimates from 1955 with Updated 1970 Data
+Nerlove’s returns to scale results were based on 1955 data for 145 electric utility companies in the
+United States. These data have been updated to 1970 and were subsequently by Christensen and
+Greene (1976). In this exercise, you compare returns-to-scale estimates based on the 1955 and the
+1970 data and then evaluate the Christensen-Greene finding that by 1970 the bulk of electricity
+generation in the United States came from firms operating very near the bottom of their average
+cost curves.
+The 1970 data are presented in data file called UPDATE. The 1970 data sample is smaller, consisting
+of 99 observations, and like the data in NERLOV, the observations are ordered by size of firm, as
+measured by kilowatt hour output. The variables in the UPDATE data file include the original
+Christensen-Greene observation number (OBSNO), total costs in millions of 1970 dollars (COST70),
+millions of kilowatt hours of output (KWH70), the price of labor (PL70), the rental price index
+for capital (PK70), and the price index for fuels (PF70). (Notice that the numbers”70” have been
+added to the COST, KWH, PL, PK, and PF variables to distinguish these 1970 updated data from
+the Nerlove 1955 data.)
+
+a. 
+Using the 1970 updated data for 99 firms, construct the appropriate variables needed to estimate Nerlove’s equation by least squares. In particular, for each of the 99 observations, generate the following variables: LNC70 = ln(COST70/PF70), LNY 70 = ln(KWH70), LNP170 = ln(PL70/PF70) and LNP270 = ln(PK70/PF70), where your just-constructed LNC70 is the same
+as lnC* in Nerlove’s equation, LNY70 is ln y, LNP170 is ln p1, and LNP270 is ln p2. Compute the
+sample mean for KWH70, and compare it to the sample mean for KWH in Nerlove’s 1955 data set,
+used above. On average, are firms generating larger amounts of electricity in 1970 than in 1955?
+What might you therefore expect in terms of returns-to-scale estimates for 1970 as compared to
+those for 1955? Why?
+
+```{r setup for problem four:}
+# load the dataset- update: 
+library(readxl)
+update <- read_excel("update.xlsx")
+
+# using the data transformation facilities of R, generate the variables required to estimate the parameters, now for the Christensen dataset: 
+update$LNC70 <- log(update$COST70)
+update$LNY70 <- log(update$KWH70)
+update$LNP170 <- log(update$PL70/update$PF70)
+update$LNP270 <- log(update$PK70/update$PF70)
+
+meanKWH70 <- mean(update$KWH70)
+meanKWH50 <- mean(nerlov$KWH)
+
+
+```
+
+
+```{r problem 4a}
+
+```
+
+\hstart
+
+The sample mean for KWH70 is 8999.727 million kilowatt hours of output, comparing this to the Nerlov dataset, the sample mean for KWH50 is 2133.083 million kilowatt hours of output. This shows that on average, firms are generating larger amounts of electricity in 1970 than in 1955. 
+
+For the returns-to-scale estimates, I will expect these to be _lower_ compared to those calculated using the 1955 dataset. The reason for this is that in the 1955 dataset, the utility companies whose output was the largest (those in group five) had the lowest returns to scale at ~ 0.94. The data essentially revealed that past a certain threshold of KWH of electricity generated, returns to scale will decline. Whether or not this persists for the 1970 data is examined in subsequent questions. 
+
+Note: the practicum assignment says the unit of measurement is billion for the 1955 dataset and million for the 1970 dataset. I believe this is a typo, so I am assuming they are both in millions, since in 1970 there surely was more electricity generated on average by plant compared to that in 1950. 
+
+\hstop
+
+b. 
+Now estimate the parameters of the equation: 
+$$ln(C70) = \beta_0 + \beta_y(ln(Y70))+\beta_1(ln(P170))+\beta_2(ln(p270))+\epsilon$$
+by least squares and then construct a confidence interval for By, using a reasonable level of significance. Is the null hypothesis of constant returns to scale (By = 1) rejected? What does this imply concerning a test of the null hypothesis that returns to scale are constant? Using the relation between returns to scale r and By (By = (1/r)), calculate the implied estimate of returns to scale.Compare this result, based on the 1970 data, with that reported by Nerlove for his 1955 data (see
+Exercise 2, part (b), for a list of Nerlove’s results). Are you surprised by these results? Why or why not?
+
+```{r problem 4b}
+# regression
+model_5 <- lm(LNC70 ~ LNY70 + LNP170 + LNP270, data = update)
+sum_5 <- summary(model_5)
+kable(coefficients(sum_5), caption = "Model Five Summary Statistics")
+```
+
+\hstart
+
+Constructing the confidence interval for B_y: 
+
+Formula: 
+$$CI = B_y \pm 1.96(SE(B_y))$$
+$$CI = 0.84198 \pm 1.96(0.01425)$$
+Confidence interval: (0.81405,0.86991)
+Using this confidence interval, evaluated at the 95% signficance we see that 1 does not lie within the range of values given, thus, the statistical decision is to reject the null hypothesis of constant returns to scale in favor of the alternative, that returns to scale are not constant. 
+
+Calculating the implied estimate returns to scale: 
+Formula: 
+$$r = 1/(\beta_y)$$
+$$r = 1/(0.84198) = 1.187677$$
+Comparing this to Exercise 2, part (b) which found that the returns to scale from the corresponding least-squares regression model was 1.387563 the returns to scale in the model are slightly lower, though are still increasing as r > 1. 
+This result does not surprise me, it makes sense that the same model specification will return a similar calculation for the returns to scale with most factors such as the structure of the data being held equal. A potential explanation for why the increasing returns to scale persist is that technology had improved over the 15+ year time frame which had elapsed, which allows for the returns to scale to keep up with the drastic increase in mean KWH produced by the utility companies. 
+
+
+\hstop
+
+c. 
+A slightly generalized version of Nerlove equation involves adding (ln(y70))^2 as a regressor. 
+$$ln(C70) = \beta_0 + \beta_yln(ln(Y70))+\beta_{yy}*ln(Y70))^2+\beta_1ln(P170)+\beta_2ln(P270)+
+\epsilon$$
+Note that this estimating equation cannot be derived from the Cobb-Douglas production function
+$$y=A*x_1^{\alpha_1}*x_2^{\alpha_2}*x_3^{\alpha_3}$$
+but has the advantage of permitting returns to scale to vary with the level of output. In particular,
+in the above equation, returns to scale can be shown to equalr = 1/(By + 2 × Byy × ln y). Note also
+that the equation in part (b) of this exercise is a special case of the expanded equation here, being
+valid if and only if Byy = 0. Using the 1970 data, estimate by least squares the parameters of the
+above expanded equation. Then, based on a reasonable level of significance, test the null hypothesis
+that returns to scale do not vary with the level of output, that is, test the null hypothesis that
+Byy = 0 against the alternative hypothesis that Byy != 0. Next test the joint null hypothesis that
+returns to scale are constant, that is, that Byy = 0 andBy = 1, against the alternative hypothesis
+thatByy != 0 , By != 1. Interpret these two different test results. Are they mutually consistent?
+
+```{r problem 4c}
+
+# create a new variable in the update dataset for the KWH^2
+update$SQLNY70 <- update$LNY70**2
+# run the regression: 
+model_6 <- lm(LNC70 ~ LNY70 + SQLNY70 + LNP170 + LNP270, data = update)
+sum_6 <- summary(model_6)
+kable(coefficients(sum_6), caption = "Model Six Summary Statistics")
+
+# running the linear hypothesis: 
+hyp_2 <- linearHypothesis(model_6, c("LNY70=1","SQLNY70=0"), white.adjust = "hc1")
+kable(hyp_2, caption="Joint Null Hypothesis:")
+```
+
+\hstart
+
+Testing the null hypothesis that returns to scale do not vary with the level of output: 
+Examining the regression output for model six, we see that t = 8.902, because |t| > 2, the statistical decision is to reject the null hypothesis that B_yy = 0 in favor of the alternative that B_yy != 0. 
+
+The results from the Joint Null Hypothesis test given above show that we reject the null hypothesis that B_yy = 0 and B_y = 1 in favor of the alternative hypothesis that B_yy != 0 and B_y != 1. Justification, P < 0.05. This gives statistical support to the result that the firms in this dataset do not exhibit constant returns to scale. Examining whether or not these results are mutually consistent, both come to the same conclusion of rejecting the null hypothesis of B_yy = 0 and thus they both support the conclusion of non-constant returns to scale. 
+
+
+\hstop
+
+d. 
+Next, calculate the implied range of returns to scale by splitting the 1970 sample into five groups,
+ordered by size, where the first four groups consist of 20 firms each and the last group has only 19
+firms. Estimate by least squares the parameters of the equation in part (b) separately for each of
+the five groups. For each group, compare the returns-to-scale estimates based on 1970 data with
+those reported by Nerlove and based on 1955 data, namely, 2.92, 2.24, 1.97, 1.84, and 1.69.
+
+Note: Beta coefficients and respective standard errors in this table are presented in the same order as in the model specification. 
+B_0, B_y, B_1, B_2
+```{r Problem 4d}
+
+# this requires the same process that was used in question three: 
+# create a copy of the dataset
+update2 <- update
+# use integer division to create groups. Note: group 1 has the smallest output, and it increases until group 5- with the largest output
+update2$group <- (update2$Obs -1) %/% 20 + 1
+
+# first splitting the dataset
+
+model_list2 <- list()
+summary_list2 <- list()
+for (group in 1:5) {
+  response_var <- "LNC70"
+  independent_vars <- c("LNY70", "LNP170", "LNP270")
+  formula <- as.formula(paste(response_var, "~", paste(independent_vars, collapse = " + ")))
+
+  # Run the regression for the specific group
+  model <- lm(formula, data = update2[update2$group == group, ])
+  model_summary <- summary(model)
+  model_list2[[as.character(group)]] <- list(model = model, summary = model_summary)
+  
+  summary_stats <- list(
+    coefficients = coef(model),
+    rsquared = model_summary$r.squared,
+    std_errors = model_summary$coefficients[, "Std. Error"]
+  )
+  
+  summary_list2[[as.character(group)]] <- summary_stats
+}
+
+# create a dataframe of summary statistics to be reported
+coefficients_df <- data.frame(
+  Group = 1:5,
+  Coefficients = sapply(summary_list2, function(x) paste(round(x$coefficients, 4), collapse = ", ")),
+  StandardError = sapply(summary_list2, function(x) paste0("(", round(x$std_errors, 4), ")", collapse = ", ")),
+  Rsquared = round(sapply(summary_list2, function(x) x$rsquared), 4)
+)
+
+# Print the table using kable
+kable(coefficients_df, caption = "Summary Statistics for each Utility Company Group (1970)")
+
+```
+
+\hstart
+
+Computing the returns to scale for each utility company size (denoted group 1-5 in the previous table summary statistics)
+Formula: 
+Note: B^k, indicates the beta coefficient for each group, k = 1,...5
+$$r = 1/(\beta_y^k)$$
+$$r_1 = 1/(0.6811) = \underline{1.468213}$$
+$$r_2 = 1/(0.701) = \underline{1.426534}$$
+$$r_3 = 1/(1.0736) = \underline{0.9314456}$$
+$$r_4 = 1/(0.897) = \underline{1.114827}$$
+$$r_5 = 1/(0.9489) = \underline{1.053852}$$
+Comparing these results with those from the previous dataset, whose returns to scale in groups 1-5 are: 2.49, 1.51, 1.06, 1.09, and 0.96, whereas the returns in this dataset in groups 1-5 are: 1.47, 1.43, 0.93, 1.11, 1.05. Comparing these, we see very similar patterns in that they are higher for the lower output firms compared to the high output firms. A unexplainable difference that might be worth looking into is why group three in the new dataset exhibits diminishing returns to scale. 
+
+
+\hstop
+
+e. 
+Finally, how might one best evaluate the Christensen-Greene finding that by 1970 the bulk of U.S.
+electricity generation was being produced by firms operating ”very close” to the bottom of their
+average cost curves? Do you agree or disagree with Christensen and Greene? Why
+
+```{r Problem 4e}
+
+```
+
+\hstart
+
+One way to evaluate this finding would be to establish functions that give the cost of electricity generation, then divide these by quantity to give the average cost functions. Using these average cost functions, we would then determine the equilibrium in the electricity markets to determine the market-clearing price and quantity for electricity production. Within this dataset we have completed a part of this analysis, and we can regress the cost variable (not ln(cost)) on all inputs to production to determine the cost, and divide this by quantity produced to find the average cost. _A key consideration however, is that these costs are not representative of the entire cost faced by the utility company_ there are other costs such as rent that need to be considered for us to develop a true average cost function. After developing this and determining the market equilibrium, calculating the share of firms that operate at the bottom of average cost firms can either confirm or reject the Christensen and Green finding. 
+
+Based on the analysis conducted here, the fact that utility companies, at higher levels of output begin to exhibit diminishing marginal returns (to just LNKWH, as well as to LNKWH LNP1 and LNP2) constitutes a strong reason to believe that firms are operating at the bottom of their average cost functions. 
+
+\hstop
+
+
+
+```{r show-code, ref.label = all_labels(), echo = TRUE, eval = FALSE}
+
+```

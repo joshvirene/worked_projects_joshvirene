@@ -1,0 +1,437 @@
+---
+title: "Homework Three"
+author: "Josh Virene"
+output: pdf_document
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{framed}
+---
+
+<!-- STUDENTS: change the "title" and "author" listed above
+DO NOT EDIT THE SECTION BELOW -->
+\colorlet{shadecolor}{gray!10}
+```{r setup, include=FALSE}
+library(tinytex)
+library(knitr)
+#install the tidyverse library (do this once)
+#install.packages("tidyverse")
+library(tidyverse)
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.height = 4,
+	fig.width = 4,
+	message = FALSE,
+	warning = FALSE,
+	tidy = TRUE
+)
+```
+\newcommand{\hstart}{ \colorlet{shadecolor}{orange!20}
+\begin{shaded} }
+\newcommand{\hstop}{  \end{shaded} \colorlet{shadecolor}{gray!10}}
+<!-- STUDENTS: DO NOT EDIT THE SECTION ABOVE 
+start here, insert homework below -->
+
+# Problem 1
+
+## Problem 1(a)
+
+```{r prob1a}
+#code for prob1a
+#load data
+oxygendata <- read_csv("oxygen.csv")
+view(oxygendata)
+#convert distance to a factor
+oxygendata$factor = as.factor(oxygendata$distance)
+
+ggplot(oxygendata, aes(x=factor , y=oxygen)) +
+geom_boxplot(aes(color = factor), outlier.colour = NA, position = "dodge") +
+ylab("Oxygen Content (mg/L)") +
+ggtitle("Oxygen Data Box Plot") +
+scale_x_discrete(name="Distance",breaks=c("1","2","3","4"),
+labels=c("Closest","Close","Far","Furthest")) +
+theme_gray(base_size = 18) +
+theme(legend.position = "none")
+theme_gray(base_size = 8)
+```
+
+\hstart
+
+This graph showing distribution of oxygen by distance is a graphical representation of the information in the ANOVA plot. The spread of data around the mean within each factor (distance to the Mississippi) is the MS(error). The difference in means across factors is the MS(treatment). Looking at this plot, it is clear we will reject the null hypothesis that all group population means are equal because the mean for furthest is very different than the mean for closest, and this is all we need to reject the null. 
+
+\hstop
+
+## Problem 1(b)
+
+```{r prob1b}
+#code for prob1b
+oxygenlm1 <- lm(oxygen ~ factor, data = oxygendata)
+summary(oxygenlm1)
+anova(oxygenlm1)
+```
+
+
+\hstart
+
+**P value = 2.2e-16**
+
+\hstop
+
+## Problem 1(c)
+
+```{r prob1c}
+#code for prob1c
+```
+
+
+\hstart
+
+$H_o: \mu_1=\mu_2 = ... = \mu_k$
+
+\hstop
+
+## Problem 1(d)
+
+```{r prob1d}
+#code for prob1d
+
+#plot one- the QQplot
+oxygenlm1 <- lm(oxygen ~ factor, data = oxygendata)
+mse = anova(oxygenlm1)$"Mean Sq"[2]
+scaledres = oxygenlm1$residuals/sqrt(mse)
+s.df = data.frame(scaled = scaledres)
+ggplot(s.df,aes(sample=scaled)) +
+stat_qq() +
+stat_qq_line() +
+xlab("Theoretical Quantiles") +
+ylab("Sample Quantiles") +
+ggtitle("QQ plot for Oxygen Data")
+```
+
+
+\hstart
+
+a. QQ plot: 
+The QQ plot assesses the assumption that the error and residuals come from a normal distribution. If the points of the QQ plot are on the 1-1 line, this means that the assumption is met, otherwise it is violated. This plot looks like it violates the assumption, and in fact the tails appear to be heavy since the data are spread far from the 1-1 line in both directions. 
+
+\hstop
+
+## Problem 1(d- continued)
+
+```{r prob1dcontinued}
+#code for prob1dcontinued
+#plot two- the residuals vs. fitted values plot
+# Create data frame for ggplot
+lm.df = data.frame(
+  fitted = oxygenlm1$fitted.values,
+  residuals = oxygenlm1$residuals,
+  group = as.factor(oxygendata$distance))
+#plot fitted vs residuals
+ggplot(lm.df,aes(x=fitted,y=residuals))+
+  geom_point() + 
+ggtitle("Fitted values vs residuals") +
+xlab("Fitted Values") + ylab("Residuals") +
+theme_gray(base_size = 12)
+```
+
+
+\hstart
+
+ b. Theoretical vs. Residual: 
+The theoretical vs. residual plot assesses equality of variance. If the assumption is met, the variance of residuals will be roughly equal across groups, otherwise the assumption is violated. The data on this plot has a funnel shape and therefore, residual variance increases with fitted values so the assumption is violated. 
+
+\hstop
+
+
+## Problem 1(e)
+
+```{r prob1e}
+#code for prob1e
+
+#creating the dataset: 
+oxygendata$logoxygen = log(oxygendata$oxygen)
+view(oxygendata)
+#removing the unwanted measurement
+oxygendata2 <- oxygendata[-c(9), ] 
+view(oxygendata2)
+
+#making the boxplot
+ggplot(oxygendata2, aes(x=factor , y=logoxygen)) +
+geom_boxplot(aes(color = factor), outlier.colour = NA, position = "dodge") +
+ylab("Oxygen Content (mg/L)") +
+ggtitle("Oxygen Data Box Plot (log)") +
+scale_x_discrete(name="Distance",breaks=c("1","2","3","4"),
+labels=c("Closest","Close","Far","Furthest")) +
+theme_gray(base_size = 18) +
+theme(legend.position = "none")
+theme_gray(base_size = 10)
+```
+
+
+\hstart
+
+The distribution of means across factors is closer together in the log transformation compared to their distribution in the original question. The within group distribution is similar in the log transformation compared to the normal. This means that in the log transformation, distance has a smaller impact on the mean value for dissolved oxygen content compared to the original form. *This is likely because the log transformation captures the percentage change in dissolved oxygen content across factors whereas the original is just total dissolved oxygen, so differences will likely be smaller when expressed as a percentage compared to when they're expressed as a total. 
+
+\hstop
+
+## Problem 1(f)
+
+```{r prob1f}
+#code for prob1f
+
+#setting up the anova
+oxygenlm2 <- lm(logoxygen ~ factor, data = oxygendata2)
+summary(oxygenlm2)
+anova(oxygenlm2)
+
+```
+
+```{r prob1fcontd}
+#code for prob1fcontd
+
+#Creating the QQplot
+oxygenlm2 <- lm(logoxygen ~ factor, data = oxygendata2)
+mse2 = anova(oxygenlm2)$"Mean Sq"[2]
+scaledres = oxygenlm2$residuals/sqrt(mse)
+s.df2 = data.frame(scaled = scaledres)
+ggplot(s.df2,aes(sample=scaled)) +
+stat_qq() +
+stat_qq_line() +
+xlab("Theoretical Quantiles") +
+ylab("Sample Quantiles") +
+ggtitle("QQ plot for Oxygen Data (log)")
+```
+
+```{r prob1fcontinued}
+#code for prob1fcontinued
+
+#Creating the residuals vs. fitted plot
+lm.df2 = data.frame(
+  fitted = oxygenlm2$fitted.values,
+  residuals = oxygenlm2$residuals,
+  group = as.factor(oxygendata2$distance))
+#plot fitted vs residuals
+ggplot(lm.df2,aes(x=fitted,y=residuals))+
+  geom_point() + 
+ggtitle("Fitted values vs residuals (log)") +
+xlab("Fitted Values") + ylab("Residuals") +
+theme_gray(base_size = 10)
+```
+
+
+\hstart
+
+a. QQ plot: 
+The QQ plot assesses the assumption that the error and residuals come from a normal distribution. If the points of the QQ plot are on the 1-1 line, this means that the assumption is met, otherwise it is violated. This plot looks like it violates the assumption, and in fact the tails appear to be heavy since the data are spread far from the 1-1 line in both directions. This plot appears to be a more significant violation of the assumption compared to the original model because the points have more extreme deviations from the 1-1 line. 
+ b. Theoretical vs. Residual: 
+The theoretical vs. residual plot assesses equality of variance. If the assumption is met, the variance of residuals will be roughly equal across groups, otherwise the assumption is violated. The data on this plot has a funnel shape in the opposite direction compared to the original model and residual variance decreases with fitted values so the assumption is still violated. 
+
+
+\hstop
+
+## Problem 1(g)
+
+```{r prob1g}
+#code for prob1g
+
+```
+
+
+\hstart
+
+The data in the original model appear to do a better job of satisfying the ANOVA assumptions because the violations are less extreme for the qqplot and about the same for the residual vs. fitted plot. Though neither plot is good in terms of meeting the assumptions, both diagnostic plots exhibit violations. 
+
+\hstop
+
+## Problem 1(h)
+
+```{r prob1h}
+#code for prob1h
+KWtest <- kruskal.test(logoxygen ~ factor, data = oxygendata2)
+KWtest
+```
+
+
+\hstart
+
+Test statistic: 32.927
+P value: 3.337e-07
+
+\hstop
+
+## Problem 1(i)
+
+```{r prob1i}
+#code for prob1i
+
+```
+
+
+\hstart
+
+When conducting a Kruskall-Wallace test, this is comparing difference in medians instead of the ANOVA test which compares differences in means. 
+
+\hstop
+
+## Problem 1(j)
+
+```{r prob1j}
+
+##model one: 
+
+p = data.frame(p.raw = summary(oxygenlm1)$coefficients[,4])
+p$p.Bon = p.adjust(p$p.raw, method = "bonferroni")
+p$p.Holm = p.adjust(p$p.raw, method = "holm")
+p$p.fdr = p.adjust(p$p.raw, method = "fdr")
+round(p,4)
+
+oxygen1.Tukey <- TukeyHSD(aov(oxygen ~ factor, data = oxygendata))
+oxygen1.Tukey
+plot(oxygen1.Tukey)
+
+#model two
+p = data.frame(p.raw = summary(oxygenlm2)$coefficients[,4])
+p$p.Bon = p.adjust(p$p.raw, method = "bonferroni")
+p$p.Holm = p.adjust(p$p.raw, method = "holm")
+p$p.fdr = p.adjust(p$p.raw, method = "fdr")
+round(p,4)
+
+oxygen2.Tukey <- TukeyHSD(aov(logoxygen ~ factor, data = oxygendata2))
+oxygen2.Tukey
+plot(oxygen2.Tukey)
+
+
+```
+
+
+\hstart
+
+
+
+\hstop
+
+## Problem 1(k)
+
+```{r prob1k}
+#code for prob1k
+
+```
+
+
+\hstart
+
+*discuss this in office hours. 
+In choosing between these two models, I would pick the first model with raw oxygen because the ANOVA assumption violations are less extreme. Another reason is that within the context of this experiment, it may be more useful to see the amount of dissolved oxygen as opposed to a percent change in dissolved oxygen. 
+
+\hstop
+
+
+# Problem 2
+
+## Problem 2(a)
+
+```{r prob2a}
+#code for prob2a
+```
+
+\hstart
+
+i. This line of code generates a random normal variable with sample size N- defined in another line of code as 20, a mean of 20, and a standard deviation of 3. 
+ii. This tells R to treat variables A, B, and C as factors. Another important component in this is that these are being incorporated into the 'for loop' so R is computing the P values for each pairwise comparison adjustment across these factor through the assigned number of reps, which is 10000. 
+iii. This is telling r to create a data frame that reports each type of p values as assigned under their respective correction method. 
+iv. This line of code tells R to sum all of the p values less than 0.05. The code below is a pipe operation to apply this logical argument through each correction type.
+
+\hstop
+
+```{r prob2b}
+#code for prob2b
+set.seed(342)
+reps <- 1000
+N <- 20
+pvals.raw <- rep(0,reps)
+pvals.bon <- rep(0,reps)
+pvals.holm <- rep(0,reps)
+pvals.fdr <- rep(0,reps)
+whichpair <- 2
+for(i in 1:reps){
+y1 = rnorm(n=N,mean=20,sd=3)
+y2 = rnorm(n=N,mean=18,sd=3)
+y3 = rnorm(n=N,mean=16,sd=3)
+y = c(y1,y2,y3)
+x = as.factor(c(rep("A",N),rep("B",N),rep("C",N)))
+pvals.raw[i] = pairwise.t.test(y,x,p.adj="none")$p.value[whichpair]
+pvals.bon[i] = pairwise.t.test(y,x,p.adj="bonferroni")$p.value[whichpair]
+pvals.holm[i] = pairwise.t.test(y,x,p.adj="holm")$p.value[whichpair]
+pvals.fdr[i] = pairwise.t.test(y,x,p.adj="fdr")$p.value[whichpair]
+}
+pvals <- data.frame(pvals.raw,pvals.bon,pvals.holm,pvals.fdr)
+power.results <- as.data.frame((pvals<0.05)*1) %>%
+summarize(across(.fns=sum)/1000)
+power.results
+```
+
+\hstart
+
+Any multiple comparison adjustment will reduce the power of the tests. The reasoning for this is that power is defined as the probability of rejecting $H_0 | H_0$ is false. Implementing an adjustment method makes it harder to reject $H_0$, so there are more type II errors and therefore lower power. 
+For Bonferroni, this method is the most conservative, as in, it widens the confidence intervals by a lot, so it is incredibly hard to reject $H_0$, hence why this measure has the lowest power. 
+The Holm-Bonferroni method is less conservative than the Bonferroni method, so power is slightly higher. 
+Last, the false discovery rate takes a different approach. This method ensures that no more than 5% of rejected null hypotheses are type I errors. These are less conservative than methods that control family wise type I error rate and consequently, power will be higher. 
+
+\hstop
+
+```{r prob2c}
+#code for prob2c
+set.seed(342)
+reps <- 1000
+N <- 20
+pvals.raw <- rep(0,reps)
+pvals.bon <- rep(0,reps)
+pvals.holm <- rep(0,reps)
+pvals.fdr <- rep(0,reps)
+whichpair <- 1
+for(i in 1:reps){
+y1 = rnorm(n=N,mean=20,sd=3)
+y2 = rnorm(n=N,mean=18,sd=3)
+y3 = rnorm(n=N,mean=16,sd=3)
+y = c(y1,y2,y3)
+x = as.factor(c(rep("A",N),rep("B",N),rep("C",N)))
+pvals.raw[i] = pairwise.t.test(y,x,p.adj="none")$p.value[whichpair]
+pvals.bon[i] = pairwise.t.test(y,x,p.adj="bonferroni")$p.value[whichpair]
+pvals.holm[i] = pairwise.t.test(y,x,p.adj="holm")$p.value[whichpair]
+pvals.fdr[i] = pairwise.t.test(y,x,p.adj="fdr")$p.value[whichpair]
+}
+pvals <- data.frame(pvals.raw,pvals.bon,pvals.holm,pvals.fdr)
+power.results <- as.data.frame((pvals<0.05)*1) %>%
+summarize(across(.fns=sum)/1000)
+power.results
+```
+
+\hstart
+
+Changed whichpair to one. 
+
+\hstop
+
+# Problem 3
+
+```{r prob3}
+#code for prob3
+
+```
+
+\hstart
+
+Multiple comparisons adjustments are important because they ensure that we retain at least 95% power in the data analysis. If we did not make these comparisons, power would be much lower. To illustrate this, assume we are running an experiment on 15 different groups. This means that there should be 15 different test statistics, all of which are evaluated and either rejected or accepted at the 95% confidence level. But in ANOVA, we are comparing all of these against eachother, so the power will be much lower, lower as in 0.95 for individual stats, but $1-0.95^{15} = 0.536$ for the entire ANOVA model. The multiple comparisons adjustments account for this, and ensure that power is retained. The only drawback with these correction approaches is that there is a price to be paid in the form of widening confidence intervals beyond what is reasonable. ** elaborate, office hours.  
+
+\hstop
+
+
+
+
+<!-- STUDENTS: STOP HERE
+DO NOT EDIT THE SECTION BELOW -->
+
+## Appendix
+
+```{r show-code, ref.label = all_labels(), echo = TRUE, eval = FALSE}
+
+```

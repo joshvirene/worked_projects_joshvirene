@@ -1,0 +1,256 @@
+---
+title: "Homework Four"
+author: "Josh Virene"
+output: pdf_document
+header-includes:
+  - \usepackage{xcolor}
+  - \usepackage{framed}
+---
+
+<!-- STUDENTS: change the "title" and "author" listed above
+DO NOT EDIT THE SECTION BELOW -->
+\colorlet{shadecolor}{gray!10}
+```{r setup, include=FALSE}
+library(knitr)
+#install the tidyverse library (do this once)
+#install.packages("tidyverse")
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 4, fig.height = 4, tidy = TRUE)
+```
+\newcommand{\hstart}{ \colorlet{shadecolor}{orange!20}
+\begin{shaded} }
+\newcommand{\hstop}{  \end{shaded} \colorlet{shadecolor}{gray!10}}
+<!-- STUDENTS: DO NOT EDIT THE SECTION ABOVE 
+start here, insert homework below -->
+
+# Problem 1
+
+
+```{r prob1}
+#code for prob1
+
+#load the dataset
+library(readr)
+fiber <- read_csv("fiber.csv")
+
+fiber %>% group_by(machine) %>%
+summarise("mean_strength" = mean(strength), "sd_strength" = sd(strength),
+"mean_diameter" = mean(diameter), "sd_diameter" = sd(diameter),
+"n" = length(strength))
+
+g_fiber <- ggplot(fiber, aes(x = diameter, y = strength, col = machine)) +  
+                             xlab("Fiber Diameter") + 
+                             ylab("Fiber Strength") +
+                              ggtitle("Fiber Strength vs Diameter") + 
+geom_point()
+g_fiber
+```
+
+\hstart
+
+
+
+\hstop
+
+## Problem 2
+
+```{r prob2}
+#code for prob2
+model1 <- lm(strength ~ machine, data = fiber)
+kable(anova(model1))
+```
+
+
+\hstart
+
+Based on the results of this ANOVA table, **there is evidence of different population mean breaking strengths for the different machines**. This is because the table returns a p-value that is < 0.05. The ANOVA model tests against the null hypothesis $H_0: \mu_A = \mu_B = \mu_C$
+Because the p value is less than 0.05, this suggests that we will reject the null hypothesis that population mean breaking strengths are equal. 
+
+\hstop
+
+## Problem 3
+
+```{r prob3}
+#code for prob3
+library(emmeans)
+
+fiber.Tukey <- TukeyHSD(aov(strength~machine,data = fiber))
+fiber.Tukey
+plot(fiber.Tukey,las = 2)
+
+lsFoneway <- emmeans(model1, pairwise ~ machine)
+lsFoneway$contrasts
+```
+
+
+\hstart
+
+Based on the Tukey multiple comparisons of means analysis and the graph above, the only statistically signficant different mean breaking strength pairwise comparisons was between machines B and C. The other two pairwise comparisons (between machines A vs. B and A vs. C) had confidence intervals that contained zero, as well as p values that are greater than 0.05 and therefore were not statistically significant. 
+
+\hstop
+
+## Problem 4
+
+```{r prob4}
+#code for prob4
+model2 <- lm(strength ~ machine + diameter, data = fiber)
+kable(anova(model1))
+kable(anova(model2))
+kable(anova(model1, model2))
+```
+
+
+\hstart
+
+These two models are different in that the first model is a one way ANOVA model that does not include diameter as a covariate it has strength as the independent / response variable and only machines as the dependent variable. In the ANCOVA model, this includes diameter as a co variate, machine as a factor variable, and still strength as a response variable. 
+Looking at the results, the important statistics to consider are the F tests, $MS_{error}$, and $MS_{treatment}$. The f statistic is the "signal to noise ratio", which indicates the difference in means for each treatment group. In the ANOVA model, the F statistic for machine is 4.08, which is very low compared to the F statistic in the ANCOVA model. In the ANCOVA model, the F statistic for machine is 27.593, meaning that the signal to noise ratio has increased ($MS_{error}$ decreased between these models). 
+Based on these differences, it is clear that adding in diameter has reduced the noise ($MS_{error}$) in the model and the ANCOVA model is a better fit. 
+
+\hstop
+
+## Problem 5
+
+```{r prob5a}
+#code for prob5a
+summary(model2)
+emmeansF <- emmeans(model2, pairwise ~ machine|diameter)
+emmeansF$contrasts
+```
+
+
+\hstart
+
+
+a. **Estimated mean breaking strength for each machine, and their standard errors:**
+Machine A has a breaking strength of 17.360 units, and a standard error of 2.961. Machine B has a breaking strength of 
+17.360 + 1.037 = 18.397 units, and a standard error of 1.013. Machine C has a breaking strength of 17.360 - 1.584 = 15.776 units, and a standard error of 1.107. 
+b. **The estimated difference in mean breaking strength for each pair of machines and the standard error of these differences:** For the comparison A vs. B, the difference in means is -1.04 units, and the standard error is 1.01. For the comparison A vs. C, the difference in means is 1.58 units, and the standard error is 1.11. For the comparison B vs. C, the difference in means is 2.62 units, and the standard error is 1.15. 
+c. **Test statistics and p values for each pairwise comparison**
+For the comparison A vs. B, the test statistic is -1.024, and the p value is 0.5781. For the comparison A vs.C, the test statistic is 1.431, and the p value is 0.3596. For the comparison B vs. C, the test statistic is 2.283, and the p value is 0.1005. 
+**Note important differences**
+None of these comparisons are significant at the 95% family-wise confidence level. This is different than the comparison in question three because there was a statistically significant pairwise comparison between machines B and C in that model. A reason for the lack of statistical significance for each of these pairwise comparisons is that R is estimating an average value for thread diameter, so the interpretation in this model is comparing the difference in means across machines, given an average value of 24.1 for thread diameter. **The model here assumes that thread diameter is equal across machine types.**
+**Interpretation- how the ANOVA and ANCOVA interpretations differ**
+The ANOVA model only considers the affect of machine type on the strength of the fiber, whereas the ANCOVA model considers both the impact of the machine type, as well as the diameter of the fiber on the strength of the fiber. Again, the ANCOVA model is comparing the mean fiber strength asusuming that each treatment group across machine types has the same fiber diameter. In this model, it is important to recognize that there is no interaction between machine type and fiber diameter (i.e., fiber strength does not depend on how machine type in conjunction with fiber diameter change together.)
+
+\hstop
+
+## Problem 6
+
+```{r prob6}
+#code for prob6
+
+#ANOVA Plots
+attach(fiber)
+df1 <- data.frame(predict(model1),model1$residuals,strength)
+
+strength %>%
+  data(df1)
+  ggplot() + 
+  theme_bw() +
+  geom_point(aes(x = predict(model1),
+                 y = model1$residuals)) +
+xlab("Fitted Values") + 
+ylab("Residuals") + 
+  ggtitle("ANOVA Residuals vs Fitted Values Plot") +
+  theme(legend.position = "none")
+
+ggplot(model1,aes(sample = model1$residuals))+
+  stat_qq()+
+  stat_qq_line()+
+  xlab("Theoretical Quantiles")+
+  ylab("Sample Quantiles")+
+  ggtitle("ANOVA QQplot")+
+  theme_gray(base_size = 16)
+
+#ANCOVA Plots
+df2 <- data.frame(predict(model2),model2$residuals,strength)
+
+strength %>%
+  data(df2)
+  ggplot() + 
+  theme_bw() +
+  geom_point(aes(x = predict(model2),
+                 y = model1$residuals)) +
+xlab("Fitted Values") + 
+ylab("Residuals") + 
+  ggtitle("ANCOVA Residuals vs Fitted Values Plot") +
+  theme(legend.position = "none")
+  
+ggplot(model2,aes(sample = model2$residuals))+
+  stat_qq()+
+  stat_qq_line()+
+  xlab("Theoretical Quantiles")+
+  ylab("Sample Quantiles")+
+  ggtitle("ANCOVA QQplot")+
+  theme_gray(base_size = 16)
+
+
+```
+
+
+\hstart
+
+**a. ANOVA plots:** 
+The assumption of constant variance is not violated, the residuals versus fitted values plot shows that the residuals are fairly constant across fitted values. 
+The assumption of normality is violated in this plot, there is a right tail on the QQ plot. Due to the central limit theorem however, this may not be a huge concern because the coefficients are normally distributed. 
+
+**b. ANCOVA plots:** 
+The assumption of constant variance in the ANCOVA residuals versus fitted values plot is violated because the residuals are not constant across fitted values; their distribution is higher in the middle of the plot than on the left and right ends. 
+The assumption of normality is met, the points all fall very close to the 1-1 line. 
+
+\hstop
+
+## Problem 7
+
+```{r prob7}
+#code for prob7
+
+```
+
+
+\hstart
+
+In the ANOVA residuals versus fitted values plot, the residuals are stacked in columns, while for the ANCOVA residuals versus fitted values plot, the residuals are spread horizontally. The reason for this is that in the ANOVA model, the linear model that ANOVA draws on is strength ~ machines, and machines is a categorical variable with discrete values "A", "B", "C", so the residuals can only fall into these three categories. In the ANCOVA model, this draws on a linear model with predictor variables machines and diameter. Machines is still a categorical discrete variable, but diameter is continuous, so the residuals can now fall within a range of values instead of only on the three defined categories. 
+
+\hstop
+
+## Problem 8
+
+```{r prob8}
+#code for prob8
+```
+
+
+\hstart
+
+The residuals take on larger values for the ANOVA model compared to the ANCOVA model because there is more error and uncertainty in the ANOVA model. The residuals account for the difference between the values of the observed data points and the predicted values from the regression model, so these are larger in the ANOVA model because the absence of the continuous covariate diameter means the model doesn't make as good of a prediction. When this co variate (diameter) is introduced in the ANCOVA model, the model becomes a better fit of the data thereby decreasing the residual values. 
+
+\hstop
+
+## Problem 9
+
+```{r prob9}
+#code for prob9
+
+#first, we'll need to convert machine from a factor to a vector
+attach(fiber)
+model3 <- lm(strength ~ machine + diameter + machine * diameter, data = fiber)
+summary(model3)
+kable(anova(model3))
+```
+
+
+\hstart
+
+One notable result from the ANCOVA model with interaction is that the signal to noise ratio, as indicated by the F statistic is very low, and there is lack of statistical significance for the ANCOVA F test on the interaction variable. This happens because $MS_{treatment}$ - the signal, is very low, and $MS_{error}$ - is high in comparison. The interpretation of this is that the interaction between diameter and machine type does not explain the independent variable - strength. Based on these results, there is not compelling evidence of an interaction. 
+
+\hstop
+
+<!-- STUDENTS: STOP HERE
+DO NOT EDIT THE SECTION BELOW -->
+
+## Appendix
+
+```{r show-code, ref.label = all_labels(), echo = TRUE, eval = FALSE}
+
+```

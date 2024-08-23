@@ -1,0 +1,1801 @@
+subject,age,word_type,set,item,letter_first,session,sentence,order,response,letterwrite,correct
+S01,5.249315068,1,A,teach,t,1,She loves to teach her students,1,th,0.571428571,1
+S01,5.249315068,1,A,deeper,d,1,Can you make the hole deeper?,2,tr,0.571428571,0
+S01,5.249315068,1,A,beach,b,1,I like to go to the beach,3,bh,0.571428571,1
+S01,5.249315068,1,A,piece,p,1,There was a missing puzzle piece,4,b,0.571428571,0
+S01,5.249315068,1,A,teepee,t,1,It's fun to sleep in a teepee,5,t,0.571428571,1
+S01,5.249315068,1,A,case,k,1,She kept her jewelry in a case,6,an,0.571428571,0
+S01,5.249315068,1,A,bean,b,1,Jack bought a magic bean,7,b,0.571428571,1
+S01,5.249315068,1,A,beaver,b,1,The boy wrote a story about a beaver,8,b,0.571428571,1
+S01,5.249315068,1,A,cake,k,1,The family eats yummy cake,9,k,0.571428571,1
+S01,5.249315068,1,A,peach,p,1,Susan ate some peach pie for dessert,10,p,0.571428571,1
+S01,5.249315068,1,A,bead,b,1,She found a little bead,11,b,0.571428571,1
+S01,5.249315068,1,A,jail,j,1,The robber went to jail,12,h,0.571428571,0
+S01,5.249315068,0,A,bed,b,2,He slept in a bed,1,bt,0.571428571,1
+S01,5.249315068,0,A,touch,t,2,Please don't touch the animals,2,t,0.571428571,1
+S01,5.249315068,0,A,dollar,d,2,Can you give me a dollar?,3,t,0.571428571,0
+S01,5.249315068,0,A,bird,b,2,My friend saw a cute little bird,4,bt,0.571428571,1
+S01,5.249315068,0,A,tower,t,2,The children wanted to climb the tower,5,t,0.571428571,1
+S01,5.249315068,0,A,patch,p,2,Mom sewed a patch on his jeans,6,th,0.571428571,0
+S01,5.249315068,0,A,cook,k,2,Grandpa is a good cook,7,h,0.571428571,0
+S01,5.249315068,0,A,cup,k,2,She drank water from a blue cup,8,h,0.571428571,0
+S01,5.249315068,0,A,pet,p,2,She wants to get a pet,9,b,0.571428571,0
+S01,5.249315068,0,A,butter,b,2,The boy ate his bread with some butter,10,b,0.571428571,1
+S01,5.249315068,0,A,bun,b,2,The hotdog is on a bun,11,b,0.571428571,1
+S01,5.249315068,0,A,jet,j,2,The pilot flew a jet,12,e,0.571428571,0
+S02,4.82739726,1,B,teacher,t,1,When I grow up I want to be a teacher,1,t,0.857142857,1
+S02,4.82739726,1,B,peel,p,1,The clown slipped on a banana peel,2,p,0.857142857,1
+S02,4.82739726,1,B,beet,b,1,He didn't want to eat the beet,3,b,0.857142857,1
+S02,4.82739726,1,B,beef,b,1,Hamburgers are made of beef,4,b,0.857142857,1
+S02,4.82739726,1,B,team,t,1,The girl cheered for her favorite team,5,t,0.857142857,1
+S02,4.82739726,1,B,pizza,p,1,Her favorite food is pizza,6,p,0.857142857,1
+S02,4.82739726,1,B,came,k,1,"Yesterday, the big package came",7,k,0.857142857,1
+S02,4.82739726,1,B,cave,k,1,The children explored the spooky cave,8,k,0.857142857,1
+S02,4.82739726,1,B,jeep,g,1,His mom drives a black jeep,9,j,0.857142857,1
+S02,4.82739726,1,B,deal,d,1,Let's make a deal,10,d,0.857142857,1
+S02,4.82739726,1,B,beetle,b,1,The ladybug talks to the beetle,11,b,0.857142857,1
+S02,4.82739726,1,B,beep,b,1,"The shiny robot says ""beep""",12,b,0.857142857,1
+S02,4.82739726,0,B,pill,p,2,The doctor gave the man a pill,1,p,0.857142857,1
+S02,4.82739726,0,B,bat,b,2,She hit the ball with a bat,2,b,0.857142857,1
+S02,4.82739726,0,B,battle,b,2,The soldiers fight in a battle,3,b,0.857142857,1
+S02,4.82739726,0,B,picture,p,2,She smiled for the picture,4,p,0.857142857,1
+S02,4.82739726,0,B,jam,g,2,Mom bought a jar of jam,5,g,0.857142857,1
+S02,4.82739726,0,B,tag,t,2,The kids played a game of tag,6,t,0.857142857,1
+S02,4.82739726,0,B,cap,k,2,The boy wore his favorite cap,7,k,0.857142857,1
+S02,4.82739726,0,B,come,k,2,Today the package will come,8,k,0.857142857,1
+S02,4.82739726,0,B,bib,b,2,The baby wears a bib,9,b,0.857142857,1
+S02,4.82739726,0,B,turtle,t,2,In the book I saw a picture of a turtle,10,t,0.857142857,1
+S02,4.82739726,0,B,bus,b,2,We rode on a bus,11,b,0.857142857,1
+S02,4.82739726,0,B,dirt,d,2,Don't play in the dirt,12,d,0.857142857,1
+S03,5.098630137,0,A,tower,t,1,The children wanted to climb the tower,1,t,1,1
+S03,5.098630137,0,A,cup,k,1,She drank water from a blue cup,2,con,1,1
+S03,5.098630137,0,A,butter,b,1,The boy ate his bread with some butter,3,boa,1,1
+S03,5.098630137,0,A,pet,p,1,She wants to get a pet,4,porleb,1,1
+S03,5.098630137,0,A,bed,b,1,He slept in a bed,5,bloer,1,1
+S03,5.098630137,0,A,touch,t,1,Please don't touch the animals,6,tleth,1,1
+S03,5.098630137,0,A,cook,k,1,Grandpa is a good cook,7,cathol,1,1
+S03,5.098630137,0,A,bun,b,1,The hotdog is on a bun,8,bor,1,1
+S03,5.098630137,0,A,patch,p,1,Mom sewed a patch on his jeans,9,bthe,1,0
+S03,5.098630137,0,A,jet,j,1,The pilot flew a jet,10,jacob,1,1
+S03,5.098630137,0,A,bird,b,1,My friend saw a cute little bird,11,brrthlao,1,1
+S03,5.098630137,0,A,dollar,d,1,Can you give me a dollar?,12,dtaahar,1,1
+S03,5.098630137,1,A,beach,b,2,I like to go to the beach,1,bepant,1,1
+S03,5.098630137,1,A,jail,j,2,The robber went to jail,2,jacob,1,1
+S03,5.098630137,1,A,peach,p,2,Susan ate some peach pie for dessert,3,bth,1,0
+S03,5.098630137,1,A,teepee,t,2,It's fun to sleep in a teepee,4,ttn,1,1
+S03,5.098630137,1,A,case,k,2,She kept her jewelry in a case,5,kthkk,1,1
+S03,5.098630137,1,A,piece,p,2,There was a missing puzzle piece,6,bte,1,0
+S03,5.098630137,1,A,bead,b,2,She found a little bead,7,btpth,1,1
+S03,5.098630137,1,A,cake,k,2,The family eats yummy cake,8,kke,1,1
+S03,5.098630137,1,A,deeper,d,2,Can you make the hole deeper?,9,dttil,1,1
+S03,5.098630137,1,A,teach,t,2,She loves to teach her students,10,tth,1,1
+S03,5.098630137,1,A,beaver,b,2,The boy wrote a story about a beaver,11,bpt,1,1
+S03,5.098630137,1,A,bean,b,2,Jack bought a magic bean,12,bt,1,1
+S04,5.109589041,0,B,bib,b,1,The baby wears a bib,1,r,0.714285714,0
+S04,5.109589041,0,B,cap,k,1,The boy wore his favorite cap,2,on,0.714285714,0
+S04,5.109589041,0,B,jam,g,1,Mom bought a jar of jam,3,e,0.714285714,0
+S04,5.109589041,0,B,bat,b,1,She hit the ball with a bat,4,eo,0.714285714,0
+S04,5.109589041,0,B,pill,p,1,The doctor gave the man a pill,5,e,0.714285714,0
+S04,5.109589041,0,B,dirt,d,1,Don't play in the dirt,6,ro,0.714285714,0
+S04,5.109589041,0,B,bus,b,1,We rode on a bus,7,,0.714285714,0
+S04,5.109589041,0,B,turtle,t,1,In the book I saw a picture of a turtle,8,eo,0.714285714,0
+S04,5.109589041,0,B,battle,b,1,The soldiers fight in a battle,9,er,0.714285714,0
+S04,5.109589041,0,B,tag,t,1,The kids played a game of tag,10,e,0.714285714,0
+S04,5.109589041,0,B,come,k,1,Today the package will come,11,oe,0.714285714,0
+S04,5.109589041,0,B,picture,p,1,She smiled for the picture,12,or,0.714285714,0
+S04,5.109589041,1,B,teacher,t,2,When I grow up I want to be a teacher,1,t,0.714285714,1
+S04,5.109589041,1,B,peel,p,2,The clown slipped on a banana peel,2,o,0.714285714,0
+S04,5.109589041,1,B,beet,b,2,He didn't want to eat the beet,3,e,0.714285714,0
+S04,5.109589041,1,B,beef,b,2,Hamburgers are made of beef,4,e,0.714285714,0
+S04,5.109589041,1,B,team,t,2,The girl cheered for her favorite team,5,e,0.714285714,0
+S04,5.109589041,1,B,pizza,p,2,Her favorite food is pizza,6,n,0.714285714,0
+S04,5.109589041,1,B,came,k,2,"Yesterday, the big package came",7,ir,0.714285714,0
+S04,5.109589041,1,B,cave,k,2,The children explored the spooky cave,8,oe,0.714285714,0
+S04,5.109589041,1,B,jeep,g,2,His mom drives a black jeep,9,e,0.714285714,0
+S04,5.109589041,1,B,deal,d,2,Let's make a deal,10,eow,0.714285714,0
+S04,5.109589041,1,B,beetle,b,2,The ladybug talks to the beetle,11,eo,0.714285714,0
+S04,5.109589041,1,B,beep,b,2,"The shiny robot says ""beep""",12,oooo,0.714285714,0
+S05,5.090410959,1,A,teach,t,1,She loves to teach her students,1,t,0.714285714,1
+S05,5.090410959,1,A,bean,b,1,Jack bought a magic bean,2,j,0.714285714,0
+S05,5.090410959,1,A,beach,b,1,I like to go to the beach,3,v,0.714285714,0
+S05,5.090410959,1,A,case,k,1,She kept her jewelry in a case,4,k,0.714285714,1
+S05,5.090410959,1,A,piece,p,1,There was a missing puzzle piece,5,p,0.714285714,1
+S05,5.090410959,1,A,deeper,d,1,Can you make the hole deeper?,6,d,0.714285714,1
+S05,5.090410959,1,A,teepee,t,1,It's fun to sleep in a teepee,7,t,0.714285714,1
+S05,5.090410959,1,A,bead,b,1,She found a little bead,8,b,0.714285714,1
+S05,5.090410959,1,A,cake,k,1,The family eats yummy cake,9,c,0.714285714,1
+S05,5.090410959,1,A,peach,p,1,Susan ate some peach pie for dessert,10,p,0.714285714,1
+S05,5.090410959,1,A,beaver,b,1,The boy wrote a story about a beaver,11,b,0.714285714,1
+S05,5.090410959,1,A,jail,j,1,The robber went to jail,12,j,0.714285714,1
+S05,5.090410959,0,A,dollar,d,2,Can you give me a dollar?,1,d,0.714285714,1
+S05,5.090410959,0,A,pet,p,2,She wants to get a pet,2,d,0.714285714,0
+S05,5.090410959,0,A,jet,j,2,The pilot flew a jet,3,j,0.714285714,1
+S05,5.090410959,0,A,bird,b,2,My friend saw a cute little bird,4,p,0.714285714,0
+S05,5.090410959,0,A,bun,b,2,The hotdog is on a bun,5,b,0.714285714,1
+S05,5.090410959,0,A,touch,t,2,Please don't touch the animals,6,,0.714285714,0
+S05,5.090410959,0,A,patch,p,2,Mom sewed a patch on his jeans,7,b,0.714285714,0
+S05,5.090410959,0,A,cook,k,2,Grandpa is a good cook,8,d,0.714285714,0
+S05,5.090410959,0,A,cup,k,2,She drank water from a blue cup,9,c,0.714285714,1
+S05,5.090410959,0,A,tower,t,2,The children wanted to climb the tower,10,e,0.714285714,0
+S05,5.090410959,0,A,bed,b,2,He slept in a bed,11,m,0.714285714,0
+S05,5.090410959,0,A,butter,b,2,The boy ate his bread with some butter,12,d,0.714285714,0
+S06,5.263013699,1,B,beet,b,1,He didn't want to eat the beet,1,bt,0.857142857,1
+S06,5.263013699,1,B,deal,d,1,Let's make a deal,2,dl,0.857142857,1
+S06,5.263013699,1,B,beetle,b,1,The ladybug talks to the beetle,3,bi,0.857142857,1
+S06,5.263013699,1,B,jeep,g,1,His mom drives a black jeep,4,jp,0.857142857,1
+S06,5.263013699,1,B,team,t,1,The girl cheered for her favorite team,5,tm,0.857142857,1
+S06,5.263013699,1,B,peel,p,1,The clown slipped on a banana peel,6,pl,0.857142857,1
+S06,5.263013699,1,B,beep,b,1,"The shiny robot says ""beep""",7,bp,0.857142857,1
+S06,5.263013699,1,B,came,k,1,"Yesterday, the big package came",8,km,0.857142857,1
+S06,5.263013699,1,B,pizza,p,1,Her favorite food is pizza,9,p,0.857142857,1
+S06,5.263013699,1,B,beef,b,1,Hamburgers are made of beef,10,bf,0.857142857,1
+S06,5.263013699,1,B,teacher,t,1,When I grow up I want to be a teacher,11,th,0.857142857,1
+S06,5.263013699,1,B,cave,k,1,The children explored the spooky cave,12,c,0.857142857,1
+S06,5.263013699,0,B,cap,k,2,The boy wore his favorite cap,1,c,0.857142857,1
+S06,5.263013699,0,B,picture,p,2,She smiled for the picture,2,p,0.857142857,1
+S06,5.263013699,0,B,bus,b,2,We rode on a bus,3,b,0.857142857,1
+S06,5.263013699,0,B,tag,t,2,The kids played a game of tag,4,t,0.857142857,1
+S06,5.263013699,0,B,come,k,2,Today the package will come,5,c,0.857142857,1
+S06,5.263013699,0,B,bib,b,2,The baby wears a bib,6,b,0.857142857,1
+S06,5.263013699,0,B,turtle,t,2,In the book I saw a picture of a turtle,7,t,0.857142857,1
+S06,5.263013699,0,B,battle,b,2,The soldiers fight in a battle,8,b,0.857142857,1
+S06,5.263013699,0,B,pill,p,2,The doctor gave the man a pill,9,p,0.857142857,1
+S06,5.263013699,0,B,dirt,d,2,Don't play in the dirt,10,d,0.857142857,1
+S06,5.263013699,0,B,bat,b,2,She hit the ball with a bat,11,b,0.857142857,1
+S06,5.263013699,0,B,jam,g,2,Mom bought a jar of jam,12,b,0.857142857,0
+S07,4.923287671,0,A,cup,k,1,She drank water from a blue cup,1,a,0.142857143,0
+S07,4.923287671,0,A,jet,j,1,The pilot flew a jet,2,e,0.142857143,0
+S07,4.923287671,0,A,bird,b,1,My friend saw a cute little bird,3,e,0.142857143,0
+S07,4.923287671,0,A,tower,t,1,The children wanted to climb the tower,4,,0.142857143,0
+S07,4.923287671,0,A,butter,b,1,The boy ate his bread with some butter,5,k,0.142857143,0
+S07,4.923287671,0,A,patch,p,1,Mom sewed a patch on his jeans,6,x,0.142857143,0
+S07,4.923287671,0,A,pet,p,1,She wants to get a pet,7,k,0.142857143,0
+S07,4.923287671,0,A,bed,b,1,He slept in a bed,8,o,0.142857143,0
+S07,4.923287671,0,A,dollar,d,1,Can you give me a dollar?,9,s,0.142857143,0
+S07,4.923287671,0,A,bun,b,1,The hotdog is on a bun,10,a,0.142857143,0
+S07,4.923287671,0,A,cook,k,1,Grandpa is a good cook,11,i,0.142857143,0
+S07,4.923287671,0,A,touch,t,1,Please don't touch the animals,12,q,0.142857143,0
+S07,4.923287671,1,A,piece,p,2,There was a missing puzzle piece,1,ac,0.142857143,0
+S07,4.923287671,1,A,teach,t,2,She loves to teach her students,2,iseoa,0.142857143,0
+S07,4.923287671,1,A,cake,k,2,The family eats yummy cake,3,asse,0.142857143,0
+S07,4.923287671,1,A,beach,b,2,I like to go to the beach,4,a,0.142857143,0
+S07,4.923287671,1,A,bean,b,2,Jack bought a magic bean,5,ca,0.142857143,0
+S07,4.923287671,1,A,jail,j,2,The robber went to jail,6,oaseo,0.142857143,0
+S07,4.923287671,1,A,peach,p,2,Susan ate some peach pie for dessert,7,aee,0.142857143,0
+S07,4.923287671,1,A,teepee,t,2,It's fun to sleep in a teepee,8,c,0.142857143,0
+S07,4.923287671,1,A,case,k,2,She kept her jewelry in a case,9,eee,0.142857143,0
+S07,4.923287671,1,A,deeper,d,2,Can you make the hole deeper?,10,aaa,0.142857143,0
+S07,4.923287671,1,A,beaver,b,2,The boy wrote a story about a beaver,11,appp,0.142857143,0
+S07,4.923287671,1,A,bead,b,2,She found a little bead,12,aei,0.142857143,0
+S08,5.4,0,B,battle,b,1,The soldiers fight in a battle,1,lwrync,0.571428571,0
+S08,5.4,0,B,tag,t,1,The kids played a game of tag,2,dlcwpryc,0.571428571,0
+S08,5.4,0,B,bat,b,1,She hit the ball with a bat,3,cwpbrbvyn,0.571428571,0
+S08,5.4,0,B,bib,b,1,The baby wears a bib,4,cbwdzprynuoo,0.571428571,0
+S08,5.4,0,B,pill,p,1,The doctor gave the man a pill,5,cewmrplce,0.571428571,0
+S08,5.4,0,B,turtle,t,1,In the book I saw a picture of a turtle,6,ecaamrpz,0.571428571,0
+S08,5.4,0,B,picture,p,1,She smiled for the picture,7,ecwrpz,0.571428571,0
+S08,5.4,0,B,jam,g,1,Mom bought a jar of jam,8,eoooevhhz,0.571428571,0
+S08,5.4,0,B,cap,k,1,The boy wore his favorite cap,9,cwrhel,0.571428571,1
+S08,5.4,0,B,bus,b,1,We rode on a bus,10,ceawhmrc,0.571428571,0
+S08,5.4,0,B,dirt,d,1,Don't play in the dirt,11,cworeylwoov,0.571428571,0
+S08,5.4,0,B,come,k,1,Today the package will come,12,camwrpwo,0.571428571,1
+S08,5.4,1,B,peel,p,2,The clown slipped on a banana peel,1,amrpyzshwrp,0.571428571,0
+S08,5.4,1,B,beep,b,2,"The shiny robot says ""beep""",2,pwobbb,0.571428571,0
+S08,5.4,1,B,came,k,2,"Yesterday, the big package came",3,belcawrw,0.571428571,0
+S08,5.4,1,B,teacher,t,2,When I grow up I want to be a teacher,4,bllelecc,0.571428571,0
+S08,5.4,1,B,deal,d,2,Let's make a deal,5,erwoo,0.571428571,0
+S08,5.4,1,B,cave,k,2,The children explored the spooky cave,6,ram,0.571428571,0
+S08,5.4,1,B,pizza,p,2,Her favorite food is pizza,7,ellrrr,0.571428571,0
+S08,5.4,1,B,beet,b,2,He didn't want to eat the beet,8,brrrrln,0.571428571,1
+S08,5.4,1,B,team,t,2,The girl cheered for her favorite team,9,effl,0.571428571,0
+S08,5.4,1,B,jeep,g,2,His mom drives a black jeep,10,ooerrf,0.571428571,0
+S08,5.4,1,B,beef,b,2,Hamburgers are made of beef,11,bebdb,0.571428571,1
+S08,5.4,1,B,beetle,b,2,The ladybug talks to the beetle,12,aeef,0.571428571,0
+S10,4.956164384,1,B,beet,b,1,He didn't want to eat the beet,1,s,0.428571429,0
+S10,4.956164384,1,B,came,k,1,"Yesterday, the big package came",2,a,0.428571429,0
+S10,4.956164384,1,B,pizza,p,1,Her favorite food is pizza,3,d,0.428571429,0
+S10,4.956164384,1,B,jeep,g,1,His mom drives a black jeep,4,o,0.428571429,0
+S10,4.956164384,1,B,deal,d,1,Let's make a deal,5,m,0.428571429,0
+S10,4.956164384,1,B,cave,k,1,The children explored the spooky cave,6,u,0.428571429,0
+S10,4.956164384,1,B,beef,b,1,Hamburgers are made of beef,7,d,0.428571429,0
+S10,4.956164384,1,B,teacher,t,1,When I grow up I want to be a teacher,8,w,0.428571429,0
+S10,4.956164384,1,B,beep,b,1,"The shiny robot says ""beep""",9,b,0.428571429,1
+S10,4.956164384,1,B,beetle,b,1,The ladybug talks to the beetle,10,k,0.428571429,0
+S10,4.956164384,1,B,peel,p,1,The clown slipped on a banana peel,11,e,0.428571429,0
+S10,4.956164384,1,B,team,t,1,The girl cheered for her favorite team,12,c,0.428571429,0
+S10,4.956164384,0,B,battle,b,2,The soldiers fight in a battle,1,s,0.428571429,0
+S10,4.956164384,0,B,pill,p,2,The doctor gave the man a pill,2,a,0.428571429,0
+S10,4.956164384,0,B,tag,t,2,The kids played a game of tag,3,o,0.428571429,0
+S10,4.956164384,0,B,bib,b,2,The baby wears a bib,4,b,0.428571429,1
+S10,4.956164384,0,B,cap,k,2,The boy wore his favorite cap,5,a,0.428571429,0
+S10,4.956164384,0,B,bus,b,2,We rode on a bus,6,d,0.428571429,0
+S10,4.956164384,0,B,picture,p,2,She smiled for the picture,7,b,0.428571429,0
+S10,4.956164384,0,B,dirt,d,2,Don't play in the dirt,8,a,0.428571429,0
+S10,4.956164384,0,B,turtle,t,2,In the book I saw a picture of a turtle,9,e,0.428571429,0
+S10,4.956164384,0,B,come,k,2,Today the package will come,10,b,0.428571429,0
+S10,4.956164384,0,B,bat,b,2,She hit the ball with a bat,11,s,0.428571429,0
+S10,4.956164384,0,B,jam,g,2,Mom bought a jar of jam,12,q,0.428571429,0
+S11,4.920547945,0,A,pet,p,1,She wants to get a pet,1,p,0.857142857,1
+S11,4.920547945,0,A,cook,k,1,Grandpa is a good cook,2,k,0.857142857,1
+S11,4.920547945,0,A,bun,b,1,The hotdog is on a bun,3,b,0.857142857,1
+S11,4.920547945,0,A,jet,j,1,The pilot flew a jet,4,j,0.857142857,1
+S11,4.920547945,0,A,cup,k,1,She drank water from a blue cup,5,k,0.857142857,1
+S11,4.920547945,0,A,touch,t,1,Please don't touch the animals,6,j,0.857142857,0
+S11,4.920547945,0,A,tower,t,1,The children wanted to climb the tower,7,t,0.857142857,1
+S11,4.920547945,0,A,patch,p,1,Mom sewed a patch on his jeans,8,p,0.857142857,1
+S11,4.920547945,0,A,dollar,d,1,Can you give me a dollar?,9,d,0.857142857,1
+S11,4.920547945,0,A,butter,b,1,The boy ate his bread with some butter,10,b,0.857142857,1
+S11,4.920547945,0,A,bed,b,1,He slept in a bed,11,b,0.857142857,1
+S11,4.920547945,0,A,bird,b,1,My friend saw a cute little bird,12,b,0.857142857,1
+S11,4.920547945,1,A,bean,b,2,Jack bought a magic bean,1,b,0.857142857,1
+S11,4.920547945,1,A,deeper,d,2,Can you make the hole deeper?,2,d,0.857142857,1
+S11,4.920547945,1,A,beach,b,2,I like to go to the beach,3,b,0.857142857,1
+S11,4.920547945,1,A,beaver,b,2,The boy wrote a story about a beaver,4,b,0.857142857,1
+S11,4.920547945,1,A,peach,p,2,Susan ate some peach pie for dessert,5,p,0.857142857,1
+S11,4.920547945,1,A,bead,b,2,She found a little bead,6,b,0.857142857,1
+S11,4.920547945,1,A,cake,k,2,The family eats yummy cake,7,k,0.857142857,1
+S11,4.920547945,1,A,case,k,2,She kept her jewelry in a case,8,k,0.857142857,1
+S11,4.920547945,1,A,teach,t,2,She loves to teach her students,9,t,0.857142857,1
+S11,4.920547945,1,A,piece,p,2,There was a missing puzzle piece,10,b,0.857142857,0
+S11,4.920547945,1,A,teepee,t,2,It's fun to sleep in a teepee,11,t,0.857142857,1
+S11,4.920547945,1,A,jail,j,2,The robber went to jail,12,j,0.857142857,1
+S12,5.347945205,0,B,cap,k,1,The boy wore his favorite cap,1,beppbaaynnna,0.571428571,0
+S12,5.347945205,0,B,picture,p,1,She smiled for the picture,2,efftdztptaoa,0.571428571,0
+S12,5.347945205,0,B,bib,b,1,The baby wears a bib,3,eillmapyb,0.571428571,0
+S12,5.347945205,0,B,pill,p,1,The doctor gave the man a pill,4,bpennzbillmnn,0.571428571,0
+S12,5.347945205,0,B,bat,b,1,She hit the ball with a bat,5,ebpiillllima,0.571428571,0
+S12,5.347945205,0,B,battle,b,1,The soldiers fight in a battle,6,bbbbbllllinm,0.571428571,1
+S12,5.347945205,0,B,jam,g,1,Mom bought a jar of jam,7,malllbbbbbbli,0.571428571,0
+S12,5.347945205,0,B,come,k,1,Today the package will come,8,ooooillllno,0.571428571,0
+S12,5.347945205,0,B,turtle,t,1,In the book I saw a picture of a turtle,9,oooomioonmiiioiooia,0.571428571,0
+S12,5.347945205,0,B,dirt,d,1,Don't play in the dirt,10,mllllioiionnoiionn,0.571428571,0
+S12,5.347945205,0,B,bus,b,1,We rode on a bus,11,ssttefobs,0.571428571,0
+S12,5.347945205,0,B,tag,t,1,The kids played a game of tag,12,scoem,0.571428571,0
+S12,5.347945205,1,B,beep,b,2,"The shiny robot says ""beep""",1,belbbbla,0.571428571,1
+S12,5.347945205,1,B,teacher,t,2,When I grow up I want to be a teacher,2,aaaaaaaabbbbbpppppd,0.571428571,0
+S12,5.347945205,1,B,team,t,2,The girl cheered for her favorite team,3,fffffff,0.571428571,0
+S12,5.347945205,1,B,beetle,b,2,The ladybug talks to the beetle,4,bpbpbpbpbpbp,0.571428571,1
+S12,5.347945205,1,B,beet,b,2,He didn't want to eat the beet,5,aaapblinmooi,0.571428571,0
+S12,5.347945205,1,B,peel,p,2,The clown slipped on a banana peel,6,ooooooooooo,0.571428571,0
+S12,5.347945205,1,B,came,k,2,"Yesterday, the big package came",7,llllllllllllllllllllllllllllllllllllllllll,0.571428571,0
+S12,5.347945205,1,B,pizza,p,2,Her favorite food is pizza,8,pnym,0.571428571,1
+S12,5.347945205,1,B,beef,b,2,Hamburgers are made of beef,9,nnnooooooooooooooooooooo,0.571428571,0
+S12,5.347945205,1,B,jeep,g,2,His mom drives a black jeep,10,aie,0.571428571,0
+S12,5.347945205,1,B,deal,d,2,Let's make a deal,11,mpe,0.571428571,0
+S12,5.347945205,1,B,cave,k,2,The children explored the spooky cave,12,deli,0.571428571,0
+S13,5.030136986,1,A,beaver,b,1,The boy wrote a story about a beaver,1,bci,0.714285714,1
+S13,5.030136986,1,A,beach,b,1,I like to go to the beach,2,bcl,0.714285714,1
+S13,5.030136986,1,A,case,k,1,She kept her jewelry in a case,3,klo,0.714285714,1
+S13,5.030136986,1,A,peach,p,1,Susan ate some peach pie for dessert,4,cb,0.714285714,0
+S13,5.030136986,1,A,cake,k,1,The family eats yummy cake,5,kc,0.714285714,1
+S13,5.030136986,1,A,piece,p,1,There was a missing puzzle piece,6,bc,0.714285714,0
+S13,5.030136986,1,A,bean,b,1,Jack bought a magic bean,7,bi,0.714285714,1
+S13,5.030136986,1,A,deeper,d,1,Can you make the hole deeper?,8,dc,0.714285714,1
+S13,5.030136986,1,A,teach,t,1,She loves to teach her students,9,db,0.714285714,0
+S13,5.030136986,1,A,teepee,t,1,It's fun to sleep in a teepee,10,tb,0.714285714,1
+S13,5.030136986,1,A,jail,j,1,The robber went to jail,11,i,0.714285714,0
+S13,5.030136986,1,A,bead,b,1,She found a little bead,12,bi,0.714285714,1
+S13,5.030136986,0,A,butter,b,2,The boy ate his bread with some butter,1,bis,0.714285714,1
+S13,5.030136986,0,A,tower,t,2,The children wanted to climb the tower,2,tsi,0.714285714,1
+S13,5.030136986,0,A,pet,p,2,She wants to get a pet,3,pis,0.714285714,1
+S13,5.030136986,0,A,cook,k,2,Grandpa is a good cook,4,pis,0.714285714,0
+S13,5.030136986,0,A,bird,b,2,My friend saw a cute little bird,5,bis,0.714285714,1
+S13,5.030136986,0,A,bun,b,2,The hotdog is on a bun,6,bis,0.714285714,1
+S13,5.030136986,0,A,touch,t,2,Please don't touch the animals,7,tis,0.714285714,1
+S13,5.030136986,0,A,bed,b,2,He slept in a bed,8,bis,0.714285714,1
+S13,5.030136986,0,A,patch,p,2,Mom sewed a patch on his jeans,9,bis,0.714285714,0
+S13,5.030136986,0,A,jet,j,2,The pilot flew a jet,10,gis,0.714285714,1
+S13,5.030136986,0,A,dollar,d,2,Can you give me a dollar?,11,dis,0.714285714,1
+S13,5.030136986,0,A,cup,k,2,She drank water from a blue cup,12,ki,0.714285714,1
+S14,4.630136986,1,B,peel,p,1,The clown slipped on a banana peel,1,l,0.714285714,0
+S14,4.630136986,1,B,beet,b,1,He didn't want to eat the beet,2,b,0.714285714,1
+S14,4.630136986,1,B,pizza,p,1,Her favorite food is pizza,3,u,0.714285714,0
+S14,4.630136986,1,B,came,k,1,"Yesterday, the big package came",4,a,0.714285714,0
+S14,4.630136986,1,B,cave,k,1,The children explored the spooky cave,5,k,0.714285714,1
+S14,4.630136986,1,B,beef,b,1,Hamburgers are made of beef,6,b,0.714285714,1
+S14,4.630136986,1,B,team,t,1,The girl cheered for her favorite team,7,t,0.714285714,1
+S14,4.630136986,1,B,beetle,b,1,The ladybug talks to the beetle,8,b,0.714285714,1
+S14,4.630136986,1,B,teacher,t,1,When I grow up I want to be a teacher,9,t,0.714285714,1
+S14,4.630136986,1,B,jeep,g,1,His mom drives a black jeep,10,g,0.714285714,1
+S14,4.630136986,1,B,beep,b,1,"The shiny robot says ""beep""",11,b,0.714285714,1
+S14,4.630136986,1,B,deal,d,1,Let's make a deal,12,d,0.714285714,1
+S14,4.630136986,0,B,battle,b,2,The soldiers fight in a battle,1,a,0.714285714,0
+S14,4.630136986,0,B,dirt,d,2,Don't play in the dirt,2,b,0.714285714,0
+S14,4.630136986,0,B,bat,b,2,She hit the ball with a bat,3,a,0.714285714,0
+S14,4.630136986,0,B,jam,g,2,Mom bought a jar of jam,4,g,0.714285714,1
+S14,4.630136986,0,B,tag,t,2,The kids played a game of tag,5,u,0.714285714,0
+S14,4.630136986,0,B,turtle,t,2,In the book I saw a picture of a turtle,6,t,0.714285714,1
+S14,4.630136986,0,B,bus,b,2,We rode on a bus,7,b,0.714285714,1
+S14,4.630136986,0,B,bib,b,2,The baby wears a bib,8,a,0.714285714,0
+S14,4.630136986,0,B,picture,p,2,She smiled for the picture,9,g,0.714285714,0
+S14,4.630136986,0,B,cap,k,2,The boy wore his favorite cap,10,d,0.714285714,0
+S14,4.630136986,0,B,pill,p,2,The doctor gave the man a pill,11,l,0.714285714,0
+S14,4.630136986,0,B,come,k,2,Today the package will come,12,u,0.714285714,0
+S15,4.947945205,0,A,bird,b,1,My friend saw a cute little bird,1,b,0.714285714,1
+S15,4.947945205,0,A,dollar,d,1,Can you give me a dollar?,2,d,0.714285714,1
+S15,4.947945205,0,A,jet,j,1,The pilot flew a jet,3,j,0.714285714,1
+S15,4.947945205,0,A,patch,p,1,Mom sewed a patch on his jeans,4,i,0.714285714,0
+S15,4.947945205,0,A,bed,b,1,He slept in a bed,5,b,0.714285714,1
+S15,4.947945205,0,A,pet,p,1,She wants to get a pet,6,p,0.714285714,1
+S15,4.947945205,0,A,cup,k,1,She drank water from a blue cup,7,p,0.714285714,0
+S15,4.947945205,0,A,tower,t,1,The children wanted to climb the tower,8,t,0.714285714,1
+S15,4.947945205,0,A,touch,t,1,Please don't touch the animals,9,h,0.714285714,0
+S15,4.947945205,0,A,cook,k,1,Grandpa is a good cook,10,k,0.714285714,1
+S15,4.947945205,0,A,butter,b,1,The boy ate his bread with some butter,11,b,0.714285714,1
+S15,4.947945205,0,A,bun,b,1,The hotdog is on a bun,12,b,0.714285714,1
+S15,4.947945205,1,A,bean,b,2,Jack bought a magic bean,1,b,0.714285714,1
+S15,4.947945205,1,A,deeper,d,2,Can you make the hole deeper?,2,d,0.714285714,1
+S15,4.947945205,1,A,beach,b,2,I like to go to the beach,3,p,0.714285714,0
+S15,4.947945205,1,A,piece,p,2,There was a missing puzzle piece,4,e,0.714285714,0
+S15,4.947945205,1,A,beaver,b,2,The boy wrote a story about a beaver,5,p,0.714285714,0
+S15,4.947945205,1,A,teepee,t,2,It's fun to sleep in a teepee,6,t,0.714285714,1
+S15,4.947945205,1,A,case,k,2,She kept her jewelry in a case,7,k,0.714285714,1
+S15,4.947945205,1,A,bead,b,2,She found a little bead,8,b,0.714285714,1
+S15,4.947945205,1,A,cake,k,2,The family eats yummy cake,9,c,0.714285714,1
+S15,4.947945205,1,A,peach,p,2,Susan ate some peach pie for dessert,10,p,0.714285714,1
+S15,4.947945205,1,A,jail,j,2,The robber went to jail,11,j,0.714285714,1
+S15,4.947945205,1,A,teach,t,2,She loves to teach her students,12,t,0.714285714,1
+S17,5.18630137,1,A,peach,p,1,Susan ate some peach pie for dessert,1,pppppppppp,1,1
+S17,5.18630137,1,A,cake,k,1,The family eats yummy cake,2,kkkkkkkkk,1,1
+S17,5.18630137,1,A,beaver,b,1,The boy wrote a story about a beaver,3,bbbbbbbbbbbb,1,1
+S17,5.18630137,1,A,piece,p,1,There was a missing puzzle piece,4,pppppppppppp,1,1
+S17,5.18630137,1,A,beach,b,1,I like to go to the beach,5,bbbbb,1,1
+S17,5.18630137,1,A,case,k,1,She kept her jewelry in a case,6,kkkkkkkkkkkkkkkkk,1,1
+S17,5.18630137,1,A,teach,t,1,She loves to teach her students,7,hhhhhhhhh,1,0
+S17,5.18630137,1,A,deeper,d,1,Can you make the hole deeper?,8,lllllllll,1,0
+S17,5.18630137,1,A,bean,b,1,Jack bought a magic bean,9,eeeeeeeee,1,0
+S17,5.18630137,1,A,jail,j,1,The robber went to jail,10,iiiiiiiiii,1,0
+S17,5.18630137,1,A,teepee,t,1,It's fun to sleep in a teepee,11,eeeeee,1,0
+S17,5.18630137,1,A,bead,b,1,She found a little bead,12,bbbb,1,1
+S17,5.18630137,0,A,bun,b,2,The hotdog is on a bun,1,bb,1,1
+S17,5.18630137,0,A,cook,k,2,Grandpa is a good cook,2,dddd,1,0
+S17,5.18630137,0,A,jet,j,2,The pilot flew a jet,3,ttttttt,1,0
+S17,5.18630137,0,A,bird,b,2,My friend saw a cute little bird,4,bbbbbb,1,1
+S17,5.18630137,0,A,cup,k,2,She drank water from a blue cup,5,pppppppppp,1,0
+S17,5.18630137,0,A,patch,p,2,Mom sewed a patch on his jeans,6,ppppp,1,1
+S17,5.18630137,0,A,pet,p,2,She wants to get a pet,7,eeee,1,0
+S17,5.18630137,0,A,butter,b,2,The boy ate his bread with some butter,8,eeee,1,0
+S17,5.18630137,0,A,touch,t,2,Please don't touch the animals,9,jjjjjj,1,0
+S17,5.18630137,0,A,dollar,d,2,Can you give me a dollar?,10,ee,1,0
+S17,5.18630137,0,A,tower,t,2,The children wanted to climb the tower,11,bbbbbbb,1,0
+S17,5.18630137,0,A,bed,b,2,He slept in a bed,12,uuuu,1,0
+S18,4.882191781,1,B,cave,k,1,The children explored the spooky cave,1,tteesax,0.857142857,0
+S18,4.882191781,1,B,deal,d,1,Let's make a deal,2,jetsysxa,0.857142857,0
+S18,4.882191781,1,B,teacher,t,1,When I grow up I want to be a teacher,3,joeaese,0.857142857,0
+S18,4.882191781,1,B,pizza,p,1,Her favorite food is pizza,4,geeoeejtg,0.857142857,0
+S18,4.882191781,1,B,jeep,g,1,His mom drives a black jeep,5,jettae,0.857142857,1
+S18,4.882191781,1,B,beetle,b,1,The ladybug talks to the beetle,6,bjtyso,0.857142857,1
+S18,4.882191781,1,B,team,t,1,The girl cheered for her favorite team,7,jeatttaosoo,0.857142857,0
+S18,4.882191781,1,B,beef,b,1,Hamburgers are made of beef,8,jlecalfddg,0.857142857,0
+S18,4.882191781,1,B,came,k,1,"Yesterday, the big package came",9,acedcedtcsoe,0.857142857,0
+S18,4.882191781,1,B,beep,b,1,"The shiny robot says ""beep""",10,jtelysoevy,0.857142857,0
+S18,4.882191781,1,B,beet,b,1,He didn't want to eat the beet,11,tejeyt,0.857142857,0
+S18,4.882191781,1,B,peel,p,1,The clown slipped on a banana peel,12,teely,0.857142857,0
+S18,4.882191781,0,B,jam,g,2,Mom bought a jar of jam,1,tsseesyl,0.857142857,0
+S18,4.882191781,0,B,picture,p,2,She smiled for the picture,2,steoats,0.857142857,0
+S18,4.882191781,0,B,come,k,2,Today the package will come,3,eftsoaso,0.857142857,0
+S18,4.882191781,0,B,dirt,d,2,Don't play in the dirt,4,fealyso,0.857142857,0
+S18,4.882191781,0,B,bus,b,2,We rode on a bus,5,ylbaoae,0.857142857,0
+S18,4.882191781,0,B,bat,b,2,She hit the ball with a bat,6,tealys,0.857142857,0
+S18,4.882191781,0,B,turtle,t,2,In the book I saw a picture of a turtle,7,bbaef,0.857142857,0
+S18,4.882191781,0,B,pill,p,2,The doctor gave the man a pill,8,tlysalsyb,0.857142857,0
+S18,4.882191781,0,B,bib,b,2,The baby wears a bib,9,tlysalsyb,0.857142857,0
+S18,4.882191781,0,B,battle,b,2,The soldiers fight in a battle,10,tlyaabtsoo,0.857142857,0
+S18,4.882191781,0,B,tag,t,2,The kids played a game of tag,11,esbeso,0.857142857,0
+S18,4.882191781,0,B,cap,k,2,The boy wore his favorite cap,12,ssaystb,0.857142857,0
+S20,5.22739726,0,B,cap,k,1,The boy wore his favorite cap,1,c,1,1
+S20,5.22739726,0,B,pill,p,1,The doctor gave the man a pill,2,p,1,1
+S20,5.22739726,0,B,tag,t,1,The kids played a game of tag,3,t,1,1
+S20,5.22739726,0,B,turtle,t,1,In the book I saw a picture of a turtle,4,t,1,1
+S20,5.22739726,0,B,picture,p,1,She smiled for the picture,5,p,1,1
+S20,5.22739726,0,B,jam,g,1,Mom bought a jar of jam,6,r,1,0
+S20,5.22739726,0,B,battle,b,1,The soldiers fight in a battle,7,t,1,0
+S20,5.22739726,0,B,bib,b,1,The baby wears a bib,8,b,1,1
+S20,5.22739726,0,B,dirt,d,1,Don't play in the dirt,9,d,1,1
+S20,5.22739726,0,B,bus,b,1,We rode on a bus,10,b,1,1
+S20,5.22739726,0,B,bat,b,1,She hit the ball with a bat,11,b,1,1
+S20,5.22739726,0,B,come,k,1,Today the package will come,12,c,1,1
+S20,5.22739726,1,B,beetle,b,2,The ladybug talks to the beetle,1,b,1,1
+S20,5.22739726,1,B,teacher,t,2,When I grow up I want to be a teacher,2,t,1,1
+S20,5.22739726,1,B,beef,b,2,Hamburgers are made of beef,3,t,1,0
+S20,5.22739726,1,B,pizza,p,2,Her favorite food is pizza,4,p,1,1
+S20,5.22739726,1,B,came,k,2,"Yesterday, the big package came",5,c,1,1
+S20,5.22739726,1,B,team,t,2,The girl cheered for her favorite team,6,t,1,1
+S20,5.22739726,1,B,deal,d,2,Let's make a deal,7,d,1,1
+S20,5.22739726,1,B,beep,b,2,"The shiny robot says ""beep""",8,b,1,1
+S20,5.22739726,1,B,jeep,g,2,His mom drives a black jeep,9,r,1,0
+S20,5.22739726,1,B,cave,k,2,The children explored the spooky cave,10,c,1,1
+S20,5.22739726,1,B,peel,p,2,The clown slipped on a banana peel,11,p,1,1
+S20,5.22739726,1,B,beet,b,2,He didn't want to eat the beet,12,m,1,0
+S23,5.405479452,0,A,bun,b,1,The hotdog is on a bun,1,b,0.714285714,1
+S23,5.405479452,0,A,butter,b,1,The boy ate his bread with some butter,2,b,0.714285714,1
+S23,5.405479452,0,A,jet,j,1,The pilot flew a jet,3,j,0.714285714,1
+S23,5.405479452,0,A,dollar,d,1,Can you give me a dollar?,4,d,0.714285714,1
+S23,5.405479452,0,A,bird,b,1,My friend saw a cute little bird,5,b,0.714285714,1
+S23,5.405479452,0,A,patch,p,1,Mom sewed a patch on his jeans,6,p,0.714285714,1
+S23,5.405479452,0,A,cook,k,1,Grandpa is a good cook,7,c,0.714285714,1
+S23,5.405479452,0,A,bed,b,1,He slept in a bed,8,b,0.714285714,1
+S23,5.405479452,0,A,tower,t,1,The children wanted to climb the tower,9,t,0.714285714,1
+S23,5.405479452,0,A,cup,k,1,She drank water from a blue cup,10,k,0.714285714,1
+S23,5.405479452,0,A,touch,t,1,Please don't touch the animals,11,t,0.714285714,1
+S23,5.405479452,0,A,pet,p,1,She wants to get a pet,12,p,0.714285714,1
+S23,5.405479452,1,A,teach,t,2,She loves to teach her students,1,ta,0.714285714,1
+S23,5.405479452,1,A,deeper,d,2,Can you make the hole deeper?,2,de,0.714285714,1
+S23,5.405479452,1,A,bean,b,2,Jack bought a magic bean,3,b,0.714285714,1
+S23,5.405479452,1,A,case,k,2,She kept her jewelry in a case,4,c,0.714285714,1
+S23,5.405479452,1,A,beach,b,2,I like to go to the beach,5,be,0.714285714,1
+S23,5.405479452,1,A,teepee,t,2,It's fun to sleep in a teepee,6,tp,0.714285714,1
+S23,5.405479452,1,A,jail,j,2,The robber went to jail,7,j,0.714285714,1
+S23,5.405479452,1,A,cake,k,2,The family eats yummy cake,8,c,0.714285714,1
+S23,5.405479452,1,A,bead,b,2,She found a little bead,9,b,0.714285714,1
+S23,5.405479452,1,A,peach,p,2,Susan ate some peach pie for dessert,10,p,0.714285714,1
+S23,5.405479452,1,A,piece,p,2,There was a missing puzzle piece,11,p,0.714285714,1
+S23,5.405479452,1,A,beaver,b,2,The boy wrote a story about a beaver,12,b,0.714285714,1
+S24,4.991780822,0,B,bus,b,1,We rode on a bus,1,pom,0,0
+S24,4.991780822,0,B,tag,t,1,The kids played a game of tag,2,pmlyo,0,0
+S24,4.991780822,0,B,pill,p,1,The doctor gave the man a pill,3,pmtmay,0,1
+S24,4.991780822,0,B,bib,b,1,The baby wears a bib,4,pma,0,0
+S24,4.991780822,0,B,turtle,t,1,In the book I saw a picture of a turtle,5,pma,0,0
+S24,4.991780822,0,B,jam,j,1,Mom bought a jar of jam,6,pml,0,0
+S24,4.991780822,0,B,picture,p,1,She smiled for the picture,7,pma,0,1
+S24,4.991780822,0,B,cap,k,1,The boy wore his favorite cap,8,pmap,0,0
+S24,4.991780822,0,B,battle,b,1,The soldiers fight in a battle,9,pmo,0,0
+S24,4.991780822,0,B,dirt,d,1,Don't play in the dirt,10,pomt,0,0
+S24,4.991780822,0,B,bat,b,1,She hit the ball with a bat,11,pmatoi,0,0
+S24,4.991780822,0,B,come,k,1,Today the package will come,12,pmam,0,0
+S24,4.991780822,1,B,came,k,2,"Yesterday, the big package came",1,ks,0,1
+S24,4.991780822,1,B,jeep,g,2,His mom drives a black jeep,2,e,0,0
+S24,4.991780822,1,B,cave,k,2,The children explored the spooky cave,3,t,0,0
+S24,4.991780822,1,B,pizza,p,2,Her favorite food is pizza,4,p,0,1
+S24,4.991780822,1,B,beef,b,2,Hamburgers are made of beef,5,b,0,1
+S24,4.991780822,1,B,beet,b,2,He didn't want to eat the beet,6,b,0,1
+S24,4.991780822,1,B,teacher,t,2,When I grow up I want to be a teacher,7,p,0,0
+S24,4.991780822,1,B,team,t,2,The girl cheered for her favorite team,8,t,0,1
+S24,4.991780822,1,B,deal,d,2,Let's make a deal,9,b,0,0
+S24,4.991780822,1,B,peel,p,2,The clown slipped on a banana peel,10,p,0,1
+S24,4.991780822,1,B,beep,b,2,"The shiny robot says ""beep""",11,mo,0,0
+S24,4.991780822,1,B,beetle,b,2,The ladybug talks to the beetle,12,,0,0
+S25,4.073972603,1,A,teepee,t,1,It's fun to sleep in a teepee,1,a,0.285714286,0
+S25,4.073972603,1,A,peach,p,1,Susan ate some peach pie for dessert,2,,0.285714286,0
+S25,4.073972603,1,A,case,k,1,She kept her jewelry in a case,3,f,0.285714286,0
+S25,4.073972603,1,A,beaver,b,1,The boy wrote a story about a beaver,4,s,0.285714286,0
+S25,4.073972603,1,A,cake,k,1,The family eats yummy cake,5,hs,0.285714286,0
+S25,4.073972603,1,A,jail,j,1,The robber went to jail,6,sohf,0.285714286,0
+S25,4.073972603,1,A,piece,p,1,There was a missing puzzle piece,7,ohphis,0.285714286,0
+S25,4.073972603,1,A,bead,b,1,She found a little bead,8,sphhp,0.285714286,0
+S25,4.073972603,1,A,beach,b,1,I like to go to the beach,9,opphshpohoph,0.285714286,0
+S25,4.073972603,1,A,deeper,d,1,Can you make the hole deeper?,10,oohpo,0.285714286,0
+S25,4.073972603,1,A,bean,b,1,Jack bought a magic bean,11,opohohpoohhpo,0.285714286,0
+S25,4.073972603,1,A,teach,t,1,She loves to teach her students,12,lopiphicyoohb,0.285714286,0
+S25,4.073972603,0,A,bed,b,2,He slept in a bed,1,lopi,0.285714286,0
+S25,4.073972603,0,A,patch,p,2,Mom sewed a patch on his jeans,2,diip,0.285714286,0
+S25,4.073972603,0,A,touch,t,2,Please don't touch the animals,3,piiaip,0.285714286,0
+S25,4.073972603,0,A,tower,t,2,The children wanted to climb the tower,4,b,0.285714286,0
+S25,4.073972603,0,A,cook,k,2,Grandpa is a good cook,5,ba,0.285714286,0
+S25,4.073972603,0,A,dollar,d,2,Can you give me a dollar?,6,pd,0.285714286,0
+S25,4.073972603,0,A,bird,b,2,My friend saw a cute little bird,7,patety,0.285714286,0
+S25,4.073972603,0,A,bun,b,2,The hotdog is on a bun,8,bii,0.285714286,1
+S25,4.073972603,0,A,cup,k,2,She drank water from a blue cup,9,,0.285714286,0
+S25,4.073972603,0,A,butter,b,2,The boy ate his bread with some butter,10,b,0.285714286,1
+S25,4.073972603,0,A,jet,j,2,The pilot flew a jet,11,bhi,0.285714286,0
+S25,4.073972603,0,A,pet,p,2,She wants to get a pet,12,p,0.285714286,1
+S26,4.846575342,1,B,deal,d,1,Let's make a deal,1,d,0.571428571,1
+S26,4.846575342,1,B,beetle,b,1,The ladybug talks to the beetle,2,b,0.571428571,1
+S26,4.846575342,1,B,beef,b,1,Hamburgers are made of beef,3,b,0.571428571,1
+S26,4.846575342,1,B,cave,k,1,The children explored the spooky cave,4,k,0.571428571,1
+S26,4.846575342,1,B,pizza,p,1,Her favorite food is pizza,5,p,0.571428571,1
+S26,4.846575342,1,B,team,t,1,The girl cheered for her favorite team,6,t,0.571428571,1
+S26,4.846575342,1,B,came,k,1,"Yesterday, the big package came",7,k,0.571428571,1
+S26,4.846575342,1,B,beep,b,1,"The shiny robot says ""beep""",8,b,0.571428571,1
+S26,4.846575342,1,B,jeep,g,1,His mom drives a black jeep,9,j,0.571428571,1
+S26,4.846575342,1,B,teacher,t,1,When I grow up I want to be a teacher,10,t,0.571428571,1
+S26,4.846575342,1,B,beet,b,1,He didn't want to eat the beet,11,b,0.571428571,1
+S26,4.846575342,1,B,peel,p,1,The clown slipped on a banana peel,12,p,0.571428571,1
+S26,4.846575342,0,B,turtle,t,2,In the book I saw a picture of a turtle,1,t,0.571428571,1
+S26,4.846575342,0,B,picture,p,2,She smiled for the picture,2,p,0.571428571,1
+S26,4.846575342,0,B,bat,b,2,She hit the ball with a bat,3,b,0.571428571,1
+S26,4.846575342,0,B,come,k,2,Today the package will come,4,c,0.571428571,1
+S26,4.846575342,0,B,battle,b,2,The soldiers fight in a battle,5,b,0.571428571,1
+S26,4.846575342,0,B,bib,b,2,The baby wears a bib,6,b,0.571428571,1
+S26,4.846575342,0,B,jam,j,2,Mom bought a jar of jam,7,g,0.571428571,1
+S26,4.846575342,0,B,pill,p,2,The doctor gave the man a pill,8,p,0.571428571,1
+S26,4.846575342,0,B,tag,t,2,The kids played a game of tag,9,t,0.571428571,1
+S26,4.846575342,0,B,bus,b,2,We rode on a bus,10,b,0.571428571,1
+S26,4.846575342,0,B,dirt,d,2,Don't play in the dirt,11,d,0.571428571,1
+S26,4.846575342,0,B,cap,k,2,The boy wore his favorite cap,12,,0.571428571,0
+S27,4.706849315,0,A,butter,b,1,The boy ate his bread with some butter,1,ami,0,0
+S27,4.706849315,0,A,jet,j,1,The pilot flew a jet,2,w,0,0
+S27,4.706849315,0,A,dollar,d,1,Can you give me a dollar?,3,wom,0,0
+S27,4.706849315,0,A,bed,b,1,He slept in a bed,4,ee,0,0
+S27,4.706849315,0,A,cook,k,1,Grandpa is a good cook,5,aa,0,0
+S27,4.706849315,0,A,patch,p,1,Mom sewed a patch on his jeans,6,,0,0
+S27,4.706849315,0,A,bird,b,1,My friend saw a cute little bird,7,ee,0,0
+S27,4.706849315,0,A,pet,p,1,She wants to get a pet,8,aa,0,0
+S27,4.706849315,0,A,cup,k,1,She drank water from a blue cup,9,,0,0
+S27,4.706849315,0,A,touch,t,1,Please don't touch the animals,10,a,0,0
+S27,4.706849315,0,A,tower,t,1,The children wanted to climb the tower,11,,0,0
+S27,4.706849315,0,A,bun,b,1,The hotdog is on a bun,12,ad,0,0
+S27,4.706849315,1,A,piece,p,2,There was a missing puzzle piece,1,bct,0,0
+S27,4.706849315,1,A,teach,t,2,She loves to teach her students,2,ttdt,0,1
+S27,4.706849315,1,A,case,k,2,She kept her jewelry in a case,3,kcco,0,1
+S27,4.706849315,1,A,beaver,b,2,The boy wrote a story about a beaver,4,eocot,0,0
+S27,4.706849315,1,A,jail,j,2,The robber went to jail,5,coicdc,0,0
+S27,4.706849315,1,A,bean,b,2,Jack bought a magic bean,6,edece,0,0
+S27,4.706849315,1,A,bead,b,2,She found a little bead,7,ec,0,0
+S27,4.706849315,1,A,deeper,d,2,Can you make the hole deeper?,8,ccbeqcc,0,0
+S27,4.706849315,1,A,cake,k,2,The family eats yummy cake,9,a,0,0
+S27,4.706849315,1,A,teepee,t,2,It's fun to sleep in a teepee,10,acaca,0,0
+S27,4.706849315,1,A,peach,p,2,Susan ate some peach pie for dessert,11,ecec,0,0
+S27,4.706849315,1,A,beach,b,2,I like to go to the beach,12,ecec,0,0
+S28,4.936986301,0,B,bat,b,1,She hit the ball with a bat,1,b,1,1
+S28,4.936986301,0,B,turtle,t,1,In the book I saw a picture of a turtle,2,t,1,1
+S28,4.936986301,0,B,bus,b,1,We rode on a bus,3,b,1,1
+S28,4.936986301,0,B,pill,p,1,The doctor gave the man a pill,4,p,1,1
+S28,4.936986301,0,B,come,k,1,Today the package will come,5,c,1,1
+S28,4.936986301,0,B,bib,b,1,The baby wears a bib,6,b,1,1
+S28,4.936986301,0,B,jam,g,1,Mom bought a jar of jam,7,j,1,1
+S28,4.936986301,0,B,cap,k,1,The boy wore his favorite cap,8,k,1,1
+S28,4.936986301,0,B,tag,t,1,The kids played a game of tag,9,t,1,1
+S28,4.936986301,0,B,picture,p,1,She smiled for the picture,10,p,1,1
+S28,4.936986301,0,B,dirt,d,1,Don't play in the dirt,11,d,1,1
+S28,4.936986301,0,B,battle,b,1,The soldiers fight in a battle,12,b,1,1
+S28,4.936986301,1,B,came,k,2,"Yesterday, the big package came",1,kalmy,1,1
+S28,4.936986301,1,B,beetle,b,2,The ladybug talks to the beetle,2,bedy,1,1
+S28,4.936986301,1,B,beep,b,2,"The shiny robot says ""beep""",3,bei,1,1
+S28,4.936986301,1,B,beef,b,2,Hamburgers are made of beef,4,befy,1,1
+S28,4.936986301,1,B,team,t,2,The girl cheered for her favorite team,5,temy,1,1
+S28,4.936986301,1,B,cave,k,2,The children explored the spooky cave,6,cavay,1,1
+S28,4.936986301,1,B,beet,b,2,He didn't want to eat the beet,7,beiny,1,1
+S28,4.936986301,1,B,jeep,g,2,His mom drives a black jeep,8,gefy,1,1
+S28,4.936986301,1,B,pizza,p,2,Her favorite food is pizza,9,puisy,1,1
+S28,4.936986301,1,B,peel,p,2,The clown slipped on a banana peel,10,peiy,1,1
+S28,4.936986301,1,B,deal,d,2,Let's make a deal,11,deiy,1,1
+S28,4.936986301,1,B,teacher,t,2,When I grow up I want to be a teacher,12,tjuy,1,1
+S29,4.789041096,1,A,beaver,b,1,The boy wrote a story about a beaver,1,hams,0.142857143,0
+S29,4.789041096,1,A,bead,b,1,She found a little bead,2,oaefsi,0.142857143,0
+S29,4.789041096,1,A,cake,k,1,The family eats yummy cake,3,melsi,0.142857143,0
+S29,4.789041096,1,A,teepee,t,1,It's fun to sleep in a teepee,4,hmfhasf,0.142857143,0
+S29,4.789041096,1,A,beach,b,1,I like to go to the beach,5,eisaf,0.142857143,0
+S29,4.789041096,1,A,bean,b,1,Jack bought a magic bean,6,efisafh,0.142857143,0
+S29,4.789041096,1,A,peach,p,1,Susan ate some peach pie for dessert,7,alsmnefu,0.142857143,0
+S29,4.789041096,1,A,piece,p,1,There was a missing puzzle piece,8,esaunmeu,0.142857143,0
+S29,4.789041096,1,A,deeper,d,1,Can you make the hole deeper?,9,eueuhunu,0.142857143,0
+S29,4.789041096,1,A,case,k,1,She kept her jewelry in a case,10,eunuenlh,0.142857143,0
+S29,4.789041096,1,A,teach,t,1,She loves to teach her students,11,ufonfe,0.142857143,0
+S29,4.789041096,1,A,jail,j,1,The robber went to jail,12,sfneenf,0.142857143,0
+S29,4.789041096,0,A,jet,j,2,The pilot flew a jet,1,hbilflit,0.142857143,0
+S29,4.789041096,0,A,bun,b,2,The hotdog is on a bun,2,heiabed,0.142857143,0
+S29,4.789041096,0,A,bed,b,2,He slept in a bed,3,mnonrbpoe,0.142857143,0
+S29,4.789041096,0,A,cook,k,2,Grandpa is a good cook,4,omnodyao,0.142857143,0
+S29,4.789041096,0,A,dollar,d,2,Can you give me a dollar?,5,mnamedeebd,0.142857143,0
+S29,4.789041096,0,A,patch,p,2,Mom sewed a patch on his jeans,6,oneidmh,0.142857143,0
+S29,4.789041096,0,A,butter,b,2,The boy ate his bread with some butter,7,uymnosd,0.142857143,0
+S29,4.789041096,0,A,cup,k,2,She drank water from a blue cup,8,oonosv,0.142857143,0
+S29,4.789041096,0,A,bird,b,2,My friend saw a cute little bird,9,oosme,0.142857143,0
+S29,4.789041096,0,A,pet,p,2,She wants to get a pet,10,oofmuuu,0.142857143,0
+S29,4.789041096,0,A,tower,t,2,The children wanted to climb the tower,11,oouns,0.142857143,0
+S29,4.789041096,0,A,touch,t,2,Please don't touch the animals,12,onosaan,0.142857143,0
+S30,5.293150685,1,B,deal,d,1,Let's make a deal,1,del,0.857142857,1
+S30,5.293150685,1,B,teacher,t,1,When I grow up I want to be a teacher,2,tihr,0.857142857,1
+S30,5.293150685,1,B,pizza,p,1,Her favorite food is pizza,3,pizza,0.857142857,1
+S30,5.293150685,1,B,beetle,b,1,The ladybug talks to the beetle,4,bidl,0.857142857,1
+S30,5.293150685,1,B,jeep,g,1,His mom drives a black jeep,5,gip,0.857142857,1
+S30,5.293150685,1,B,beet,b,1,He didn't want to eat the beet,6,bit,0.857142857,1
+S30,5.293150685,1,B,beep,b,1,"The shiny robot says ""beep""",7,bip,0.857142857,1
+S30,5.293150685,1,B,peel,p,1,The clown slipped on a banana peel,8,piul,0.857142857,1
+S30,5.293150685,1,B,cave,k,1,The children explored the spooky cave,9,cav,0.857142857,1
+S30,5.293150685,1,B,beef,b,1,Hamburgers are made of beef,10,bif,0.857142857,1
+S30,5.293150685,1,B,came,k,1,"Yesterday, the big package came",11,qma,0.857142857,1
+S30,5.293150685,1,B,team,t,1,The girl cheered for her favorite team,12,tim,0.857142857,1
+S30,5.293150685,0,B,bat,b,2,She hit the ball with a bat,1,bt,0.857142857,1
+S30,5.293150685,0,B,turtle,t,2,In the book I saw a picture of a turtle,2,std,0.857142857,0
+S30,5.293150685,0,B,bib,b,2,The baby wears a bib,3,bb,0.857142857,1
+S30,5.293150685,0,B,picture,p,2,She smiled for the picture,4,phr,0.857142857,1
+S30,5.293150685,0,B,bus,b,2,We rode on a bus,5,bss,0.857142857,1
+S30,5.293150685,0,B,jam,j,2,Mom bought a jar of jam,6,jam,0.857142857,1
+S30,5.293150685,0,B,tag,t,2,The kids played a game of tag,7,tg,0.857142857,1
+S30,5.293150685,0,B,cap,k,2,The boy wore his favorite cap,8,cap,0.857142857,1
+S30,5.293150685,0,B,pill,p,2,The doctor gave the man a pill,9,pl,0.857142857,1
+S30,5.293150685,0,B,come,k,2,Today the package will come,10,cm,0.857142857,1
+S30,5.293150685,0,B,dirt,d,2,Don't play in the dirt,11,dt,0.857142857,1
+S30,5.293150685,0,B,battle,b,2,The soldiers fight in a battle,12,btol,0.857142857,1
+S31,4.619178082,0,A,jet,j,1,The pilot flew a jet,1,ack,0.857142857,0
+S31,4.619178082,0,A,bird,b,1,My friend saw a cute little bird,2,hw,0.857142857,0
+S31,4.619178082,0,A,touch,t,1,Please don't touch the animals,3,ockwan,0.857142857,0
+S31,4.619178082,0,A,tower,t,1,The children wanted to climb the tower,4,athtw,0.857142857,0
+S31,4.619178082,0,A,dollar,d,1,Can you give me a dollar?,5,ohtwahnh,0.857142857,0
+S31,4.619178082,0,A,butter,b,1,The boy ate his bread with some butter,6,owhen,0.857142857,0
+S31,4.619178082,0,A,bun,b,1,The hotdog is on a bun,7,oonhenmbwonh,0.857142857,0
+S31,4.619178082,0,A,bed,b,1,He slept in a bed,8,nuwnno,0.857142857,0
+S31,4.619178082,0,A,cook,k,1,Grandpa is a good cook,9,nnnna,0.857142857,0
+S31,4.619178082,0,A,pet,p,1,She wants to get a pet,10,nnnnnnnn,0.857142857,0
+S31,4.619178082,0,A,patch,p,1,Mom sewed a patch on his jeans,11,nnahnno,0.857142857,0
+S31,4.619178082,0,A,cup,k,1,She drank water from a blue cup,12,o,0.857142857,0
+S31,4.619178082,1,A,bead,b,2,She found a little bead,1,oewnht,0.857142857,0
+S31,4.619178082,1,A,beach,b,2,I like to go to the beach,2,wonefhnen,0.857142857,0
+S31,4.619178082,1,A,teepee,t,2,It's fun to sleep in a teepee,3,tthhnnennhhht,0.857142857,1
+S31,4.619178082,1,A,peach,p,2,Susan ate some peach pie for dessert,4,tnthtn,0.857142857,0
+S31,4.619178082,1,A,bean,b,2,Jack bought a magic bean,5,ttn,0.857142857,0
+S31,4.619178082,1,A,deeper,d,2,Can you make the hole deeper?,6,wmtttn,0.857142857,0
+S31,4.619178082,1,A,teach,t,2,She loves to teach her students,7,nnettown,0.857142857,0
+S31,4.619178082,1,A,jail,j,2,The robber went to jail,8,tttttt,0.857142857,0
+S31,4.619178082,1,A,cake,k,2,The family eats yummy cake,9,nnnnw,0.857142857,0
+S31,4.619178082,1,A,piece,p,2,There was a missing puzzle piece,10,nnwwnn,0.857142857,0
+S31,4.619178082,1,A,beaver,b,2,The boy wrote a story about a beaver,11,tn,0.857142857,0
+S31,4.619178082,1,A,case,k,2,She kept her jewelry in a case,12,tnonme,0.857142857,0
+S32,4.901369863,0,B,dirt,d,1,Don't play in the dirt,1,abooi,0.714285714,0
+S32,4.901369863,0,B,come,k,1,Today the package will come,2,rrtir,0.714285714,0
+S32,4.901369863,0,B,bus,b,1,We rode on a bus,3,iabbrii,0.714285714,0
+S32,4.901369863,0,B,bat,b,1,She hit the ball with a bat,4,rqirroy,0.714285714,0
+S32,4.901369863,0,B,tag,t,1,The kids played a game of tag,5,ksiir,0.714285714,0
+S32,4.901369863,0,B,jam,g,1,Mom bought a jar of jam,6,rksabrrks,0.714285714,0
+S32,4.901369863,0,B,cap,k,1,The boy wore his favorite cap,7,ksrbriorrksab,0.714285714,1
+S32,4.901369863,0,B,bib,b,1,The baby wears a bib,8,olllry,0.714285714,0
+S32,4.901369863,0,B,turtle,t,1,In the book I saw a picture of a turtle,9,brooks,0.714285714,0
+S32,4.901369863,0,B,pill,p,1,The doctor gave the man a pill,10,sc2ksr,0.714285714,0
+S32,4.901369863,0,B,picture,p,1,She smiled for the picture,11,rrrrinrey,0.714285714,0
+S32,4.901369863,0,B,battle,b,1,The soldiers fight in a battle,12,s20k,0.714285714,0
+S32,4.901369863,1,B,came,k,2,"Yesterday, the big package came",1,eerrb,0.714285714,0
+S32,4.901369863,1,B,beet,b,2,He didn't want to eat the beet,2,lebrin,0.714285714,0
+S32,4.901369863,1,B,peel,p,2,The clown slipped on a banana peel,3,belrin,0.714285714,0
+S32,4.901369863,1,B,pizza,p,2,Her favorite food is pizza,4,lbrobl,0.714285714,0
+S32,4.901369863,1,B,deal,d,2,Let's make a deal,5,bbrriilleeyy,0.714285714,0
+S32,4.901369863,1,B,cave,k,2,The children explored the spooky cave,6,tim,0.714285714,0
+S32,4.901369863,1,B,jeep,g,2,His mom drives a black jeep,7,leb,0.714285714,0
+S32,4.901369863,1,B,team,t,2,The girl cheered for her favorite team,8,unuluoeykbrileborkslnndaaonu,0.714285714,0
+S32,4.901369863,1,B,beef,b,2,Hamburgers are made of beef,9,briis,0.714285714,1
+S32,4.901369863,1,B,teacher,t,2,When I grow up I want to be a teacher,10,brinl,0.714285714,0
+S32,4.901369863,1,B,beetle,b,2,The ladybug talks to the beetle,11,nleks,0.714285714,0
+S32,4.901369863,1,B,beep,b,2,"The shiny robot says ""beep""",12,le,0.714285714,0
+S34,4.430136986,1,B,team,t,1,The girl cheered for her favorite team,1,,0,0
+S34,4.430136986,1,B,pizza,p,1,Her favorite food is pizza,2,,0,0
+S34,4.430136986,1,B,deal,d,1,Let's make a deal,3,b,0,0
+S34,4.430136986,1,B,beep,b,1,"The shiny robot says ""beep""",4,m,0,0
+S34,4.430136986,1,B,peel,p,1,The clown slipped on a banana peel,5,,0,0
+S34,4.430136986,1,B,jeep,g,1,His mom drives a black jeep,6,m,0,0
+S34,4.430136986,1,B,beet,b,1,He didn't want to eat the beet,7,a,0,0
+S34,4.430136986,1,B,came,k,1,"Yesterday, the big package came",8,,0,0
+S34,4.430136986,1,B,beetle,b,1,The ladybug talks to the beetle,9,x,0,0
+S34,4.430136986,1,B,cave,k,1,The children explored the spooky cave,10,x,0,0
+S34,4.430136986,1,B,teacher,t,1,When I grow up I want to be a teacher,11,,0,0
+S34,4.430136986,1,B,beef,b,1,Hamburgers are made of beef,12,,0,0
+S34,4.430136986,0,B,picture,p,2,She smiled for the picture,1,x,0,0
+S34,4.430136986,0,B,jam,g,2,Mom bought a jar of jam,2,,0,0
+S34,4.430136986,0,B,cap,k,2,The boy wore his favorite cap,3,x,0,0
+S34,4.430136986,0,B,tag,t,2,The kids played a game of tag,4,,0,0
+S34,4.430136986,0,B,bus,b,2,We rode on a bus,5,x,0,0
+S34,4.430136986,0,B,dirt,d,2,Don't play in the dirt,6,,0,0
+S34,4.430136986,0,B,turtle,t,2,In the book I saw a picture of a turtle,7,,0,0
+S34,4.430136986,0,B,come,k,2,Today the package will come,8,,0,0
+S34,4.430136986,0,B,battle,b,2,The soldiers fight in a battle,9,ei,0,0
+S34,4.430136986,0,B,bat,b,2,She hit the ball with a bat,10,,0,0
+S34,4.430136986,0,B,pill,p,2,The doctor gave the man a pill,11,,0,0
+S34,4.430136986,0,B,bib,b,2,The baby wears a bib,12,,0,0
+S35,5.175342466,0,A,cup,k,1,She drank water from a blue cup,1,a,0.857142857,0
+S35,5.175342466,0,A,bird,b,1,My friend saw a cute little bird,2,b,0.857142857,1
+S35,5.175342466,0,A,tower,t,1,The children wanted to climb the tower,3,c,0.857142857,0
+S35,5.175342466,0,A,touch,t,1,Please don't touch the animals,4,d,0.857142857,0
+S35,5.175342466,0,A,jet,j,1,The pilot flew a jet,5,e,0.857142857,0
+S35,5.175342466,0,A,cook,k,1,Grandpa is a good cook,6,z,0.857142857,0
+S35,5.175342466,0,A,butter,b,1,The boy ate his bread with some butter,7,h,0.857142857,0
+S35,5.175342466,0,A,pet,p,1,She wants to get a pet,8,d,0.857142857,0
+S35,5.175342466,0,A,bed,b,1,He slept in a bed,9,g,0.857142857,0
+S35,5.175342466,0,A,bun,b,1,The hotdog is on a bun,10,o,0.857142857,0
+S35,5.175342466,0,A,dollar,d,1,Can you give me a dollar?,11,e,0.857142857,0
+S35,5.175342466,0,A,patch,p,1,Mom sewed a patch on his jeans,12,,0.857142857,0
+S35,5.175342466,1,A,deeper,d,2,Can you make the hole deeper?,1,,0.857142857,0
+S35,5.175342466,1,A,teach,t,2,She loves to teach her students,2,h,0.857142857,0
+S35,5.175342466,1,A,beaver,b,2,The boy wrote a story about a beaver,3,b,0.857142857,1
+S35,5.175342466,1,A,piece,p,2,There was a missing puzzle piece,4,h,0.857142857,0
+S35,5.175342466,1,A,teepee,t,2,It's fun to sleep in a teepee,5,d,0.857142857,0
+S35,5.175342466,1,A,bean,b,2,Jack bought a magic bean,6,a,0.857142857,0
+S35,5.175342466,1,A,jail,j,2,The robber went to jail,7,a,0.857142857,0
+S35,5.175342466,1,A,beach,b,2,I like to go to the beach,8,a,0.857142857,0
+S35,5.175342466,1,A,bead,b,2,She found a little bead,9,z,0.857142857,0
+S35,5.175342466,1,A,case,k,2,She kept her jewelry in a case,10,,0.857142857,0
+S35,5.175342466,1,A,cake,k,2,The family eats yummy cake,11,h,0.857142857,0
+S35,5.175342466,1,A,peach,p,2,Susan ate some peach pie for dessert,12,b,0.857142857,0
+S42,4.561643836,1,B,beef,b,1,Hamburgers are made of beef,1,b,1,1
+S42,4.561643836,1,B,beep,b,1,"The shiny robot says ""beep""",2,b,1,1
+S42,4.561643836,1,B,pizza,p,1,Her favorite food is pizza,3,p,1,1
+S42,4.561643836,1,B,team,t,1,The girl cheered for her favorite team,4,t,1,1
+S42,4.561643836,1,B,teacher,t,1,When I grow up I want to be a teacher,5,t,1,1
+S42,4.561643836,1,B,deal,d,1,Let's make a deal,6,d,1,1
+S42,4.561643836,1,B,beet,b,1,He didn't want to eat the beet,7,b,1,1
+S42,4.561643836,1,B,beetle,b,1,The ladybug talks to the beetle,8,b,1,1
+S42,4.561643836,1,B,jeep,g,1,His mom drives a black jeep,9,g,1,1
+S42,4.561643836,1,B,cave,k,1,The children explored the spooky cave,10,k,1,1
+S42,4.561643836,1,B,came,k,1,"Yesterday, the big package came",11,k,1,1
+S42,4.561643836,1,B,peel,p,1,The clown slipped on a banana peel,12,p,1,1
+S42,4.561643836,0,B,pill,p,2,The doctor gave the man a pill,1,p,1,1
+S42,4.561643836,0,B,picture,p,2,She smiled for the picture,2,p,1,1
+S42,4.561643836,0,B,bib,b,2,The baby wears a bib,3,b,1,1
+S42,4.561643836,0,B,tag,t,2,The kids played a game of tag,4,t,1,1
+S42,4.561643836,0,B,turtle,t,2,In the book I saw a picture of a turtle,5,t,1,1
+S42,4.561643836,0,B,dirt,d,2,Don't play in the dirt,6,d,1,1
+S42,4.561643836,0,B,bat,b,2,She hit the ball with a bat,7,b,1,1
+S42,4.561643836,0,B,jam,g,2,Mom bought a jar of jam,8,j,1,1
+S42,4.561643836,0,B,come,k,2,Today the package will come,9,c,1,1
+S42,4.561643836,0,B,bus,b,2,We rode on a bus,10,b,1,1
+S42,4.561643836,0,B,cap,k,2,The boy wore his favorite cap,11,k,1,1
+S42,4.561643836,0,B,battle,b,2,The soldiers fight in a battle,12,b,1,1
+S44,5.676712329,0,B,picture,p,1,She smiled for the picture,1,pmmax,1,1
+S44,5.676712329,0,B,come,k,1,Today the package will come,2,maxmgo,1,0
+S44,5.676712329,0,B,bat,b,1,She hit the ball with a bat,3,bbp,1,1
+S44,5.676712329,0,B,pill,p,1,The doctor gave the man a pill,4,,1,0
+S44,5.676712329,0,B,bus,b,1,We rode on a bus,5,mn,1,0
+S44,5.676712329,0,B,jam,g,1,Mom bought a jar of jam,6,,1,0
+S44,5.676712329,0,B,battle,b,1,The soldiers fight in a battle,7,,1,0
+S44,5.676712329,0,B,turtle,t,1,In the book I saw a picture of a turtle,8,rpg,1,0
+S44,5.676712329,0,B,bib,b,1,The baby wears a bib,9,bizoo,1,1
+S44,5.676712329,0,B,dirt,d,1,Don't play in the dirt,10,deg,1,1
+S44,5.676712329,0,B,tag,t,1,The kids played a game of tag,11,teg,1,1
+S44,5.676712329,0,B,cap,k,1,The boy wore his favorite cap,12,nem,1,0
+S44,5.676712329,1,B,beetle,b,2,The ladybug talks to the beetle,1,ega,1,0
+S44,5.676712329,1,B,peel,p,2,The clown slipped on a banana peel,2,szzoem,1,0
+S44,5.676712329,1,B,pizza,p,2,Her favorite food is pizza,3,,1,0
+S44,5.676712329,1,B,teacher,t,2,When I grow up I want to be a teacher,4,mlp,1,0
+S44,5.676712329,1,B,cave,k,2,The children explored the spooky cave,5,rkk,1,0
+S44,5.676712329,1,B,team,t,2,The girl cheered for her favorite team,6,,1,0
+S44,5.676712329,1,B,came,k,2,"Yesterday, the big package came",7,goplm,1,0
+S44,5.676712329,1,B,deal,d,2,Let's make a deal,8,,1,0
+S44,5.676712329,1,B,beet,b,2,He didn't want to eat the beet,9,llmo,1,0
+S44,5.676712329,1,B,jeep,g,2,His mom drives a black jeep,10,golll,1,1
+S44,5.676712329,1,B,beep,b,2,"The shiny robot says ""beep""",11,mmlgolyuceg,1,0
+S44,5.676712329,1,B,beef,b,2,Hamburgers are made of beef,12,logemmryu,1,0
+S47,4.997260274,0,A,bun,b,1,The hotdog is on a bun,1,beeb,1,1
+S47,4.997260274,0,A,bed,b,1,He slept in a bed,2,baedb,1,1
+S47,4.997260274,0,A,pet,p,1,She wants to get a pet,3,paepat,1,1
+S47,4.997260274,0,A,jet,j,1,The pilot flew a jet,4,gareg,1,1
+S47,4.997260274,0,A,bird,b,1,My friend saw a cute little bird,5,brreab,1,1
+S47,4.997260274,0,A,touch,t,1,Please don't touch the animals,6,teaate,1,1
+S47,4.997260274,0,A,cook,k,1,Grandpa is a good cook,7,kkoteti,1,1
+S47,4.997260274,0,A,dollar,d,1,Can you give me a dollar?,8,dder,1,1
+S47,4.997260274,0,A,tower,t,1,The children wanted to climb the tower,9,tawrq,1,1
+S47,4.997260274,0,A,patch,p,1,Mom sewed a patch on his jeans,10,pag,1,1
+S47,4.997260274,0,A,butter,b,1,The boy ate his bread with some butter,11,bearbe,1,1
+S47,4.997260274,0,A,cup,k,1,She drank water from a blue cup,12,kaaei,1,1
+S47,4.997260274,1,A,case,k,2,She kept her jewelry in a case,1,kaea,1,1
+S47,4.997260274,1,A,teach,t,2,She loves to teach her students,2,ttabtt,1,1
+S47,4.997260274,1,A,bean,b,2,Jack bought a magic bean,3,bbaab,1,1
+S47,4.997260274,1,A,beaver,b,2,The boy wrote a story about a beaver,4,bblib,1,1
+S47,4.997260274,1,A,peach,p,2,Susan ate some peach pie for dessert,5,pipbi,1,1
+S47,4.997260274,1,A,jail,j,2,The robber went to jail,6,geieie,1,1
+S47,4.997260274,1,A,teepee,t,2,It's fun to sleep in a teepee,7,tptpe,1,1
+S47,4.997260274,1,A,beach,b,2,I like to go to the beach,8,be,1,1
+S47,4.997260274,1,A,piece,p,2,There was a missing puzzle piece,9,pbii,1,1
+S47,4.997260274,1,A,deeper,d,2,Can you make the hole deeper?,10,dodod,1,1
+S47,4.997260274,1,A,bead,b,2,She found a little bead,11,bbbiii,1,1
+S47,4.997260274,1,A,cake,k,2,The family eats yummy cake,12,kekooii,1,1
+S48,4.180821918,0,B,come,k,1,Today the package will come,1,it,0.285714286,0
+S48,4.180821918,0,B,cap,k,1,The boy wore his favorite cap,2,,0.285714286,0
+S48,4.180821918,0,B,picture,p,1,She smiled for the picture,3,o,0.285714286,0
+S48,4.180821918,0,B,jam,j,1,Mom bought a jar of jam,4,o,0.285714286,0
+S48,4.180821918,0,B,bib,b,1,The baby wears a bib,5,a,0.285714286,0
+S48,4.180821918,0,B,turtle,t,1,In the book I saw a picture of a turtle,6,p,0.285714286,0
+S48,4.180821918,0,B,dirt,d,1,Don't play in the dirt,7,p,0.285714286,0
+S48,4.180821918,0,B,bus,b,1,We rode on a bus,8,ef,0.285714286,0
+S48,4.180821918,0,B,bat,b,1,She hit the ball with a bat,9,s,0.285714286,0
+S48,4.180821918,0,B,tag,t,1,The kids played a game of tag,10,,0.285714286,0
+S48,4.180821918,0,B,pill,p,1,The doctor gave the man a pill,11,h,0.285714286,0
+S48,4.180821918,0,B,battle,b,1,The soldiers fight in a battle,12,d,0.285714286,0
+S48,4.180821918,1,B,beet,b,2,He didn't want to eat the beet,1,h,0.285714286,0
+S48,4.180821918,1,B,beetle,b,2,The ladybug talks to the beetle,2,a,0.285714286,0
+S48,4.180821918,1,B,team,t,2,The girl cheered for her favorite team,3,a,0.285714286,0
+S48,4.180821918,1,B,jeep,g,2,His mom drives a black jeep,4,o,0.285714286,0
+S48,4.180821918,1,B,deal,d,2,Let's make a deal,5,t,0.285714286,0
+S48,4.180821918,1,B,beef,b,2,Hamburgers are made of beef,6,c,0.285714286,0
+S48,4.180821918,1,B,beep,b,2,"The shiny robot says ""beep""",7,e,0.285714286,0
+S48,4.180821918,1,B,came,k,2,"Yesterday, the big package came",8,x,0.285714286,0
+S48,4.180821918,1,B,teacher,t,2,When I grow up I want to be a teacher,9,x,0.285714286,0
+S48,4.180821918,1,B,cave,k,2,The children explored the spooky cave,10,ii,0.285714286,0
+S48,4.180821918,1,B,peel,p,2,The clown slipped on a banana peel,11,s,0.285714286,0
+S48,4.180821918,1,B,pizza,p,2,Her favorite food is pizza,12,f,0.285714286,0
+S49,5.024657534,1,A,beaver,b,1,The boy wrote a story about a beaver,1,b,0.857142857,1
+S49,5.024657534,1,A,teepee,t,1,It's fun to sleep in a teepee,2,t,0.857142857,1
+S49,5.024657534,1,A,beach,b,1,I like to go to the beach,3,b,0.857142857,1
+S49,5.024657534,1,A,teach,t,1,She loves to teach her students,4,t,0.857142857,1
+S49,5.024657534,1,A,cake,k,1,The family eats yummy cake,5,c,0.857142857,1
+S49,5.024657534,1,A,piece,p,1,There was a missing puzzle piece,6,p,0.857142857,1
+S49,5.024657534,1,A,jail,j,1,The robber went to jail,7,j,0.857142857,1
+S49,5.024657534,1,A,bead,b,1,She found a little bead,8,b,0.857142857,1
+S49,5.024657534,1,A,bean,b,1,Jack bought a magic bean,9,b,0.857142857,1
+S49,5.024657534,1,A,peach,p,1,Susan ate some peach pie for dessert,10,p,0.857142857,1
+S49,5.024657534,1,A,deeper,d,1,Can you make the hole deeper?,11,d,0.857142857,1
+S49,5.024657534,1,A,case,k,1,She kept her jewelry in a case,12,k,0.857142857,1
+S49,5.024657534,0,A,dollar,d,2,Can you give me a dollar?,1,d,0.857142857,1
+S49,5.024657534,0,A,patch,p,2,Mom sewed a patch on his jeans,2,p,0.857142857,1
+S49,5.024657534,0,A,butter,b,2,The boy ate his bread with some butter,3,b,0.857142857,1
+S49,5.024657534,0,A,bird,b,2,My friend saw a cute little bird,4,b,0.857142857,1
+S49,5.024657534,0,A,cup,k,2,She drank water from a blue cup,5,c,0.857142857,1
+S49,5.024657534,0,A,tower,t,2,The children wanted to climb the tower,6,t,0.857142857,1
+S49,5.024657534,0,A,cook,k,2,Grandpa is a good cook,7,c,0.857142857,1
+S49,5.024657534,0,A,bun,b,2,The hotdog is on a bun,8,b,0.857142857,1
+S49,5.024657534,0,A,pet,p,2,She wants to get a pet,9,p,0.857142857,1
+S49,5.024657534,0,A,jet,j,2,The pilot flew a jet,10,j,0.857142857,1
+S49,5.024657534,0,A,touch,t,2,Please don't touch the animals,11,t,0.857142857,1
+S49,5.024657534,0,A,bed,b,2,He slept in a bed,12,b,0.857142857,1
+S50,4.482191781,1,B,peel,p,1,The clown slipped on a banana peel,1,eva,0.857142857,0
+S50,4.482191781,1,B,cave,k,1,The children explored the spooky cave,2,dfp,0.857142857,0
+S50,4.482191781,1,B,deal,d,1,Let's make a deal,3,bti,0.857142857,0
+S50,4.482191781,1,B,jeep,g,1,His mom drives a black jeep,4,f,0.857142857,0
+S50,4.482191781,1,B,team,t,1,The girl cheered for her favorite team,5,dt,0.857142857,0
+S50,4.482191781,1,B,pizza,p,1,Her favorite food is pizza,6,p,0.857142857,1
+S50,4.482191781,1,B,beetle,b,1,The ladybug talks to the beetle,7,b,0.857142857,1
+S50,4.482191781,1,B,came,k,1,"Yesterday, the big package came",8,k,0.857142857,1
+S50,4.482191781,1,B,beep,b,1,"The shiny robot says ""beep""",9,b,0.857142857,1
+S50,4.482191781,1,B,beef,b,1,Hamburgers are made of beef,10,b,0.857142857,1
+S50,4.482191781,1,B,beet,b,1,He didn't want to eat the beet,11,b,0.857142857,1
+S50,4.482191781,1,B,teacher,t,1,When I grow up I want to be a teacher,12,t,0.857142857,1
+S50,4.482191781,0,B,bib,b,2,The baby wears a bib,1,b,0.857142857,1
+S50,4.482191781,0,B,tag,t,2,The kids played a game of tag,2,c,0.857142857,0
+S50,4.482191781,0,B,turtle,t,2,In the book I saw a picture of a turtle,3,t,0.857142857,1
+S50,4.482191781,0,B,pill,p,2,The doctor gave the man a pill,4,b,0.857142857,0
+S50,4.482191781,0,B,picture,p,2,She smiled for the picture,5,e,0.857142857,0
+S50,4.482191781,0,B,jam,j,2,Mom bought a jar of jam,6,m,0.857142857,0
+S50,4.482191781,0,B,bat,b,2,She hit the ball with a bat,7,e,0.857142857,0
+S50,4.482191781,0,B,bus,b,2,We rode on a bus,8,c,0.857142857,0
+S50,4.482191781,0,B,cap,k,2,The boy wore his favorite cap,9,w,0.857142857,0
+S50,4.482191781,0,B,battle,b,2,The soldiers fight in a battle,10,m,0.857142857,0
+S50,4.482191781,0,B,dirt,d,2,Don't play in the dirt,11,kt,0.857142857,0
+S50,4.482191781,0,B,come,k,2,Today the package will come,12,y,0.857142857,0
+S51,5.320547945,0,A,dollar,d,1,Can you give me a dollar?,1,dalr,1,1
+S51,5.320547945,0,A,butter,b,1,The boy ate his bread with some butter,2,budr,1,1
+S51,5.320547945,0,A,bed,b,1,He slept in a bed,3,bad,1,1
+S51,5.320547945,0,A,patch,p,1,Mom sewed a patch on his jeans,4,pach,1,1
+S51,5.320547945,0,A,cup,k,1,She drank water from a blue cup,5,cup,1,1
+S51,5.320547945,0,A,pet,p,1,She wants to get a pet,6,pat,1,1
+S51,5.320547945,0,A,cook,k,1,Grandpa is a good cook,7,cuc,1,1
+S51,5.320547945,0,A,jet,j,1,The pilot flew a jet,8,jat,1,1
+S51,5.320547945,0,A,bun,b,1,The hotdog is on a bun,9,bun,1,1
+S51,5.320547945,0,A,bird,b,1,My friend saw a cute little bird,10,brd,1,1
+S51,5.320547945,0,A,tower,t,1,The children wanted to climb the tower,11,tawr,1,1
+S51,5.320547945,0,A,touch,t,1,Please don't touch the animals,12,tuch,1,1
+S51,5.320547945,1,A,deeper,d,2,Can you make the hole deeper?,1,dypre,1,1
+S51,5.320547945,1,A,jail,j,2,The robber went to jail,2,jal,1,1
+S51,5.320547945,1,A,beaver,b,2,The boy wrote a story about a beaver,3,byvr,1,1
+S51,5.320547945,1,A,case,k,2,She kept her jewelry in a case,4,kas,1,1
+S51,5.320547945,1,A,teach,t,2,She loves to teach her students,5,teech,1,1
+S51,5.320547945,1,A,beach,b,2,I like to go to the beach,6,bych,1,1
+S51,5.320547945,1,A,teepee,t,2,It's fun to sleep in a teepee,7,typy,1,1
+S51,5.320547945,1,A,peach,p,2,Susan ate some peach pie for dessert,8,pech,1,1
+S51,5.320547945,1,A,bean,b,2,Jack bought a magic bean,9,byn,1,1
+S51,5.320547945,1,A,cake,k,2,The family eats yummy cake,10,kak,1,1
+S51,5.320547945,1,A,bead,b,2,She found a little bead,11,byd,1,1
+S51,5.320547945,1,A,piece,p,2,There was a missing puzzle piece,12,pys,1,1
+S52,4.542465753,0,B,bib,b,1,The baby wears a bib,1,m,0.714285714,0
+S52,4.542465753,0,B,bat,b,1,She hit the ball with a bat,2,l,0.714285714,0
+S52,4.542465753,0,B,come,k,1,Today the package will come,3,o,0.714285714,0
+S52,4.542465753,0,B,jam,j,1,Mom bought a jar of jam,4,b,0.714285714,0
+S52,4.542465753,0,B,pill,p,1,The doctor gave the man a pill,5,p,0.714285714,1
+S52,4.542465753,0,B,picture,p,1,She smiled for the picture,6,a,0.714285714,0
+S52,4.542465753,0,B,tag,t,1,The kids played a game of tag,7,p,0.714285714,0
+S52,4.542465753,0,B,turtle,t,1,In the book I saw a picture of a turtle,8,k,0.714285714,0
+S52,4.542465753,0,B,cap,k,1,The boy wore his favorite cap,9,e,0.714285714,0
+S52,4.542465753,0,B,battle,b,1,The soldiers fight in a battle,10,t,0.714285714,0
+S52,4.542465753,0,B,dirt,d,1,Don't play in the dirt,11,d,0.714285714,1
+S52,4.542465753,0,B,bus,b,1,We rode on a bus,12,w,0.714285714,0
+S52,4.542465753,1,B,beef,b,2,Hamburgers are made of beef,1,o,0.714285714,0
+S52,4.542465753,1,B,team,t,2,The girl cheered for her favorite team,2,i,0.714285714,0
+S52,4.542465753,1,B,cave,k,2,The children explored the spooky cave,3,b,0.714285714,0
+S52,4.542465753,1,B,beep,b,2,"The shiny robot says ""beep""",4,i,0.714285714,0
+S52,4.542465753,1,B,jeep,g,2,His mom drives a black jeep,5,w,0.714285714,0
+S52,4.542465753,1,B,teacher,t,2,When I grow up I want to be a teacher,6,p,0.714285714,0
+S52,4.542465753,1,B,pizza,p,2,Her favorite food is pizza,7,p,0.714285714,1
+S52,4.542465753,1,B,came,k,2,"Yesterday, the big package came",8,o,0.714285714,0
+S52,4.542465753,1,B,beet,b,2,He didn't want to eat the beet,9,e,0.714285714,0
+S52,4.542465753,1,B,deal,d,2,Let's make a deal,10,k,0.714285714,0
+S52,4.542465753,1,B,beetle,b,2,The ladybug talks to the beetle,11,o,0.714285714,0
+S52,4.542465753,1,B,peel,p,2,The clown slipped on a banana peel,12,b,0.714285714,0
+S53,4.778082192,1,A,peach,p,1,Susan ate some peach pie for dessert,1,p,0.428571429,1
+S53,4.778082192,1,A,bean,b,1,Jack bought a magic bean,2,a,0.428571429,0
+S53,4.778082192,1,A,beaver,b,1,The boy wrote a story about a beaver,3,b,0.428571429,1
+S53,4.778082192,1,A,case,k,1,She kept her jewelry in a case,4,i,0.428571429,0
+S53,4.778082192,1,A,beach,b,1,I like to go to the beach,5,p,0.428571429,0
+S53,4.778082192,1,A,deeper,d,1,Can you make the hole deeper?,6,b,0.428571429,0
+S53,4.778082192,1,A,jail,j,1,The robber went to jail,7,a,0.428571429,0
+S53,4.778082192,1,A,bead,b,1,She found a little bead,8,b,0.428571429,1
+S53,4.778082192,1,A,teepee,t,1,It's fun to sleep in a teepee,9,i,0.428571429,0
+S53,4.778082192,1,A,piece,p,1,There was a missing puzzle piece,10,p,0.428571429,1
+S53,4.778082192,1,A,cake,k,1,The family eats yummy cake,11,b,0.428571429,0
+S53,4.778082192,1,A,teach,t,1,She loves to teach her students,12,d,0.428571429,0
+S53,4.778082192,0,A,dollar,d,2,Can you give me a dollar?,1,b,0.428571429,0
+S53,4.778082192,0,A,butter,b,2,The boy ate his bread with some butter,2,p,0.428571429,0
+S53,4.778082192,0,A,bed,b,2,He slept in a bed,3,b,0.428571429,1
+S53,4.778082192,0,A,patch,p,2,Mom sewed a patch on his jeans,4,p,0.428571429,1
+S53,4.778082192,0,A,cup,k,2,She drank water from a blue cup,5,b,0.428571429,0
+S53,4.778082192,0,A,pet,p,2,She wants to get a pet,6,p,0.428571429,1
+S53,4.778082192,0,A,cook,k,2,Grandpa is a good cook,7,o,0.428571429,0
+S53,4.778082192,0,A,jet,j,2,The pilot flew a jet,8,b,0.428571429,0
+S53,4.778082192,0,A,bun,b,2,The hotdog is on a bun,9,a,0.428571429,0
+S53,4.778082192,0,A,bird,b,2,My friend saw a cute little bird,10,v,0.428571429,0
+S53,4.778082192,0,A,tower,t,2,The children wanted to climb the tower,11,a,0.428571429,0
+S53,4.778082192,0,A,touch,t,2,Please don't touch the animals,12,i,0.428571429,0
+S54,4.8219,1,B,deal,d,1,Let's make a deal,1,de,1,1
+S54,4.8219,1,B,team,t,1,The girl cheered for her favorite team,2,t,1,1
+S54,4.8219,1,B,peel,p,1,The clown slipped on a banana peel,3,b,1,0
+S54,4.8219,1,B,jeep,g,1,His mom drives a black jeep,4,g,1,1
+S54,4.8219,1,B,pizza,p,1,Her favorite food is pizza,5,pappt,1,1
+S54,4.8219,1,B,teacher,t,1,When I grow up I want to be a teacher,6,t,1,1
+S54,4.8219,1,B,cave,k,1,The children explored the spooky cave,7,c,1,1
+S54,4.8219,1,B,beep,b,1,"The shiny robot says ""beep""",8,b,1,1
+S54,4.8219,1,B,came,k,1,"Yesterday, the big package came",9,c,1,1
+S54,4.8219,1,B,beetle,b,1,The ladybug talks to the beetle,10,b,1,1
+S54,4.8219,1,B,beef,b,1,Hamburgers are made of beef,11,b,1,1
+S54,4.8219,1,B,beet,b,1,He didn't want to eat the beet,12,b,1,1
+S54,4.8219,0,B,battle,b,2,The soldiers fight in a battle,1,b,1,1
+S54,4.8219,0,B,come,k,2,Today the package will come,2,c,1,1
+S54,4.8219,0,B,cap,k,2,The boy wore his favorite cap,3,c,1,1
+S54,4.8219,0,B,turtle,t,2,In the book I saw a picture of a turtle,4,t,1,1
+S54,4.8219,0,B,dirt,d,2,Don't play in the dirt,5,d,1,1
+S54,4.8219,0,B,bat,b,2,She hit the ball with a bat,6,b,1,1
+S54,4.8219,0,B,pill,p,2,The doctor gave the man a pill,7,p,1,1
+S54,4.8219,0,B,tag,t,2,The kids played a game of tag,8,t,1,1
+S54,4.8219,0,B,picture,p,2,She smiled for the picture,9,p,1,1
+S54,4.8219,0,B,bib,b,2,The baby wears a bib,10,b,1,1
+S54,4.8219,0,B,bus,b,2,We rode on a bus,11,b,1,1
+S54,4.8219,0,B,jam,j,2,Mom bought a jar of jam,12,j,1,1
+S55,5.046575342,0,A,cup,k,1,She drank water from a blue cup,1,cop,1,1
+S55,5.046575342,0,A,jet,j,1,The pilot flew a jet,2,jat,1,1
+S55,5.046575342,0,A,butter,b,1,The boy ate his bread with some butter,3,bodr,1,1
+S55,5.046575342,0,A,touch,t,1,Please don't touch the animals,4,toch,1,1
+S55,5.046575342,0,A,bird,b,1,My friend saw a cute little bird,5,brd,1,1
+S55,5.046575342,0,A,cook,k,1,Grandpa is a good cook,6,coc,1,1
+S55,5.046575342,0,A,patch,p,1,Mom sewed a patch on his jeans,7,pach,1,1
+S55,5.046575342,0,A,tower,t,1,The children wanted to climb the tower,8,tawr,1,1
+S55,5.046575342,0,A,pet,p,1,She wants to get a pet,9,pat,1,1
+S55,5.046575342,0,A,bed,b,1,He slept in a bed,10,bad,1,1
+S55,5.046575342,0,A,bun,b,1,The hotdog is on a bun,11,bon,1,1
+S55,5.046575342,0,A,dollar,d,1,Can you give me a dollar?,12,dalr,1,1
+S55,5.046575342,1,A,teach,t,2,She loves to teach her students,1,teg,1,1
+S55,5.046575342,1,A,jail,j,2,The robber went to jail,2,jll,1,1
+S55,5.046575342,1,A,piece,p,2,There was a missing puzzle piece,3,pes,1,1
+S55,5.046575342,1,A,bead,b,2,She found a little bead,4,bed,1,1
+S55,5.046575342,1,A,deeper,d,2,Can you make the hole deeper?,5,depr,1,1
+S55,5.046575342,1,A,bean,b,2,Jack bought a magic bean,6,ben,1,1
+S55,5.046575342,1,A,teepee,t,2,It's fun to sleep in a teepee,7,tepe,1,1
+S55,5.046575342,1,A,peach,p,2,Susan ate some peach pie for dessert,8,pech,1,1
+S55,5.046575342,1,A,beaver,b,2,The boy wrote a story about a beaver,9,bevr,1,1
+S55,5.046575342,1,A,case,k,2,She kept her jewelry in a case,10,cas,1,1
+S55,5.046575342,1,A,cake,k,2,The family eats yummy cake,11,cac,1,1
+S55,5.046575342,1,A,beach,b,2,I like to go to the beach,12,bech,1,1
+S56,4.071232877,0,B,dirt,d,1,Don't play in the dirt,1,,0,0
+S56,4.071232877,0,B,battle,b,1,The soldiers fight in a battle,2,,0,0
+S56,4.071232877,0,B,cap,k,1,The boy wore his favorite cap,3,,0,0
+S56,4.071232877,0,B,turtle,t,1,In the book I saw a picture of a turtle,4,,0,0
+S56,4.071232877,0,B,jam,j,1,Mom bought a jar of jam,5,,0,0
+S56,4.071232877,0,B,picture,p,1,She smiled for the picture,6,,0,0
+S56,4.071232877,0,B,come,k,1,Today the package will come,7,,0,0
+S56,4.071232877,0,B,tag,t,1,The kids played a game of tag,8,,0,0
+S56,4.071232877,0,B,pill,p,1,The doctor gave the man a pill,9,,0,0
+S56,4.071232877,0,B,bat,b,1,She hit the ball with a bat,10,,0,0
+S56,4.071232877,0,B,bus,b,1,We rode on a bus,11,,0,0
+S56,4.071232877,0,B,bib,b,1,The baby wears a bib,12,,0,0
+S56,4.071232877,1,B,deal,d,2,Let's make a deal,1,,0,0
+S56,4.071232877,1,B,team,t,2,The girl cheered for her favorite team,2,,0,0
+S56,4.071232877,1,B,teacher,t,2,When I grow up I want to be a teacher,3,,0,0
+S56,4.071232877,1,B,peel,p,2,The clown slipped on a banana peel,4,,0,0
+S56,4.071232877,1,B,cave,k,2,The children explored the spooky cave,5,,0,0
+S56,4.071232877,1,B,beet,b,2,He didn't want to eat the beet,6,,0,0
+S56,4.071232877,1,B,came,k,2,"Yesterday, the big package came",7,,0,0
+S56,4.071232877,1,B,beef,b,2,Hamburgers are made of beef,8,,0,0
+S56,4.071232877,1,B,beep,b,2,"The shiny robot says ""beep""",9,,0,0
+S56,4.071232877,1,B,jeep,g,2,His mom drives a black jeep,10,,0,0
+S56,4.071232877,1,B,pizza,p,2,Her favorite food is pizza,11,,0,0
+S56,4.071232877,1,B,beetle,b,2,The ladybug talks to the beetle,12,,0,0
+S58,5.37260274,1,B,teacher,t,1,When I grow up I want to be a teacher,1,t,1,1
+S58,5.37260274,1,B,beep,b,1,"The shiny robot says ""beep""",2,b,1,1
+S58,5.37260274,1,B,cave,k,1,The children explored the spooky cave,3,k,1,1
+S58,5.37260274,1,B,beetle,b,1,The ladybug talks to the beetle,4,b,1,1
+S58,5.37260274,1,B,came,k,1,"Yesterday, the big package came",5,k,1,1
+S58,5.37260274,1,B,beef,b,1,Hamburgers are made of beef,6,b,1,1
+S58,5.37260274,1,B,team,t,1,The girl cheered for her favorite team,7,n,1,0
+S58,5.37260274,1,B,jeep,g,1,His mom drives a black jeep,8,g,1,1
+S58,5.37260274,1,B,beet,b,1,He didn't want to eat the beet,9,b,1,1
+S58,5.37260274,1,B,pizza,p,1,Her favorite food is pizza,10,c,1,0
+S58,5.37260274,1,B,deal,d,1,Let's make a deal,11,d,1,1
+S58,5.37260274,1,B,peel,p,1,The clown slipped on a banana peel,12,p,1,1
+S58,5.37260274,0,B,bus,b,2,We rode on a bus,1,b,1,1
+S58,5.37260274,0,B,bat,b,2,She hit the ball with a bat,2,b,1,1
+S58,5.37260274,0,B,tag,t,2,The kids played a game of tag,3,c,1,0
+S58,5.37260274,0,B,bib,b,2,The baby wears a bib,4,b,1,1
+S58,5.37260274,0,B,pill,p,2,The doctor gave the man a pill,5,p,1,1
+S58,5.37260274,0,B,battle,b,2,The soldiers fight in a battle,6,b,1,1
+S58,5.37260274,0,B,cap,k,2,The boy wore his favorite cap,7,b,1,0
+S58,5.37260274,0,B,jam,j,2,Mom bought a jar of jam,8,j,1,1
+S58,5.37260274,0,B,turtle,t,2,In the book I saw a picture of a turtle,9,p,1,0
+S58,5.37260274,0,B,dirt,d,2,Don't play in the dirt,10,d,1,1
+S58,5.37260274,0,B,come,k,2,Today the package will come,11,m,1,0
+S58,5.37260274,0,B,picture,p,2,She smiled for the picture,12,p,1,1
+S62,5.257534247,0,B,dirt,d,1,Don't play in the dirt,1,J,0.142857143,0
+S62,5.257534247,0,B,bus,b,1,We rode on a bus,2,O,0.142857143,0
+S62,5.257534247,0,B,pill,p,1,The doctor gave the man a pill,3,,0.142857143,0
+S62,5.257534247,0,B,picture,p,1,She smiled for the picture,4,H,0.142857143,0
+S62,5.257534247,0,B,tag,t,1,The kids played a game of tag,5,,0.142857143,0
+S62,5.257534247,0,B,turtle,t,1,In the book I saw a picture of a turtle,6,A,0.142857143,0
+S62,5.257534247,0,B,cap,k,1,The boy wore his favorite cap,7,N,0.142857143,0
+S62,5.257534247,0,B,come,k,1,Today the package will come,8,I,0.142857143,0
+S62,5.257534247,0,B,bib,b,1,The baby wears a bib,9,C,0.142857143,0
+S62,5.257534247,0,B,battle,b,1,The soldiers fight in a battle,10,,0.142857143,0
+S62,5.257534247,0,B,jam,j,1,Mom bought a jar of jam,11,,0.142857143,0
+S62,5.257534247,0,B,bat,b,1,She hit the ball with a bat,12,,0.142857143,0
+S62,5.257534247,1,B,cave,k,2,The children explored the spooky cave,1,j,0.142857143,0
+S62,5.257534247,1,B,pizza,p,2,Her favorite food is pizza,2,o,0.142857143,0
+S62,5.257534247,1,B,teacher,t,2,When I grow up I want to be a teacher,3,n,0.142857143,0
+S62,5.257534247,1,B,beep,b,2,"The shiny robot says ""beep""",4,a,0.142857143,0
+S62,5.257534247,1,B,team,t,2,The girl cheered for her favorite team,5,j,0.142857143,0
+S62,5.257534247,1,B,jeep,g,2,His mom drives a black jeep,6,m,0.142857143,0
+S62,5.257534247,1,B,beetle,b,2,The ladybug talks to the beetle,7,a,0.142857143,0
+S62,5.257534247,1,B,deal,d,2,Let's make a deal,8,x,0.142857143,0
+S62,5.257534247,1,B,came,k,2,"Yesterday, the big package came",9,,0.142857143,0
+S62,5.257534247,1,B,peel,p,2,The clown slipped on a banana peel,10,n,0.142857143,0
+S62,5.257534247,1,B,beef,b,2,Hamburgers are made of beef,11,o,0.142857143,0
+S62,5.257534247,1,B,beet,b,2,He didn't want to eat the beet,12,,0.142857143,0
+S63,4.797260274,1,A,bead,b,1,She found a little bead,1,ada,0.142857143,0
+S63,4.797260274,1,A,deeper,d,1,Can you make the hole deeper?,2,d,0.142857143,1
+S63,4.797260274,1,A,beaver,b,1,The boy wrote a story about a beaver,3,b,0.142857143,1
+S63,4.797260274,1,A,case,k,1,She kept her jewelry in a case,4,b,0.142857143,0
+S63,4.797260274,1,A,cake,k,1,The family eats yummy cake,5,k,0.142857143,1
+S63,4.797260274,1,A,piece,p,1,There was a missing puzzle piece,6,a,0.142857143,0
+S63,4.797260274,1,A,bean,b,1,Jack bought a magic bean,7,a,0.142857143,0
+S63,4.797260274,1,A,peach,p,1,Susan ate some peach pie for dessert,8,a,0.142857143,0
+S63,4.797260274,1,A,teepee,t,1,It's fun to sleep in a teepee,9,r,0.142857143,0
+S63,4.797260274,1,A,beach,b,1,I like to go to the beach,10,,0.142857143,0
+S63,4.797260274,1,A,teach,t,1,She loves to teach her students,11,a,0.142857143,0
+S63,4.797260274,1,A,jail,j,1,The robber went to jail,12,a,0.142857143,0
+S63,4.797260274,0,A,dollar,d,2,Can you give me a dollar?,1,a,0.142857143,0
+S63,4.797260274,0,A,pet,p,2,She wants to get a pet,2,a,0.142857143,0
+S63,4.797260274,0,A,bed,b,2,He slept in a bed,3,a,0.142857143,0
+S63,4.797260274,0,A,cook,k,2,Grandpa is a good cook,4,,0.142857143,0
+S63,4.797260274,0,A,touch,t,2,Please don't touch the animals,5,,0.142857143,0
+S63,4.797260274,0,A,bird,b,2,My friend saw a cute little bird,6,a,0.142857143,0
+S63,4.797260274,0,A,jet,j,2,The pilot flew a jet,7,a,0.142857143,0
+S63,4.797260274,0,A,bun,b,2,The hotdog is on a bun,8,,0.142857143,0
+S63,4.797260274,0,A,patch,p,2,Mom sewed a patch on his jeans,9,,0.142857143,0
+S63,4.797260274,0,A,butter,b,2,The boy ate his bread with some butter,10,,0.142857143,0
+S63,4.797260274,0,A,tower,t,2,The children wanted to climb the tower,11,a,0.142857143,0
+S63,4.797260274,0,A,cup,k,2,She drank water from a blue cup,12,a,0.142857143,0
+S65,4.871232877,1,A,bean,b,1,Jack bought a magic bean,1,,0.714285714,0
+S65,4.871232877,1,A,teepee,t,1,It's fun to sleep in a teepee,2,tp,0.714285714,1
+S65,4.871232877,1,A,cake,k,1,The family eats yummy cake,3,k,0.714285714,1
+S65,4.871232877,1,A,bead,b,1,She found a little bead,4,lj,0.714285714,0
+S65,4.871232877,1,A,beach,b,1,I like to go to the beach,5,tt,0.714285714,0
+S65,4.871232877,1,A,peach,p,1,Susan ate some peach pie for dessert,6,mmtas,0.714285714,0
+S65,4.871232877,1,A,jail,j,1,The robber went to jail,7,on,0.714285714,0
+S65,4.871232877,1,A,piece,p,1,There was a missing puzzle piece,8,,0.714285714,0
+S65,4.871232877,1,A,deeper,d,1,Can you make the hole deeper?,9,,0.714285714,0
+S65,4.871232877,1,A,teach,t,1,She loves to teach her students,10,t,0.714285714,1
+S65,4.871232877,1,A,case,k,1,She kept her jewelry in a case,11,k,0.714285714,1
+S65,4.871232877,1,A,beaver,b,1,The boy wrote a story about a beaver,12,,0.714285714,0
+S65,4.871232877,0,A,bed,b,2,He slept in a bed,1,b,0.714285714,1
+S65,4.871232877,0,A,cup,k,2,She drank water from a blue cup,2,k,0.714285714,1
+S65,4.871232877,0,A,dollar,d,2,Can you give me a dollar?,3,d,0.714285714,1
+S65,4.871232877,0,A,tower,t,2,The children wanted to climb the tower,4,t,0.714285714,1
+S65,4.871232877,0,A,touch,t,2,Please don't touch the animals,5,t,0.714285714,1
+S65,4.871232877,0,A,cook,k,2,Grandpa is a good cook,6,k,0.714285714,1
+S65,4.871232877,0,A,pet,p,2,She wants to get a pet,7,pp,0.714285714,1
+S65,4.871232877,0,A,patch,p,2,Mom sewed a patch on his jeans,8,p,0.714285714,1
+S65,4.871232877,0,A,bun,b,2,The hotdog is on a bun,9,b,0.714285714,1
+S65,4.871232877,0,A,jet,j,2,The pilot flew a jet,10,j,0.714285714,1
+S65,4.871232877,0,A,butter,b,2,The boy ate his bread with some butter,11,,0.714285714,0
+S65,4.871232877,0,A,bird,b,2,My friend saw a cute little bird,12,,0.714285714,0
+S70,4.079452055,1,B,cave,k,1,The children explored the spooky cave,1,k,0.428571429,1
+S70,4.079452055,1,B,pizza,p,1,Her favorite food is pizza,2,p,0.428571429,1
+S70,4.079452055,1,B,jeep,g,1,His mom drives a black jeep,3,g,0.428571429,1
+S70,4.079452055,1,B,teacher,t,1,When I grow up I want to be a teacher,4,l,0.428571429,0
+S70,4.079452055,1,B,peel,p,1,The clown slipped on a banana peel,5,l,0.428571429,0
+S70,4.079452055,1,B,came,k,1,"Yesterday, the big package came",6,t,0.428571429,0
+S70,4.079452055,1,B,deal,d,1,Let's make a deal,7,d,0.428571429,1
+S70,4.079452055,1,B,beef,b,1,Hamburgers are made of beef,8,b,0.428571429,1
+S70,4.079452055,1,B,beep,b,1,"The shiny robot says ""beep""",9,b,0.428571429,1
+S70,4.079452055,1,B,beet,b,1,He didn't want to eat the beet,10,b,0.428571429,1
+S70,4.079452055,1,B,team,t,1,The girl cheered for her favorite team,11,t,0.428571429,1
+S70,4.079452055,1,B,beetle,b,1,The ladybug talks to the beetle,12,b,0.428571429,1
+S70,4.079452055,0,B,jam,j,2,Mom bought a jar of jam,1,j,0.428571429,1
+S70,4.079452055,0,B,dirt,d,2,Don't play in the dirt,2,t,0.428571429,0
+S70,4.079452055,0,B,bat,b,2,She hit the ball with a bat,3,b,0.428571429,1
+S70,4.079452055,0,B,bus,b,2,We rode on a bus,4,b,0.428571429,1
+S70,4.079452055,0,B,battle,b,2,The soldiers fight in a battle,5,b,0.428571429,1
+S70,4.079452055,0,B,cap,k,2,The boy wore his favorite cap,6,t,0.428571429,0
+S70,4.079452055,0,B,come,k,2,Today the package will come,7,e,0.428571429,0
+S70,4.079452055,0,B,picture,p,2,She smiled for the picture,8,e,0.428571429,0
+S70,4.079452055,0,B,turtle,t,2,In the book I saw a picture of a turtle,9,t,0.428571429,1
+S70,4.079452055,0,B,tag,t,2,The kids played a game of tag,10,e,0.428571429,0
+S70,4.079452055,0,B,pill,p,2,The doctor gave the man a pill,11,e,0.428571429,0
+S70,4.079452055,0,B,bib,b,2,The baby wears a bib,12,t,0.428571429,0
+S71,4.02739726,1,A,jail,j,1,The robber went to jail,1,ia,0.714285714,0
+S71,4.02739726,1,A,teach,t,1,She loves to teach her students,2,tt,0.714285714,1
+S71,4.02739726,1,A,deeper,d,1,Can you make the hole deeper?,3,d,0.714285714,1
+S71,4.02739726,1,A,beach,b,1,I like to go to the beach,4,b,0.714285714,1
+S71,4.02739726,1,A,piece,p,1,There was a missing puzzle piece,5,p,0.714285714,1
+S71,4.02739726,1,A,bead,b,1,She found a little bead,6,b,0.714285714,1
+S71,4.02739726,1,A,cake,k,1,The family eats yummy cake,7,k,0.714285714,1
+S71,4.02739726,1,A,beaver,b,1,The boy wrote a story about a beaver,8,b,0.714285714,1
+S71,4.02739726,1,A,teepee,t,1,It's fun to sleep in a teepee,9,t,0.714285714,1
+S71,4.02739726,1,A,peach,p,1,Susan ate some peach pie for dessert,10,p,0.714285714,1
+S71,4.02739726,1,A,case,k,1,She kept her jewelry in a case,11,k,0.714285714,1
+S71,4.02739726,1,A,bean,b,1,Jack bought a magic bean,12,b,0.714285714,1
+S71,4.02739726,0,A,bed,b,2,He slept in a bed,1,a,0.714285714,0
+S71,4.02739726,0,A,touch,t,2,Please don't touch the animals,2,t,0.714285714,1
+S71,4.02739726,0,A,bird,b,2,My friend saw a cute little bird,3,b,0.714285714,1
+S71,4.02739726,0,A,patch,p,2,Mom sewed a patch on his jeans,4,t,0.714285714,0
+S71,4.02739726,0,A,bun,b,2,The hotdog is on a bun,5,b,0.714285714,1
+S71,4.02739726,0,A,pet,p,2,She wants to get a pet,6,p,0.714285714,1
+S71,4.02739726,0,A,butter,b,2,The boy ate his bread with some butter,7,b,0.714285714,1
+S71,4.02739726,0,A,tower,t,2,The children wanted to climb the tower,8,p,0.714285714,0
+S71,4.02739726,0,A,jet,j,2,The pilot flew a jet,9,j,0.714285714,1
+S71,4.02739726,0,A,cup,k,2,She drank water from a blue cup,10,k,0.714285714,1
+S71,4.02739726,0,A,dollar,d,2,Can you give me a dollar?,11,p,0.714285714,0
+S71,4.02739726,0,A,cook,k,2,Grandpa is a good cook,12,k,0.714285714,1
+S72,4.704109589,0,B,pill,p,1,The doctor gave the man a pill,1,lmo,0.857142857,0
+S72,4.704109589,0,B,bib,b,1,The baby wears a bib,2,orxl,0.857142857,0
+S72,4.704109589,0,B,picture,p,1,She smiled for the picture,3,ilr,0.857142857,0
+S72,4.704109589,0,B,bus,b,1,We rode on a bus,4,bxb,0.857142857,1
+S72,4.704109589,0,B,jam,j,1,Mom bought a jar of jam,5,jcbp,0.857142857,1
+S72,4.704109589,0,B,dirt,d,1,Don't play in the dirt,6,ogb,0.857142857,0
+S72,4.704109589,0,B,come,k,1,Today the package will come,7,ttbp,0.857142857,0
+S72,4.704109589,0,B,tag,t,1,The kids played a game of tag,8,bcb,0.857142857,0
+S72,4.704109589,0,B,turtle,t,1,In the book I saw a picture of a turtle,9,bii,0.857142857,0
+S72,4.704109589,0,B,battle,b,1,The soldiers fight in a battle,10,tir,0.857142857,0
+S72,4.704109589,0,B,bat,b,1,She hit the ball with a bat,11,xri,0.857142857,0
+S72,4.704109589,0,B,cap,k,1,The boy wore his favorite cap,12,irr,0.857142857,0
+S72,4.704109589,1,B,cave,k,2,The children explored the spooky cave,1,itr,0.857142857,0
+S72,4.704109589,1,B,beetle,b,2,The ladybug talks to the beetle,2,tbi,0.857142857,0
+S72,4.704109589,1,B,deal,d,2,Let's make a deal,3,ibr,0.857142857,0
+S72,4.704109589,1,B,peel,p,2,The clown slipped on a banana peel,4,bit,0.857142857,0
+S72,4.704109589,1,B,teacher,t,2,When I grow up I want to be a teacher,5,tbib,0.857142857,1
+S72,4.704109589,1,B,pizza,p,2,Her favorite food is pizza,6,ibi,0.857142857,0
+S72,4.704109589,1,B,beet,b,2,He didn't want to eat the beet,7,bii,0.857142857,1
+S72,4.704109589,1,B,came,k,2,"Yesterday, the big package came",8,lxy,0.857142857,0
+S72,4.704109589,1,B,beep,b,2,"The shiny robot says ""beep""",9,tib,0.857142857,0
+S72,4.704109589,1,B,beef,b,2,Hamburgers are made of beef,10,px,0.857142857,0
+S72,4.704109589,1,B,team,t,2,The girl cheered for her favorite team,11,ihxao,0.857142857,0
+S72,4.704109589,1,B,jeep,g,2,His mom drives a black jeep,12,av,0.857142857,0
+S73,4.424657534,0,A,bird,b,1,My friend saw a cute little bird,1,b,0.571428571,1
+S73,4.424657534,0,A,bun,b,1,The hotdog is on a bun,2,b,0.571428571,1
+S73,4.424657534,0,A,tower,t,1,The children wanted to climb the tower,3,l,0.571428571,0
+S73,4.424657534,0,A,cup,k,1,She drank water from a blue cup,4,p,0.571428571,0
+S73,4.424657534,0,A,dollar,d,1,Can you give me a dollar?,5,l,0.571428571,0
+S73,4.424657534,0,A,jet,j,1,The pilot flew a jet,6,l,0.571428571,0
+S73,4.424657534,0,A,cook,k,1,Grandpa is a good cook,7,l,0.571428571,0
+S73,4.424657534,0,A,touch,t,1,Please don't touch the animals,8,l,0.571428571,0
+S73,4.424657534,0,A,pet,p,1,She wants to get a pet,9,b,0.571428571,0
+S73,4.424657534,0,A,patch,p,1,Mom sewed a patch on his jeans,10,p,0.571428571,1
+S73,4.424657534,0,A,butter,b,1,The boy ate his bread with some butter,11,b,0.571428571,1
+S73,4.424657534,0,A,bed,b,1,He slept in a bed,12,b,0.571428571,1
+S73,4.424657534,1,A,bean,b,2,Jack bought a magic bean,1,b,0.571428571,1
+S73,4.424657534,1,A,beaver,b,2,The boy wrote a story about a beaver,2,b,0.571428571,1
+S73,4.424657534,1,A,cake,k,2,The family eats yummy cake,3,l,0.571428571,0
+S73,4.424657534,1,A,peach,p,2,Susan ate some peach pie for dessert,4,p,0.571428571,1
+S73,4.424657534,1,A,beach,b,2,I like to go to the beach,5,b,0.571428571,1
+S73,4.424657534,1,A,case,k,2,She kept her jewelry in a case,6,s,0.571428571,0
+S73,4.424657534,1,A,teepee,t,2,It's fun to sleep in a teepee,7,p,0.571428571,0
+S73,4.424657534,1,A,jail,j,2,The robber went to jail,8,l,0.571428571,0
+S73,4.424657534,1,A,piece,p,2,There was a missing puzzle piece,9,b,0.571428571,0
+S73,4.424657534,1,A,bead,b,2,She found a little bead,10,b,0.571428571,1
+S73,4.424657534,1,A,teach,t,2,She loves to teach her students,11,l,0.571428571,0
+S73,4.424657534,1,A,deeper,d,2,Can you make the hole deeper?,12,b,0.571428571,0
+S74,4.202739726,1,B,came,k,1,"Yesterday, the big package came",1,aji,0.714285714,0
+S74,4.202739726,1,B,cave,k,1,The children explored the spooky cave,2,kji,0.714285714,1
+S74,4.202739726,1,B,beet,b,1,He didn't want to eat the beet,3,bak,0.714285714,1
+S74,4.202739726,1,B,peel,p,1,The clown slipped on a banana peel,4,b,0.714285714,0
+S74,4.202739726,1,B,beef,b,1,Hamburgers are made of beef,5,jka,0.714285714,0
+S74,4.202739726,1,B,team,t,1,The girl cheered for her favorite team,6,ba,0.714285714,0
+S74,4.202739726,1,B,jeep,g,1,His mom drives a black jeep,7,bar,0.714285714,0
+S74,4.202739726,1,B,teacher,t,1,When I grow up I want to be a teacher,8,bak,0.714285714,0
+S74,4.202739726,1,B,pizza,p,1,Her favorite food is pizza,9,bai,0.714285714,0
+S74,4.202739726,1,B,beetle,b,1,The ladybug talks to the beetle,10,bat,0.714285714,1
+S74,4.202739726,1,B,deal,d,1,Let's make a deal,11,bar,0.714285714,0
+S74,4.202739726,1,B,beep,b,1,"The shiny robot says ""beep""",12,brk,0.714285714,1
+S74,4.202739726,0,B,tag,t,2,The kids played a game of tag,1,tbr,0.714285714,1
+S74,4.202739726,0,B,battle,b,2,The soldiers fight in a battle,2,iko,0.714285714,0
+S74,4.202739726,0,B,come,k,2,Today the package will come,3,okb,0.714285714,0
+S74,4.202739726,0,B,dirt,d,2,Don't play in the dirt,4,brk,0.714285714,0
+S74,4.202739726,0,B,pill,p,2,The doctor gave the man a pill,5,bor,0.714285714,0
+S74,4.202739726,0,B,turtle,t,2,In the book I saw a picture of a turtle,6,bbor,0.714285714,0
+S74,4.202739726,0,B,bat,b,2,She hit the ball with a bat,7,bik,0.714285714,1
+S74,4.202739726,0,B,picture,p,2,She smiled for the picture,8,os,0.714285714,0
+S74,4.202739726,0,B,jam,j,2,Mom bought a jar of jam,9,ioe,0.714285714,0
+S74,4.202739726,0,B,cap,k,2,The boy wore his favorite cap,10,bbko,0.714285714,0
+S74,4.202739726,0,B,bib,b,2,The baby wears a bib,11,ofe,0.714285714,0
+S74,4.202739726,0,B,bus,b,2,We rode on a bus,12,abc,0.714285714,0
+S75,4.849315068,1,A,deeper,d,1,Can you make the hole deeper?,1,d,0.714285714,1
+S75,4.849315068,1,A,peach,p,1,Susan ate some peach pie for dessert,2,p,0.714285714,1
+S75,4.849315068,1,A,case,k,1,She kept her jewelry in a case,3,c,0.714285714,1
+S75,4.849315068,1,A,teach,t,1,She loves to teach her students,4,t,0.714285714,1
+S75,4.849315068,1,A,jail,j,1,The robber went to jail,5,j,0.714285714,1
+S75,4.849315068,1,A,bean,b,1,Jack bought a magic bean,6,b,0.714285714,1
+S75,4.849315068,1,A,piece,p,1,There was a missing puzzle piece,7,p,0.714285714,1
+S75,4.849315068,1,A,beach,b,1,I like to go to the beach,8,b,0.714285714,1
+S75,4.849315068,1,A,bead,b,1,She found a little bead,9,b,0.714285714,1
+S75,4.849315068,1,A,cake,k,1,The family eats yummy cake,10,c,0.714285714,1
+S75,4.849315068,1,A,teepee,t,1,It's fun to sleep in a teepee,11,t,0.714285714,1
+S75,4.849315068,1,A,beaver,b,1,The boy wrote a story about a beaver,12,b,0.714285714,1
+S75,4.849315068,0,A,bird,b,2,My friend saw a cute little bird,1,b,0.714285714,1
+S75,4.849315068,0,A,touch,t,2,Please don't touch the animals,2,t,0.714285714,1
+S75,4.849315068,0,A,tower,t,2,The children wanted to climb the tower,3,t,0.714285714,1
+S75,4.849315068,0,A,butter,b,2,The boy ate his bread with some butter,4,b,0.714285714,1
+S75,4.849315068,0,A,bun,b,2,The hotdog is on a bun,5,b,0.714285714,1
+S75,4.849315068,0,A,bed,b,2,He slept in a bed,6,b,0.714285714,1
+S75,4.849315068,0,A,cup,k,2,She drank water from a blue cup,7,c,0.714285714,1
+S75,4.849315068,0,A,patch,p,2,Mom sewed a patch on his jeans,8,p,0.714285714,1
+S75,4.849315068,0,A,jet,j,2,The pilot flew a jet,9,j,0.714285714,1
+S75,4.849315068,0,A,cook,k,2,Grandpa is a good cook,10,c,0.714285714,1
+S75,4.849315068,0,A,pet,p,2,She wants to get a pet,11,p,0.714285714,1
+S75,4.849315068,0,A,dollar,d,2,Can you give me a dollar?,12,d,0.714285714,1
+S76,4.424657534,0,B,come,k,1,Today the package will come,1,avd,0.571428571,0
+S76,4.424657534,0,B,tag,t,1,The kids played a game of tag,2,adtp,0.571428571,0
+S76,4.424657534,0,B,jam,j,1,Mom bought a jar of jam,3,ddavt,0.571428571,0
+S76,4.424657534,0,B,cap,k,1,The boy wore his favorite cap,4,dadd,0.571428571,0
+S76,4.424657534,0,B,bib,b,1,The baby wears a bib,5,davi,0.571428571,0
+S76,4.424657534,0,B,bat,b,1,She hit the ball with a bat,6,dav,0.571428571,0
+S76,4.424657534,0,B,turtle,t,1,In the book I saw a picture of a turtle,7,dvis,0.571428571,0
+S76,4.424657534,0,B,picture,p,1,She smiled for the picture,8,st,0.571428571,0
+S76,4.424657534,0,B,bus,b,1,We rode on a bus,9,da,0.571428571,0
+S76,4.424657534,0,B,battle,b,1,The soldiers fight in a battle,10,dav,0.571428571,0
+S76,4.424657534,0,B,dirt,d,1,Don't play in the dirt,11,oab,0.571428571,0
+S76,4.424657534,0,B,pill,p,1,The doctor gave the man a pill,12,da,0.571428571,0
+S76,4.424657534,1,B,teacher,t,2,When I grow up I want to be a teacher,1,tle,0.571428571,1
+S76,4.424657534,1,B,deal,d,2,Let's make a deal,2,dit,0.571428571,1
+S76,4.424657534,1,B,pizza,p,2,Her favorite food is pizza,3,aidprfeo,0.571428571,0
+S76,4.424657534,1,B,peel,p,2,The clown slipped on a banana peel,4,i,0.571428571,0
+S76,4.424657534,1,B,team,t,2,The girl cheered for her favorite team,5,a,0.571428571,0
+S76,4.424657534,1,B,beetle,b,2,The ladybug talks to the beetle,6,ai,0.571428571,0
+S76,4.424657534,1,B,came,k,2,"Yesterday, the big package came",7,,0.571428571,0
+S76,4.424657534,1,B,beet,b,2,He didn't want to eat the beet,8,daiefvv,0.571428571,0
+S76,4.424657534,1,B,beef,b,2,Hamburgers are made of beef,9,dol,0.571428571,0
+S76,4.424657534,1,B,beep,b,2,"The shiny robot says ""beep""",10,oa,0.571428571,0
+S76,4.424657534,1,B,cave,k,2,The children explored the spooky cave,11,da,0.571428571,0
+S76,4.424657534,1,B,jeep,g,2,His mom drives a black jeep,12,daa,0.571428571,0
+S77,4.120547945,0,A,pet,p,1,She wants to get a pet,1,m,0,0
+S77,4.120547945,0,A,patch,p,1,Mom sewed a patch on his jeans,2,m,0,0
+S77,4.120547945,0,A,touch,t,1,Please don't touch the animals,3,m,0,0
+S77,4.120547945,0,A,bed,b,1,He slept in a bed,4,t,0,0
+S77,4.120547945,0,A,tower,t,1,The children wanted to climb the tower,5,m,0,0
+S77,4.120547945,0,A,butter,b,1,The boy ate his bread with some butter,6,m,0,0
+S77,4.120547945,0,A,dollar,d,1,Can you give me a dollar?,7,m,0,0
+S77,4.120547945,0,A,bird,b,1,My friend saw a cute little bird,8,m,0,0
+S77,4.120547945,0,A,bun,b,1,The hotdog is on a bun,9,m,0,0
+S77,4.120547945,0,A,cup,k,1,She drank water from a blue cup,10,m,0,0
+S77,4.120547945,0,A,jet,j,1,The pilot flew a jet,11,m,0,0
+S77,4.120547945,0,A,cook,k,1,Grandpa is a good cook,12,m,0,0
+S77,4.120547945,1,A,teach,t,2,She loves to teach her students,1,a,0,0
+S77,4.120547945,1,A,peach,p,2,Susan ate some peach pie for dessert,2,a,0,0
+S77,4.120547945,1,A,bead,b,2,She found a little bead,3,m,0,0
+S77,4.120547945,1,A,beach,b,2,I like to go to the beach,4,a,0,0
+S77,4.120547945,1,A,cake,k,2,The family eats yummy cake,5,m,0,0
+S77,4.120547945,1,A,deeper,d,2,Can you make the hole deeper?,6,mcch,0,0
+S77,4.120547945,1,A,teepee,t,2,It's fun to sleep in a teepee,7,hhca,0,0
+S77,4.120547945,1,A,jail,j,2,The robber went to jail,8,h,0,0
+S77,4.120547945,1,A,bean,b,2,Jack bought a magic bean,9,h,0,0
+S77,4.120547945,1,A,beaver,b,2,The boy wrote a story about a beaver,10,h,0,0
+S77,4.120547945,1,A,piece,p,2,There was a missing puzzle piece,11,h,0,0
+S77,4.120547945,1,A,case,k,2,She kept her jewelry in a case,12,h,0,0
+S78,4.58630137,1,B,beef,b,1,Hamburgers are made of beef,1,ddb,0.428571429,0
+S78,4.58630137,1,B,peel,p,1,The clown slipped on a banana peel,2,db,0.428571429,0
+S78,4.58630137,1,B,jeep,g,1,His mom drives a black jeep,3,dbdpb,0.428571429,0
+S78,4.58630137,1,B,pizza,p,1,Her favorite food is pizza,4,dp,0.428571429,0
+S78,4.58630137,1,B,cave,k,1,The children explored the spooky cave,5,pd,0.428571429,0
+S78,4.58630137,1,B,team,t,1,The girl cheered for her favorite team,6,pd,0.428571429,0
+S78,4.58630137,1,B,beet,b,1,He didn't want to eat the beet,7,ppi,0.428571429,0
+S78,4.58630137,1,B,teacher,t,1,When I grow up I want to be a teacher,8,ddl,0.428571429,0
+S78,4.58630137,1,B,beep,b,1,"The shiny robot says ""beep""",9,ddb,0.428571429,0
+S78,4.58630137,1,B,deal,d,1,Let's make a deal,10,pdbpdddpdpb,0.428571429,0
+S78,4.58630137,1,B,came,k,1,"Yesterday, the big package came",11,d,0.428571429,0
+S78,4.58630137,1,B,beetle,b,1,The ladybug talks to the beetle,12,p,0.428571429,0
+S78,4.58630137,0,B,bus,b,2,We rode on a bus,1,d,0.428571429,0
+S78,4.58630137,0,B,come,k,2,Today the package will come,2,p,0.428571429,0
+S78,4.58630137,0,B,jam,j,2,Mom bought a jar of jam,3,xd,0.428571429,0
+S78,4.58630137,0,B,cap,k,2,The boy wore his favorite cap,4,t,0.428571429,0
+S78,4.58630137,0,B,picture,p,2,She smiled for the picture,5,d,0.428571429,0
+S78,4.58630137,0,B,turtle,t,2,In the book I saw a picture of a turtle,6,d,0.428571429,0
+S78,4.58630137,0,B,pill,p,2,The doctor gave the man a pill,7,d,0.428571429,0
+S78,4.58630137,0,B,bat,b,2,She hit the ball with a bat,8,d,0.428571429,0
+S78,4.58630137,0,B,dirt,d,2,Don't play in the dirt,9,d,0.428571429,1
+S78,4.58630137,0,B,battle,b,2,The soldiers fight in a battle,10,d,0.428571429,0
+S78,4.58630137,0,B,bib,b,2,The baby wears a bib,11,d,0.428571429,0
+S78,4.58630137,0,B,tag,t,2,The kids played a game of tag,12,d,0.428571429,0
+S79,5.208219178,1,A,beach,b,1,I like to go to the beach,1,bah,1,1
+S79,5.208219178,1,A,piece,p,1,There was a missing puzzle piece,2,pae,1,1
+S79,5.208219178,1,A,deeper,d,1,Can you make the hole deeper?,3,dahe,1,1
+S79,5.208219178,1,A,case,k,1,She kept her jewelry in a case,4,cwe,1,1
+S79,5.208219178,1,A,teepee,t,1,It's fun to sleep in a teepee,5,tp,1,1
+S79,5.208219178,1,A,peach,p,1,Susan ate some peach pie for dessert,6,pae,1,1
+S79,5.208219178,1,A,bead,b,1,She found a little bead,7,bae,1,1
+S79,5.208219178,1,A,cake,k,1,The family eats yummy cake,8,ckop,1,1
+S79,5.208219178,1,A,bean,b,1,Jack bought a magic bean,9,bae,1,1
+S79,5.208219178,1,A,teach,t,1,She loves to teach her students,10,tae,1,1
+S79,5.208219178,1,A,jail,j,1,The robber went to jail,11,jae,1,1
+S79,5.208219178,1,A,beaver,b,1,The boy wrote a story about a beaver,12,bv,1,1
+S79,5.208219178,0,A,dollar,d,2,Can you give me a dollar?,1,dadday,1,1
+S79,5.208219178,0,A,jet,j,2,The pilot flew a jet,2,jea,1,1
+S79,5.208219178,0,A,cup,k,2,She drank water from a blue cup,3,cae,1,1
+S79,5.208219178,0,A,bun,b,2,The hotdog is on a bun,4,bae,1,1
+S79,5.208219178,0,A,bird,b,2,My friend saw a cute little bird,5,bay,1,1
+S79,5.208219178,0,A,cook,k,2,Grandpa is a good cook,6,coo,1,1
+S79,5.208219178,0,A,touch,t,2,Please don't touch the animals,7,too,1,1
+S79,5.208219178,0,A,tower,t,2,The children wanted to climb the tower,8,tee,1,1
+S79,5.208219178,0,A,bed,b,2,He slept in a bed,9,bao,1,1
+S79,5.208219178,0,A,pet,p,2,She wants to get a pet,10,pae,1,1
+S79,5.208219178,0,A,butter,b,2,The boy ate his bread with some butter,11,bao,1,1
+S79,5.208219178,0,A,patch,p,2,Mom sewed a patch on his jeans,12,br,1,0
+S80,4.879452055,0,A,cup,k,1,She drank water from a blue cup,1,,0.714285714,0
+S80,4.879452055,0,A,bun,b,1,The hotdog is on a bun,2,acbd,0.714285714,0
+S80,4.879452055,0,A,bird,b,1,My friend saw a cute little bird,3,acbt,0.714285714,0
+S80,4.879452055,0,A,bed,b,1,He slept in a bed,4,bc,0.714285714,1
+S80,4.879452055,0,A,tower,t,1,The children wanted to climb the tower,5,dbm,0.714285714,0
+S80,4.879452055,0,A,patch,p,1,Mom sewed a patch on his jeans,6,aom,0.714285714,0
+S80,4.879452055,0,A,butter,b,1,The boy ate his bread with some butter,7,ahot,0.714285714,0
+S80,4.879452055,0,A,dollar,d,1,Can you give me a dollar?,8,aoeis,0.714285714,0
+S80,4.879452055,0,A,cook,k,1,Grandpa is a good cook,9,oiaih,0.714285714,0
+S80,4.879452055,0,A,jet,j,1,The pilot flew a jet,10,aiioe,0.714285714,0
+S80,4.879452055,0,A,pet,p,1,She wants to get a pet,11,aieo,0.714285714,0
+S80,4.879452055,0,A,touch,t,1,Please don't touch the animals,12,oaie,0.714285714,0
+S80,4.879452055,1,A,peach,p,2,Susan ate some peach pie for dessert,1,apd,0.714285714,0
+S80,4.879452055,1,A,case,k,2,She kept her jewelry in a case,2,ieha,0.714285714,0
+S80,4.879452055,1,A,bead,b,2,She found a little bead,3,bhap,0.714285714,1
+S80,4.879452055,1,A,teepee,t,2,It's fun to sleep in a teepee,4,iap,0.714285714,0
+S80,4.879452055,1,A,cake,k,2,The family eats yummy cake,5,bih,0.714285714,0
+S80,4.879452055,1,A,deeper,d,2,Can you make the hole deeper?,6,biat,0.714285714,0
+S80,4.879452055,1,A,jail,j,2,The robber went to jail,7,yxai,0.714285714,0
+S80,4.879452055,1,A,beach,b,2,I like to go to the beach,8,aijcda,0.714285714,0
+S80,4.879452055,1,A,piece,p,2,There was a missing puzzle piece,9,atcd,0.714285714,0
+S80,4.879452055,1,A,beaver,b,2,The boy wrote a story about a beaver,10,ayh,0.714285714,0
+S80,4.879452055,1,A,bean,b,2,Jack bought a magic bean,11,abj,0.714285714,0
+S80,4.879452055,1,A,teach,t,2,She loves to teach her students,12,acb,0.714285714,0
+S81,5.550684932,0,A,cook,k,1,Grandpa is a good cook,1,cat,1,1
+S81,5.550684932,0,A,butter,b,1,The boy ate his bread with some butter,2,bud,1,1
+S81,5.550684932,0,A,cup,k,1,She drank water from a blue cup,3,caka,1,1
+S81,5.550684932,0,A,pet,p,1,She wants to get a pet,4,piece,1,1
+S81,5.550684932,0,A,bird,b,1,My friend saw a cute little bird,5,brid,1,1
+S81,5.550684932,0,A,jet,j,1,The pilot flew a jet,6,gat,1,1
+S81,5.550684932,0,A,bed,b,1,He slept in a bed,7,bat,1,1
+S81,5.550684932,0,A,tower,t,1,The children wanted to climb the tower,8,tar,1,1
+S81,5.550684932,0,A,patch,p,1,Mom sewed a patch on his jeans,9,pah,1,1
+S81,5.550684932,0,A,dollar,d,1,Can you give me a dollar?,10,dalr,1,1
+S81,5.550684932,0,A,touch,t,1,Please don't touch the animals,11,tuth,1,1
+S81,5.550684932,0,A,bun,b,1,The hotdog is on a bun,12,ban,1,1
+S81,5.550684932,1,A,peach,p,2,Susan ate some peach pie for dessert,1,pehs,1,1
+S81,5.550684932,1,A,beaver,b,2,The boy wrote a story about a beaver,2,ber,1,1
+S81,5.550684932,1,A,bean,b,2,Jack bought a magic bean,3,ben,1,1
+S81,5.550684932,1,A,beach,b,2,I like to go to the beach,4,behs,1,1
+S81,5.550684932,1,A,deeper,d,2,Can you make the hole deeper?,5,debr,1,1
+S81,5.550684932,1,A,cake,k,2,The family eats yummy cake,6,kak,1,1
+S81,5.550684932,1,A,teach,t,2,She loves to teach her students,7,tehs,1,1
+S81,5.550684932,1,A,bead,b,2,She found a little bead,8,bed,1,1
+S81,5.550684932,1,A,teepee,t,2,It's fun to sleep in a teepee,9,bead,1,0
+S81,5.550684932,1,A,case,k,2,She kept her jewelry in a case,10,tehs,1,0
+S81,5.550684932,1,A,jail,j,2,The robber went to jail,11,jall,1,1
+S81,5.550684932,1,A,piece,p,2,There was a missing puzzle piece,12,biece,1,0
+S82,4.728767123,1,B,came,k,1,"Yesterday, the big package came",1,s,0.714285714,0
+S82,4.728767123,1,B,cave,k,1,The children explored the spooky cave,2,k,0.714285714,1
+S82,4.728767123,1,B,beep,b,1,"The shiny robot says ""beep""",3,b,0.714285714,1
+S82,4.728767123,1,B,beef,b,1,Hamburgers are made of beef,4,b,0.714285714,1
+S82,4.728767123,1,B,jeep,g,1,His mom drives a black jeep,5,j,0.714285714,1
+S82,4.728767123,1,B,peel,p,1,The clown slipped on a banana peel,6,p,0.714285714,1
+S82,4.728767123,1,B,deal,d,1,Let's make a deal,7,d,0.714285714,1
+S82,4.728767123,1,B,beetle,b,1,The ladybug talks to the beetle,8,b,0.714285714,1
+S82,4.728767123,1,B,pizza,p,1,Her favorite food is pizza,9,p,0.714285714,1
+S82,4.728767123,1,B,beet,b,1,He didn't want to eat the beet,10,p,0.714285714,0
+S82,4.728767123,1,B,team,t,1,The girl cheered for her favorite team,11,a,0.714285714,0
+S82,4.728767123,1,B,teacher,t,1,When I grow up I want to be a teacher,12,t,0.714285714,1
+S82,4.728767123,0,B,picture,p,2,She smiled for the picture,1,p,0.714285714,1
+S82,4.728767123,0,B,cap,k,2,The boy wore his favorite cap,2,k,0.714285714,1
+S82,4.728767123,0,B,turtle,t,2,In the book I saw a picture of a turtle,3,t,0.714285714,1
+S82,4.728767123,0,B,tag,t,2,The kids played a game of tag,4,t,0.714285714,1
+S82,4.728767123,0,B,jam,j,2,Mom bought a jar of jam,5,j,0.714285714,1
+S82,4.728767123,0,B,come,k,2,Today the package will come,6,k,0.714285714,1
+S82,4.728767123,0,B,bus,b,2,We rode on a bus,7,b,0.714285714,1
+S82,4.728767123,0,B,bib,b,2,The baby wears a bib,8,b,0.714285714,1
+S82,4.728767123,0,B,dirt,d,2,Don't play in the dirt,9,t,0.714285714,0
+S82,4.728767123,0,B,pill,p,2,The doctor gave the man a pill,10,p,0.714285714,1
+S82,4.728767123,0,B,battle,b,2,The soldiers fight in a battle,11,b,0.714285714,1
+S82,4.728767123,0,B,bat,b,2,She hit the ball with a bat,12,b,0.714285714,1
+S83,4.97260274,1,A,case,k,1,She kept her jewelry in a case,1,k,0.571428571,1
+S83,4.97260274,1,A,bead,b,1,She found a little bead,2,b,0.571428571,1
+S83,4.97260274,1,A,teach,t,1,She loves to teach her students,3,h,0.571428571,0
+S83,4.97260274,1,A,jail,j,1,The robber went to jail,4,j,0.571428571,1
+S83,4.97260274,1,A,bean,b,1,Jack bought a magic bean,5,b,0.571428571,1
+S83,4.97260274,1,A,deeper,d,1,Can you make the hole deeper?,6,a,0.571428571,0
+S83,4.97260274,1,A,teepee,t,1,It's fun to sleep in a teepee,7,b,0.571428571,0
+S83,4.97260274,1,A,beach,b,1,I like to go to the beach,8,b,0.571428571,1
+S83,4.97260274,1,A,beaver,b,1,The boy wrote a story about a beaver,9,b,0.571428571,1
+S83,4.97260274,1,A,peach,p,1,Susan ate some peach pie for dessert,10,b,0.571428571,0
+S83,4.97260274,1,A,piece,p,1,There was a missing puzzle piece,11,b,0.571428571,0
+S83,4.97260274,1,A,cake,k,1,The family eats yummy cake,12,k,0.571428571,1
+S83,4.97260274,0,A,cup,k,2,She drank water from a blue cup,1,k,0.571428571,1
+S83,4.97260274,0,A,dollar,d,2,Can you give me a dollar?,2,p,0.571428571,0
+S83,4.97260274,0,A,jet,j,2,The pilot flew a jet,3,j,0.571428571,1
+S83,4.97260274,0,A,butter,b,2,The boy ate his bread with some butter,4,b,0.571428571,1
+S83,4.97260274,0,A,pet,p,2,She wants to get a pet,5,b,0.571428571,0
+S83,4.97260274,0,A,bird,b,2,My friend saw a cute little bird,6,b,0.571428571,1
+S83,4.97260274,0,A,patch,p,2,Mom sewed a patch on his jeans,7,b,0.571428571,0
+S83,4.97260274,0,A,bed,b,2,He slept in a bed,8,b,0.571428571,1
+S83,4.97260274,0,A,tower,t,2,The children wanted to climb the tower,9,b,0.571428571,0
+S83,4.97260274,0,A,cook,k,2,Grandpa is a good cook,10,s,0.571428571,0
+S83,4.97260274,0,A,touch,t,2,Please don't touch the animals,11,b,0.571428571,0
+S83,4.97260274,0,A,bun,b,2,The hotdog is on a bun,12,b,0.571428571,1
+S84,4.97260274,0,B,jam,j,1,Mom bought a jar of jam,1,j,1,1
+S84,4.97260274,0,B,picture,p,1,She smiled for the picture,2,a,1,0
+S84,4.97260274,0,B,turtle,t,1,In the book I saw a picture of a turtle,3,m,1,0
+S84,4.97260274,0,B,battle,b,1,The soldiers fight in a battle,4,t,1,0
+S84,4.97260274,0,B,come,k,1,Today the package will come,5,e,1,0
+S84,4.97260274,0,B,cap,k,1,The boy wore his favorite cap,6,s,1,0
+S84,4.97260274,0,B,dirt,d,1,Don't play in the dirt,7,h,1,0
+S84,4.97260274,0,B,pill,p,1,The doctor gave the man a pill,8,l,1,0
+S84,4.97260274,0,B,tag,t,1,The kids played a game of tag,9,w,1,0
+S84,4.97260274,0,B,bib,b,1,The baby wears a bib,10,f,1,0
+S84,4.97260274,0,B,bus,b,1,We rode on a bus,11,k,1,0
+S84,4.97260274,0,B,bat,b,1,She hit the ball with a bat,12,c,1,0
+S84,4.97260274,1,B,peel,p,2,The clown slipped on a banana peel,1,x,1,0
+S84,4.97260274,1,B,came,k,2,"Yesterday, the big package came",2,r,1,0
+S84,4.97260274,1,B,beet,b,2,He didn't want to eat the beet,3,b,1,1
+S84,4.97260274,1,B,beep,b,2,"The shiny robot says ""beep""",4,b,1,1
+S84,4.97260274,1,B,team,t,2,The girl cheered for her favorite team,5,t,1,1
+S84,4.97260274,1,B,teacher,t,2,When I grow up I want to be a teacher,6,e,1,0
+S84,4.97260274,1,B,beef,b,2,Hamburgers are made of beef,7,o,1,0
+S84,4.97260274,1,B,beetle,b,2,The ladybug talks to the beetle,8,q,1,0
+S84,4.97260274,1,B,cave,k,2,The children explored the spooky cave,9,k,1,1
+S84,4.97260274,1,B,pizza,p,2,Her favorite food is pizza,10,e,1,0
+S84,4.97260274,1,B,deal,d,2,Let's make a deal,11,d,1,1
+S84,4.97260274,1,B,jeep,g,2,His mom drives a black jeep,12,h,1,0
+S85,5.580821918,0,A,patch,p,1,Mom sewed a patch on his jeans,1,p,1,1
+S85,5.580821918,0,A,jet,j,1,The pilot flew a jet,2,j,1,1
+S85,5.580821918,0,A,tower,t,1,The children wanted to climb the tower,3,t,1,1
+S85,5.580821918,0,A,cup,k,1,She drank water from a blue cup,4,k,1,1
+S85,5.580821918,0,A,butter,b,1,The boy ate his bread with some butter,5,b,1,1
+S85,5.580821918,0,A,cook,k,1,Grandpa is a good cook,6,k,1,1
+S85,5.580821918,0,A,bed,b,1,He slept in a bed,7,b,1,1
+S85,5.580821918,0,A,bun,b,1,The hotdog is on a bun,8,b,1,1
+S85,5.580821918,0,A,bird,b,1,My friend saw a cute little bird,9,b,1,1
+S85,5.580821918,0,A,dollar,d,1,Can you give me a dollar?,10,d,1,1
+S85,5.580821918,0,A,touch,t,1,Please don't touch the animals,11,t,1,1
+S85,5.580821918,0,A,pet,p,1,She wants to get a pet,12,p,1,1
+S85,5.580821918,1,A,beach,b,2,I like to go to the beach,1,b,1,1
+S85,5.580821918,1,A,beaver,b,2,The boy wrote a story about a beaver,2,b,1,1
+S85,5.580821918,1,A,jail,j,2,The robber went to jail,3,j,1,1
+S85,5.580821918,1,A,case,k,2,She kept her jewelry in a case,4,k,1,1
+S85,5.580821918,1,A,piece,p,2,There was a missing puzzle piece,5,b,1,0
+S85,5.580821918,1,A,teach,t,2,She loves to teach her students,6,t,1,1
+S85,5.580821918,1,A,cake,k,2,The family eats yummy cake,7,k,1,1
+S85,5.580821918,1,A,deeper,d,2,Can you make the hole deeper?,8,d,1,1
+S85,5.580821918,1,A,bead,b,2,She found a little bead,9,b,1,1
+S85,5.580821918,1,A,teepee,t,2,It's fun to sleep in a teepee,10,tp,1,1
+S85,5.580821918,1,A,bean,b,2,Jack bought a magic bean,11,b,1,1
+S85,5.580821918,1,A,peach,p,2,Susan ate some peach pie for dessert,12,b,1,0
+S86,5.095890411,0,B,bat,b,1,She hit the ball with a bat,1,bat,1,1
+S86,5.095890411,0,B,come,k,1,Today the package will come,2,cam,1,1
+S86,5.095890411,0,B,bib,b,1,The baby wears a bib,3,bi,1,1
+S86,5.095890411,0,B,jam,j,1,Mom bought a jar of jam,4,jam,1,1
+S86,5.095890411,0,B,battle,b,1,The soldiers fight in a battle,5,bam,1,1
+S86,5.095890411,0,B,dirt,d,1,Don't play in the dirt,6,gru,1,0
+S86,5.095890411,0,B,turtle,t,1,In the book I saw a picture of a turtle,7,tr,1,1
+S86,5.095890411,0,B,bus,b,1,We rode on a bus,8,bua,1,1
+S86,5.095890411,0,B,cap,k,1,The boy wore his favorite cap,9,cap,1,1
+S86,5.095890411,0,B,picture,p,1,She smiled for the picture,10,pi,1,1
+S86,5.095890411,0,B,pill,p,1,The doctor gave the man a pill,11,p,1,1
+S86,5.095890411,0,B,tag,t,1,The kids played a game of tag,12,ta,1,1
+S86,5.095890411,1,B,teacher,t,2,When I grow up I want to be a teacher,1,tgr,1,1
+S86,5.095890411,1,B,came,k,2,"Yesterday, the big package came",2,ct,1,1
+S86,5.095890411,1,B,beef,b,2,Hamburgers are made of beef,3,b,1,1
+S86,5.095890411,1,B,pizza,p,2,Her favorite food is pizza,4,p,1,1
+S86,5.095890411,1,B,beetle,b,2,The ladybug talks to the beetle,5,be,1,1
+S86,5.095890411,1,B,beet,b,2,He didn't want to eat the beet,6,bt,1,1
+S86,5.095890411,1,B,peel,p,2,The clown slipped on a banana peel,7,p,1,1
+S86,5.095890411,1,B,jeep,g,2,His mom drives a black jeep,8,g,1,1
+S86,5.095890411,1,B,deal,d,2,Let's make a deal,9,d,1,1
+S86,5.095890411,1,B,team,t,2,The girl cheered for her favorite team,10,t,1,1
+S86,5.095890411,1,B,cave,k,2,The children explored the spooky cave,11,c,1,1
+S86,5.095890411,1,B,beep,b,2,"The shiny robot says ""beep""",12,b,1,1
+S87,5.42739726,1,B,beet,b,1,He didn't want to eat the beet,1,b,0.857142857,1
+S87,5.42739726,1,B,jeep,g,1,His mom drives a black jeep,2,j,0.857142857,1
+S87,5.42739726,1,B,team,t,1,The girl cheered for her favorite team,3,t,0.857142857,1
+S87,5.42739726,1,B,teacher,t,1,When I grow up I want to be a teacher,4,t,0.857142857,1
+S87,5.42739726,1,B,beef,b,1,Hamburgers are made of beef,5,b,0.857142857,1
+S87,5.42739726,1,B,cave,k,1,The children explored the spooky cave,6,c,0.857142857,1
+S87,5.42739726,1,B,peel,p,1,The clown slipped on a banana peel,7,p,0.857142857,1
+S87,5.42739726,1,B,pizza,p,1,Her favorite food is pizza,8,p,0.857142857,1
+S87,5.42739726,1,B,beep,b,1,"The shiny robot says ""beep""",9,b,0.857142857,1
+S87,5.42739726,1,B,beetle,b,1,The ladybug talks to the beetle,10,b,0.857142857,1
+S87,5.42739726,1,B,deal,d,1,Let's make a deal,11,d,0.857142857,1
+S87,5.42739726,1,B,came,k,1,"Yesterday, the big package came",12,k,0.857142857,1
+S87,5.42739726,0,B,bus,b,2,We rode on a bus,1,b,0.857142857,1
+S87,5.42739726,0,B,jam,j,2,Mom bought a jar of jam,2,j,0.857142857,1
+S87,5.42739726,0,B,pill,p,2,The doctor gave the man a pill,3,p,0.857142857,1
+S87,5.42739726,0,B,battle,b,2,The soldiers fight in a battle,4,b,0.857142857,1
+S87,5.42739726,0,B,bat,b,2,She hit the ball with a bat,5,b,0.857142857,1
+S87,5.42739726,0,B,tag,t,2,The kids played a game of tag,6,t,0.857142857,1
+S87,5.42739726,0,B,picture,p,2,She smiled for the picture,7,p,0.857142857,1
+S87,5.42739726,0,B,bib,b,2,The baby wears a bib,8,b,0.857142857,1
+S87,5.42739726,0,B,come,k,2,Today the package will come,9,c,0.857142857,1
+S87,5.42739726,0,B,dirt,d,2,Don't play in the dirt,10,d,0.857142857,1
+S87,5.42739726,0,B,turtle,t,2,In the book I saw a picture of a turtle,11,t,0.857142857,1
+S87,5.42739726,0,B,cap,k,2,The boy wore his favorite cap,12,k,0.857142857,1
+S88,5.449315068,0,B,picture,p,1,She smiled for the picture,1,pek,1,1
+S88,5.449315068,0,B,bib,b,1,The baby wears a bib,2,beb,1,1
+S88,5.449315068,0,B,bus,b,1,We rode on a bus,3,bes,1,1
+S88,5.449315068,0,B,tag,t,1,The kids played a game of tag,4,tag,1,1
+S88,5.449315068,0,B,dirt,d,1,Don't play in the dirt,5,dred,1,1
+S88,5.449315068,0,B,bat,b,1,She hit the ball with a bat,6,bat,1,1
+S88,5.449315068,0,B,turtle,t,1,In the book I saw a picture of a turtle,7,trtel,1,1
+S88,5.449315068,0,B,jam,j,1,Mom bought a jar of jam,8,gam,1,1
+S88,5.449315068,0,B,pill,p,1,The doctor gave the man a pill,9,pel,1,1
+S88,5.449315068,0,B,battle,b,1,The soldiers fight in a battle,10,batl,1,1
+S88,5.449315068,0,B,come,k,1,Today the package will come,11,kim,1,1
+S88,5.449315068,0,B,cap,k,1,The boy wore his favorite cap,12,cap,1,1
+S88,5.449315068,1,B,peel,p,2,The clown slipped on a banana peel,1,pc,1,1
+S88,5.449315068,1,B,team,t,2,The girl cheered for her favorite team,2,tm,1,1
+S88,5.449315068,1,B,beef,b,2,Hamburgers are made of beef,3,bf,1,1
+S88,5.449315068,1,B,teacher,t,2,When I grow up I want to be a teacher,4,tr,1,1
+S88,5.449315068,1,B,beep,b,2,"The shiny robot says ""beep""",5,bp,1,1
+S88,5.449315068,1,B,came,k,2,"Yesterday, the big package came",6,cm,1,1
+S88,5.449315068,1,B,beet,b,2,He didn't want to eat the beet,7,b,1,1
+S88,5.449315068,1,B,cave,k,2,The children explored the spooky cave,8,cv,1,1
+S88,5.449315068,1,B,pizza,p,2,Her favorite food is pizza,9,pz,1,1
+S88,5.449315068,1,B,beetle,b,2,The ladybug talks to the beetle,10,btl,1,1
+S88,5.449315068,1,B,jeep,g,2,His mom drives a black jeep,11,gp,1,1
+S88,5.449315068,1,B,deal,d,2,Let's make a deal,12,dl,1,1
+S89,5.345205479,1,A,cake,k,1,The family eats yummy cake,1,c,0.571428571,1
+S89,5.345205479,1,A,case,k,1,She kept her jewelry in a case,2,k,0.571428571,1
+S89,5.345205479,1,A,peach,p,1,Susan ate some peach pie for dessert,3,p,0.571428571,1
+S89,5.345205479,1,A,beach,b,1,I like to go to the beach,4,,0.571428571,0
+S89,5.345205479,1,A,teach,t,1,She loves to teach her students,5,t,0.571428571,1
+S89,5.345205479,1,A,piece,p,1,There was a missing puzzle piece,6,e,0.571428571,0
+S89,5.345205479,1,A,bean,b,1,Jack bought a magic bean,7,,0.571428571,0
+S89,5.345205479,1,A,bead,b,1,She found a little bead,8,,0.571428571,0
+S89,5.345205479,1,A,beaver,b,1,The boy wrote a story about a beaver,9,,0.571428571,0
+S89,5.345205479,1,A,teepee,t,1,It's fun to sleep in a teepee,10,t,0.571428571,1
+S89,5.345205479,1,A,jail,j,1,The robber went to jail,11,l,0.571428571,0
+S89,5.345205479,1,A,deeper,d,1,Can you make the hole deeper?,12,d,0.571428571,1
+S89,5.345205479,0,A,bird,b,2,My friend saw a cute little bird,1,p,0.571428571,0
+S89,5.345205479,0,A,cook,k,2,Grandpa is a good cook,2,c,0.571428571,1
+S89,5.345205479,0,A,cup,k,2,She drank water from a blue cup,3,p,0.571428571,0
+S89,5.345205479,0,A,dollar,d,2,Can you give me a dollar?,4,,0.571428571,0
+S89,5.345205479,0,A,pet,p,2,She wants to get a pet,5,p,0.571428571,1
+S89,5.345205479,0,A,bun,b,2,The hotdog is on a bun,6,b,0.571428571,1
+S89,5.345205479,0,A,touch,t,2,Please don't touch the animals,7,d,0.571428571,0
+S89,5.345205479,0,A,jet,j,2,The pilot flew a jet,8,r,0.571428571,0
+S89,5.345205479,0,A,bed,b,2,He slept in a bed,9,b,0.571428571,1
+S89,5.345205479,0,A,butter,b,2,The boy ate his bread with some butter,10,c,0.571428571,0
+S89,5.345205479,0,A,tower,t,2,The children wanted to climb the tower,11,c,0.571428571,0
+S89,5.345205479,0,A,patch,p,2,Mom sewed a patch on his jeans,12,d,0.571428571,0
+S90,5.279452055,0,A,bun,b,1,The hotdog is on a bun,1,j,0.142857143,0
+S90,5.279452055,0,A,bird,b,1,My friend saw a cute little bird,2,i,0.142857143,0
+S90,5.279452055,0,A,dollar,d,1,Can you give me a dollar?,3,l,0.142857143,0
+S90,5.279452055,0,A,pet,p,1,She wants to get a pet,4,h,0.142857143,0
+S90,5.279452055,0,A,cup,k,1,She drank water from a blue cup,5,s,0.142857143,0
+S90,5.279452055,0,A,cook,k,1,Grandpa is a good cook,6,o,0.142857143,0
+S90,5.279452055,0,A,tower,t,1,The children wanted to climb the tower,7,z,0.142857143,0
+S90,5.279452055,0,A,touch,t,1,Please don't touch the animals,8,x,0.142857143,0
+S90,5.279452055,0,A,jet,j,1,The pilot flew a jet,9,j,0.142857143,1
+S90,5.279452055,0,A,bed,b,1,He slept in a bed,10,x,0.142857143,0
+S90,5.279452055,0,A,butter,b,1,The boy ate his bread with some butter,11,h,0.142857143,0
+S90,5.279452055,0,A,patch,p,1,Mom sewed a patch on his jeans,12,h,0.142857143,0
+S90,5.279452055,1,A,bean,b,2,Jack bought a magic bean,1,j,0.142857143,0
+S90,5.279452055,1,A,jail,j,2,The robber went to jail,2,j,0.142857143,1
+S90,5.279452055,1,A,deeper,d,2,Can you make the hole deeper?,3,h,0.142857143,0
+S90,5.279452055,1,A,beaver,b,2,The boy wrote a story about a beaver,4,h,0.142857143,0
+S90,5.279452055,1,A,cake,k,2,The family eats yummy cake,5,h,0.142857143,0
+S90,5.279452055,1,A,teepee,t,2,It's fun to sleep in a teepee,6,j,0.142857143,0
+S90,5.279452055,1,A,case,k,2,She kept her jewelry in a case,7,j,0.142857143,0
+S90,5.279452055,1,A,piece,p,2,There was a missing puzzle piece,8,h,0.142857143,0
+S90,5.279452055,1,A,bead,b,2,She found a little bead,9,o,0.142857143,0
+S90,5.279452055,1,A,teach,t,2,She loves to teach her students,10,o,0.142857143,0
+S90,5.279452055,1,A,beach,b,2,I like to go to the beach,11,j,0.142857143,0
+S90,5.279452055,1,A,peach,p,2,Susan ate some peach pie for dessert,12,s,0.142857143,0
+S91,4.676712329,0,B,come,k,1,Today the package will come,1,b,0.142857143,0
+S91,4.676712329,0,B,cap,k,1,The boy wore his favorite cap,2,m,0.142857143,0
+S91,4.676712329,0,B,bib,b,1,The baby wears a bib,3,o,0.142857143,0
+S91,4.676712329,0,B,jam,j,1,Mom bought a jar of jam,4,a,0.142857143,0
+S91,4.676712329,0,B,battle,b,1,The soldiers fight in a battle,5,b,0.142857143,1
+S91,4.676712329,0,B,bus,b,1,We rode on a bus,6,mo,0.142857143,0
+S91,4.676712329,0,B,turtle,t,1,In the book I saw a picture of a turtle,7,nao,0.142857143,0
+S91,4.676712329,0,B,picture,p,1,She smiled for the picture,8,momo,0.142857143,0
+S91,4.676712329,0,B,pill,p,1,The doctor gave the man a pill,9,omoox,0.142857143,0
+S91,4.676712329,0,B,bat,b,1,She hit the ball with a bat,10,mmaoaomo,0.142857143,0
+S91,4.676712329,0,B,tag,t,1,The kids played a game of tag,11,ooommxoomaamam,0.142857143,0
+S91,4.676712329,0,B,dirt,d,1,Don't play in the dirt,12,ooooooa,0.142857143,0
+S91,4.676712329,1,B,pizza,p,2,Her favorite food is pizza,1,o,0.142857143,0
+S91,4.676712329,1,B,teacher,t,2,When I grow up I want to be a teacher,2,bomax,0.142857143,0
+S91,4.676712329,1,B,beep,b,2,"The shiny robot says ""beep""",3,ommox,0.142857143,0
+S91,4.676712329,1,B,beet,b,2,He didn't want to eat the beet,4,ooomomom,0.142857143,0
+S91,4.676712329,1,B,jeep,g,2,His mom drives a black jeep,5,aaomoa,0.142857143,0
+S91,4.676712329,1,B,beef,b,2,Hamburgers are made of beef,6,a,0.142857143,0
+S91,4.676712329,1,B,beetle,b,2,The ladybug talks to the beetle,7,aooo,0.142857143,0
+S91,4.676712329,1,B,cave,k,2,The children explored the spooky cave,8,oooono,0.142857143,0
+S91,4.676712329,1,B,came,k,2,"Yesterday, the big package came",9,o,0.142857143,0
+S91,4.676712329,1,B,deal,d,2,Let's make a deal,10,om,0.142857143,0
+S91,4.676712329,1,B,peel,p,2,The clown slipped on a banana peel,11,o,0.142857143,0
+S91,4.676712329,1,B,team,t,2,The girl cheered for her favorite team,12,m,0.142857143,0
+S92,5.460273973,1,A,teach,t,1,She loves to teach her students,1,sjo,0.714285714,0
+S92,5.460273973,1,A,beach,b,1,I like to go to the beach,2,bes,0.714285714,1
+S92,5.460273973,1,A,piece,p,1,There was a missing puzzle piece,3,psi,0.714285714,1
+S92,5.460273973,1,A,bean,b,1,Jack bought a magic bean,4,bce,0.714285714,1
+S92,5.460273973,1,A,teepee,t,1,It's fun to sleep in a teepee,5,tp,0.714285714,1
+S92,5.460273973,1,A,peach,p,1,Susan ate some peach pie for dessert,6,ppa,0.714285714,1
+S92,5.460273973,1,A,jail,j,1,The robber went to jail,7,bm,0.714285714,0
+S92,5.460273973,1,A,cake,k,1,The family eats yummy cake,8,kec,0.714285714,1
+S92,5.460273973,1,A,case,k,1,She kept her jewelry in a case,9,kcl,0.714285714,1
+S92,5.460273973,1,A,deeper,d,1,Can you make the hole deeper?,10,bip,0.714285714,0
+S92,5.460273973,1,A,bead,b,1,She found a little bead,11,bis,0.714285714,1
+S92,5.460273973,1,A,beaver,b,1,The boy wrote a story about a beaver,12,bac,0.714285714,1
+S92,5.460273973,0,A,butter,b,2,The boy ate his bread with some butter,1,br,0.714285714,1
+S92,5.460273973,0,A,cup,k,2,She drank water from a blue cup,2,pt,0.714285714,0
+S92,5.460273973,0,A,jet,j,2,The pilot flew a jet,3,jar,0.714285714,1
+S92,5.460273973,0,A,bed,b,2,He slept in a bed,4,bra,0.714285714,1
+S92,5.460273973,0,A,touch,t,2,Please don't touch the animals,5,ptr,0.714285714,0
+S92,5.460273973,0,A,pet,p,2,She wants to get a pet,6,pape,0.714285714,1
+S92,5.460273973,0,A,dollar,d,2,Can you give me a dollar?,7,dkr,0.714285714,1
+S92,5.460273973,0,A,cook,k,2,Grandpa is a good cook,8,sws,0.714285714,0
+S92,5.460273973,0,A,bird,b,2,My friend saw a cute little bird,9,bpr,0.714285714,1
+S92,5.460273973,0,A,tower,t,2,The children wanted to climb the tower,10,psr,0.714285714,0
+S92,5.460273973,0,A,bun,b,2,The hotdog is on a bun,11,bdr,0.714285714,1
+S92,5.460273973,0,A,patch,p,2,Mom sewed a patch on his jeans,12,te,0.714285714,0
+S93,4.624657534,1,B,team,t,1,The girl cheered for her favorite team,1,m,0.857142857,0
+S93,4.624657534,1,B,pizza,p,1,Her favorite food is pizza,2,j,0.857142857,0
+S93,4.624657534,1,B,peel,p,1,The clown slipped on a banana peel,3,j,0.857142857,0
+S93,4.624657534,1,B,teacher,t,1,When I grow up I want to be a teacher,4,a,0.857142857,0
+S93,4.624657534,1,B,beef,b,1,Hamburgers are made of beef,5,a,0.857142857,0
+S93,4.624657534,1,B,jeep,g,1,His mom drives a black jeep,6,g,0.857142857,1
+S93,4.624657534,1,B,cave,k,1,The children explored the spooky cave,7,e,0.857142857,0
+S93,4.624657534,1,B,deal,d,1,Let's make a deal,8,d,0.857142857,1
+S93,4.624657534,1,B,beet,b,1,He didn't want to eat the beet,9,b,0.857142857,1
+S93,4.624657534,1,B,came,k,1,"Yesterday, the big package came",10,e,0.857142857,0
+S93,4.624657534,1,B,beetle,b,1,The ladybug talks to the beetle,11,j,0.857142857,0
+S93,4.624657534,1,B,beep,b,1,"The shiny robot says ""beep""",12,e,0.857142857,0
+S93,4.624657534,0,B,bus,b,2,We rode on a bus,1,ee,0.857142857,0
+S93,4.624657534,0,B,picture,p,2,She smiled for the picture,2,f,0.857142857,0
+S93,4.624657534,0,B,tag,t,2,The kids played a game of tag,3,f,0.857142857,0
+S93,4.624657534,0,B,jam,j,2,Mom bought a jar of jam,4,n,0.857142857,0
+S93,4.624657534,0,B,bib,b,2,The baby wears a bib,5,c,0.857142857,0
+S93,4.624657534,0,B,come,k,2,Today the package will come,6,e,0.857142857,0
+S93,4.624657534,0,B,bat,b,2,She hit the ball with a bat,7,r,0.857142857,0
+S93,4.624657534,0,B,battle,b,2,The soldiers fight in a battle,8,b,0.857142857,1
+S93,4.624657534,0,B,turtle,t,2,In the book I saw a picture of a turtle,9,f,0.857142857,0
+S93,4.624657534,0,B,cap,k,2,The boy wore his favorite cap,10,e,0.857142857,0
+S93,4.624657534,0,B,pill,p,2,The doctor gave the man a pill,11,i,0.857142857,0
+S93,4.624657534,0,B,dirt,d,2,Don't play in the dirt,12,f,0.857142857,0
+S94,5.104109589,1,B,jeep,g,1,His mom drives a black jeep,1,g,1,1
+S94,5.104109589,1,B,peel,p,1,The clown slipped on a banana peel,2,p,1,1
+S94,5.104109589,1,B,beep,b,1,"The shiny robot says ""beep""",3,b,1,1
+S94,5.104109589,1,B,deal,d,1,Let's make a deal,4,d,1,1
+S94,5.104109589,1,B,pizza,p,1,Her favorite food is pizza,5,p,1,1
+S94,5.104109589,1,B,team,t,1,The girl cheered for her favorite team,6,t,1,1
+S94,5.104109589,1,B,came,k,1,"Yesterday, the big package came",7,k,1,1
+S94,5.104109589,1,B,teacher,t,1,When I grow up I want to be a teacher,8,t,1,1
+S94,5.104109589,1,B,beet,b,1,He didn't want to eat the beet,9,b,1,1
+S94,5.104109589,1,B,cave,k,1,The children explored the spooky cave,10,c,1,1
+S94,5.104109589,1,B,beef,b,1,Hamburgers are made of beef,11,b,1,1
+S94,5.104109589,1,B,beetle,b,1,The ladybug talks to the beetle,12,b,1,1
+S94,5.104109589,0,B,bus,b,2,We rode on a bus,1,b,1,1
+S94,5.104109589,0,B,tag,t,2,The kids played a game of tag,2,t,1,1
+S94,5.104109589,0,B,pill,p,2,The doctor gave the man a pill,3,p,1,1
+S94,5.104109589,0,B,dirt,d,2,Don't play in the dirt,4,d,1,1
+S94,5.104109589,0,B,come,k,2,Today the package will come,5,k,1,1
+S94,5.104109589,0,B,bat,b,2,She hit the ball with a bat,6,b,1,1
+S94,5.104109589,0,B,picture,p,2,She smiled for the picture,7,p,1,1
+S94,5.104109589,0,B,turtle,t,2,In the book I saw a picture of a turtle,8,t,1,1
+S94,5.104109589,0,B,battle,b,2,The soldiers fight in a battle,9,b,1,1
+S94,5.104109589,0,B,bib,b,2,The baby wears a bib,10,b,1,1
+S94,5.104109589,0,B,jam,j,2,Mom bought a jar of jam,11,j,1,1
+S94,5.104109589,0,B,cap,k,2,The boy wore his favorite cap,12,c,1,1
+S95,5.161643836,1,A,peach,p,1,Susan ate some peach pie for dessert,1,p,1,1
+S95,5.161643836,1,A,bean,b,1,Jack bought a magic bean,2,d,1,0
+S95,5.161643836,1,A,beaver,b,1,The boy wrote a story about a beaver,3,b,1,1
+S95,5.161643836,1,A,deeper,d,1,Can you make the hole deeper?,4,d,1,1
+S95,5.161643836,1,A,teepee,t,1,It's fun to sleep in a teepee,5,t,1,1
+S95,5.161643836,1,A,bead,b,1,She found a little bead,6,b,1,1
+S95,5.161643836,1,A,beach,b,1,I like to go to the beach,7,h,1,0
+S95,5.161643836,1,A,cake,k,1,The family eats yummy cake,8,k,1,1
+S95,5.161643836,1,A,case,k,1,She kept her jewelry in a case,9,k,1,1
+S95,5.161643836,1,A,piece,p,1,There was a missing puzzle piece,10,p,1,1
+S95,5.161643836,1,A,jail,j,1,The robber went to jail,11,j,1,1
+S95,5.161643836,1,A,teach,t,1,She loves to teach her students,12,t,1,1
+S95,5.161643836,0,A,bird,b,2,My friend saw a cute little bird,1,d,1,0
+S95,5.161643836,0,A,jet,j,2,The pilot flew a jet,2,j,1,1
+S95,5.161643836,0,A,touch,t,2,Please don't touch the animals,3,t,1,1
+S95,5.161643836,0,A,cook,k,2,Grandpa is a good cook,4,k,1,1
+S95,5.161643836,0,A,pet,p,2,She wants to get a pet,5,p,1,1
+S95,5.161643836,0,A,butter,b,2,The boy ate his bread with some butter,6,b,1,1
+S95,5.161643836,0,A,cup,k,2,She drank water from a blue cup,7,k,1,1
+S95,5.161643836,0,A,patch,p,2,Mom sewed a patch on his jeans,8,p,1,1
+S95,5.161643836,0,A,dollar,d,2,Can you give me a dollar?,9,a,1,0
+S95,5.161643836,0,A,bed,b,2,He slept in a bed,10,b,1,1
+S95,5.161643836,0,A,bun,b,2,The hotdog is on a bun,11,b,1,1
+S95,5.161643836,0,A,tower,t,2,The children wanted to climb the tower,12,t,1,1
+S96,5.449315068,0,B,dirt,d,1,Don't play in the dirt,1,d,1,1
+S96,5.449315068,0,B,cap,k,1,The boy wore his favorite cap,2,k,1,1
+S96,5.449315068,0,B,come,k,1,Today the package will come,3,c,1,1
+S96,5.449315068,0,B,tag,t,1,The kids played a game of tag,4,j,1,0
+S96,5.449315068,0,B,turtle,t,1,In the book I saw a picture of a turtle,5,t,1,1
+S96,5.449315068,0,B,picture,p,1,She smiled for the picture,6,p,1,1
+S96,5.449315068,0,B,bat,b,1,She hit the ball with a bat,7,b,1,1
+S96,5.449315068,0,B,bus,b,1,We rode on a bus,8,b,1,1
+S96,5.449315068,0,B,pill,p,1,The doctor gave the man a pill,9,p,1,1
+S96,5.449315068,0,B,battle,b,1,The soldiers fight in a battle,10,b,1,1
+S96,5.449315068,0,B,bib,b,1,The baby wears a bib,11,b,1,1
+S96,5.449315068,0,B,jam,j,1,Mom bought a jar of jam,12,j,1,1
+S96,5.449315068,1,B,teacher,t,2,When I grow up I want to be a teacher,1,t,1,1
+S96,5.449315068,1,B,came,k,2,"Yesterday, the big package came",2,k,1,1
+S96,5.449315068,1,B,peel,p,2,The clown slipped on a banana peel,3,p,1,1
+S96,5.449315068,1,B,pizza,p,2,Her favorite food is pizza,4,p,1,1
+S96,5.449315068,1,B,beet,b,2,He didn't want to eat the beet,5,b,1,1
+S96,5.449315068,1,B,team,t,2,The girl cheered for her favorite team,6,t,1,1
+S96,5.449315068,1,B,jeep,g,2,His mom drives a black jeep,7,j,1,1
+S96,5.449315068,1,B,deal,d,2,Let's make a deal,8,d,1,1
+S96,5.449315068,1,B,cave,k,2,The children explored the spooky cave,9,k,1,1
+S96,5.449315068,1,B,beep,b,2,"The shiny robot says ""beep""",10,b,1,1
+S96,5.449315068,1,B,beetle,b,2,The ladybug talks to the beetle,11,b,1,1
+S96,5.449315068,1,B,beef,b,2,Hamburgers are made of beef,12,b,1,1
+S97,4.789041096,0,A,bun,b,1,The hotdog is on a bun,1,a,0.571428571,0
+S97,4.789041096,0,A,patch,p,1,Mom sewed a patch on his jeans,2,o,0.571428571,0
+S97,4.789041096,0,A,cup,k,1,She drank water from a blue cup,3,,0.571428571,0
+S97,4.789041096,0,A,touch,t,1,Please don't touch the animals,4,s,0.571428571,0
+S97,4.789041096,0,A,jet,j,1,The pilot flew a jet,5,e,0.571428571,0
+S97,4.789041096,0,A,pet,p,1,She wants to get a pet,6,i,0.571428571,0
+S97,4.789041096,0,A,bird,b,1,My friend saw a cute little bird,7,o,0.571428571,0
+S97,4.789041096,0,A,bed,b,1,He slept in a bed,8,h,0.571428571,0
+S97,4.789041096,0,A,butter,b,1,The boy ate his bread with some butter,9,m,0.571428571,0
+S97,4.789041096,0,A,tower,t,1,The children wanted to climb the tower,10,a,0.571428571,0
+S97,4.789041096,0,A,cook,k,1,Grandpa is a good cook,11,o,0.571428571,0
+S97,4.789041096,0,A,dollar,d,1,Can you give me a dollar?,12,n,0.571428571,0
+S97,4.789041096,1,A,teach,t,2,She loves to teach her students,1,t,0.571428571,1
+S97,4.789041096,1,A,beach,b,2,I like to go to the beach,2,b,0.571428571,1
+S97,4.789041096,1,A,teepee,t,2,It's fun to sleep in a teepee,3,pt,0.571428571,0
+S97,4.789041096,1,A,jail,j,2,The robber went to jail,4,g,0.571428571,1
+S97,4.789041096,1,A,case,k,2,She kept her jewelry in a case,5,a,0.571428571,0
+S97,4.789041096,1,A,bead,b,2,She found a little bead,6,b,0.571428571,1
+S97,4.789041096,1,A,bean,b,2,Jack bought a magic bean,7,b,0.571428571,1
+S97,4.789041096,1,A,beaver,b,2,The boy wrote a story about a beaver,8,b,0.571428571,1
+S97,4.789041096,1,A,deeper,d,2,Can you make the hole deeper?,9,,0.571428571,0
+S97,4.789041096,1,A,peach,p,2,Susan ate some peach pie for dessert,10,b,0.571428571,0
+S97,4.789041096,1,A,cake,k,2,The family eats yummy cake,11,e,0.571428571,0
+S97,4.789041096,1,A,piece,p,2,There was a missing puzzle piece,12,,0.571428571,0
+S98,5.271232877,1,B,beep,b,1,"The shiny robot says ""beep""",1,b,0.714285714,1
+S98,5.271232877,1,B,jeep,g,1,His mom drives a black jeep,2,g,0.714285714,1
+S98,5.271232877,1,B,pizza,p,1,Her favorite food is pizza,3,p,0.714285714,1
+S98,5.271232877,1,B,beet,b,1,He didn't want to eat the beet,4,b,0.714285714,1
+S98,5.271232877,1,B,came,k,1,"Yesterday, the big package came",5,k,0.714285714,1
+S98,5.271232877,1,B,teacher,t,1,When I grow up I want to be a teacher,6,t,0.714285714,1
+S98,5.271232877,1,B,cave,k,1,The children explored the spooky cave,7,k,0.714285714,1
+S98,5.271232877,1,B,deal,d,1,Let's make a deal,8,d,0.714285714,1
+S98,5.271232877,1,B,peel,p,1,The clown slipped on a banana peel,9,p,0.714285714,1
+S98,5.271232877,1,B,beef,b,1,Hamburgers are made of beef,10,b,0.714285714,1
+S98,5.271232877,1,B,beetle,b,1,The ladybug talks to the beetle,11,b,0.714285714,1
+S98,5.271232877,1,B,team,t,1,The girl cheered for her favorite team,12,d,0.714285714,0
+S98,5.271232877,0,B,turtle,t,2,In the book I saw a picture of a turtle,1,b,0.714285714,0
+S98,5.271232877,0,B,bat,b,2,She hit the ball with a bat,2,b,0.714285714,1
+S98,5.271232877,0,B,come,k,2,Today the package will come,3,v,0.714285714,0
+S98,5.271232877,0,B,bus,b,2,We rode on a bus,4,b,0.714285714,1
+S98,5.271232877,0,B,jam,j,2,Mom bought a jar of jam,5,j,0.714285714,1
+S98,5.271232877,0,B,cap,k,2,The boy wore his favorite cap,6,o,0.714285714,0
+S98,5.271232877,0,B,dirt,d,2,Don't play in the dirt,7,b,0.714285714,0
+S98,5.271232877,0,B,bib,b,2,The baby wears a bib,8,b,0.714285714,1
+S98,5.271232877,0,B,picture,p,2,She smiled for the picture,9,b,0.714285714,0
+S98,5.271232877,0,B,battle,b,2,The soldiers fight in a battle,10,b,0.714285714,1
+S98,5.271232877,0,B,tag,t,2,The kids played a game of tag,11,b,0.714285714,0
+S98,5.271232877,0,B,pill,p,2,The doctor gave the man a pill,12,b,0.714285714,0
+S99,4.939726027,1,A,bean,b,1,Jack bought a magic bean,1,p,0.33333,0
+S99,4.939726027,1,A,case,k,1,She kept her jewelry in a case,2,k,0.33333,1
+S99,4.939726027,1,A,deeper,d,1,Can you make the hole deeper?,3,d,0.33333,1
+S99,4.939726027,1,A,beach,b,1,I like to go to the beach,4,b,0.33333,1
+S99,4.939726027,1,A,cake,k,1,The family eats yummy cake,5,k,0.33333,1
+S99,4.939726027,1,A,teepee,t,1,It's fun to sleep in a teepee,6,t,0.33333,1
+S99,4.939726027,1,A,jail,j,1,The robber went to jail,7,g,0.33333,1
+S99,4.939726027,1,A,bead,b,1,She found a little bead,8,b,0.33333,1
+S99,4.939726027,1,A,beaver,b,1,The boy wrote a story about a beaver,9,v,0.33333,0
+S99,4.939726027,1,A,piece,p,1,There was a missing puzzle piece,10,c,0.33333,0
+S99,4.939726027,1,A,peach,p,1,Susan ate some peach pie for dessert,11,p,0.33333,1
+S99,4.939726027,1,A,teach,t,1,She loves to teach her students,12,t,0.33333,1
+S99,4.939726027,0,A,jet,j,2,The pilot flew a jet,1,j,0.33333,1
+S99,4.939726027,0,A,bird,b,2,My friend saw a cute little bird,2,b,0.33333,1
+S99,4.939726027,0,A,bed,b,2,He slept in a bed,3,b,0.33333,1
+S99,4.939726027,0,A,cook,k,2,Grandpa is a good cook,4,q,0.33333,1
+S99,4.939726027,0,A,tower,t,2,The children wanted to climb the tower,5,t,0.33333,1
+S99,4.939726027,0,A,butter,b,2,The boy ate his bread with some butter,6,b,0.33333,1
+S99,4.939726027,0,A,bun,b,2,The hotdog is on a bun,7,b,0.33333,1
+S99,4.939726027,0,A,dollar,d,2,Can you give me a dollar?,8,d,0.33333,1
+S99,4.939726027,0,A,patch,p,2,Mom sewed a patch on his jeans,9,p,0.33333,1
+S99,4.939726027,0,A,pet,p,2,She wants to get a pet,10,k,0.33333,0
+S99,4.939726027,0,A,cup,k,2,She drank water from a blue cup,11,c,0.33333,1
+S99,4.939726027,0,A,touch,t,2,Please don't touch the animals,12,t,0.33333,1
